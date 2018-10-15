@@ -1,0 +1,176 @@
+ID,SAMPLE_NAME,SAMPLE_NAME_Metabolon,SAMPLE_ID,CLIENT_IDENTIFIER,AGE,SEX,SET,GROUP,CASE_CONTROL,comment_JM
+1,MPIB.01653,MPIB-01653,3812637,AE_001_12,34,M,test,ORD,control,client_identifier NOT matching samples manifest list
+2,MPIB.01654,MPIB-01654,3812638,AE_002_12,43,F,test,ORD,control,client_identifier NOT matching samples manifest list
+3,MPIB.01655,MPIB-01655,3812639,AE_003_12,23,M,training,ORD,control,client_identifier NOT matching samples manifest list
+4,MPIB.01656,MPIB-01656,3812640,AE_008_12,19,M,test,TB,case,client_identifier NOT matching samples manifest list
+5,MPIB.01657,MPIB-01657,3812641,AE_009_12,28,F,test,ORD,control,client_identifier matching samples manifest list
+6,MPIB.01658,MPIB-01658,3812642,AE_010_12,42,M,training,TB,case,client_identifier matching samples manifest list
+7,MPIB.01659,MPIB-01659,3812643,AE_011_12,45,M,test,TB,case,client_identifier matching samples manifest list
+8,MPIB.01660,MPIB-01660,3812644,AE_012_12,42,F,training,ORD,control,client_identifier matching samples manifest list
+9,MPIB.01661,MPIB-01661,3812645,AE_014_12,62,M,test,ORD,control,client_identifier matching samples manifest list
+10,MPIB.01662,MPIB-01662,3812646,AE_016_12,33,F,training,ORD,control,client_identifier matching samples manifest list
+11,MPIB.01663,MPIB-01663,3812647,AE_017_12,45,M,training,ORD,control,client_identifier matching samples manifest list
+12,MPIB.01664,MPIB-01664,3812648,AE_018_12,27,M,test,TB,case,client_identifier matching samples manifest list
+13,MPIB.01665,MPIB-01665,3812649,AE_021_12,18,F,training,ORD,control,client_identifier matching samples manifest list
+14,MPIB.01666,MPIB-01666,3812650,AE_023_12,46,F,training,ORD,control,client_identifier matching samples manifest list
+15,MPIB.01667,MPIB-01667,3812651,AE_026_12,21,M,training,ORD,control,client_identifier matching samples manifest list
+16,MPIB.01668,MPIB-01668,3812652,AE_027_12,58,M,training,ORD,control,client_identifier matching samples manifest list
+17,MPIB.01669,MPIB-01669,3812653,AE_028_12,26,F,training,ORD,control,client_identifier matching samples manifest list
+18,MPIB.01670,MPIB-01670,3812654,AE_029_12,46,F,training,ORD,control,client_identifier matching samples manifest list
+19,MPIB.01671,MPIB-01671,3812655,AE_030_12,18,M,training,ORD,control,client_identifier matching samples manifest list
+20,MPIB.01672,MPIB-01672,3812656,AE_031_12,40,M,training,TB,case,client_identifier matching samples manifest list
+21,MPIB.01673,MPIB-01673,3812657,AE_033_12,50,F,training,ORD,control,client_identifier matching samples manifest list
+22,MPIB.01674,MPIB-01674,3812658,AE_034_12,24,M,training,TB,case,client_identifier matching samples manifest list
+23,MPIB.01675,MPIB-01675,3812659,AE_035_12,57,M,training,ORD,control,client_identifier matching samples manifest list
+24,MPIB.01676,MPIB-01676,3812660,AE_036_12,19,M,training,TB,case,client_identifier matching samples manifest list
+25,MPIB.01677,MPIB-01677,3812661,AE_037_12,30,M,training,ORD,control,client_identifier matching samples manifest list
+26,MPIB.01678,MPIB-01678,3812662,AE_038_12,61,M,training,ORD,control,client_identifier matching samples manifest list
+27,MPIB.01679,MPIB-01679,3812663,AE_039_10,42,M,training,TB,case,client_identifier NOT matching samples manifest list
+28,MPIB.01680,MPIB-01680,3812664,AE_040_12,25,F,training,ORD,control,client_identifier matching samples manifest list
+29,MPIB.01681,MPIB-01681,3812665,AE_043_12,30,M,test,TB,case,client_identifier matching samples manifest list
+30,MPIB.01682,MPIB-01682,3812666,AE_044_12,56,F,training,ORD,control,client_identifier matching samples manifest list
+31,MPIB.01683,MPIB-01683,3812667,AE_047_12,24,F,training,ORD,control,client_identifier matching samples manifest list
+32,MPIB.01684,MPIB-01684,3812668,AE_049_12,35,F,test,ORD,control,client_identifier matching samples manifest list
+33,MPIB.01685,MPIB-01685,3812669,AE_051_12,33,M,training,ORD,control,client_identifier matching samples manifest list
+34,MPIB.01686,MPIB-01686,3812670,AE_052_12,31,M,test,TB,case,client_identifier matching samples manifest list
+35,MPIB.01687,MPIB-01687,3812671,AE_053_12,20,M,training,ORD,control,client_identifier matching samples manifest list
+36,MPIB.01688,MPIB-01688,3812672,AE_054_12,38,M,test,ORD,control,client_identifier matching samples manifest list
+37,MPIB.01689,MPIB-01689,3812673,AE_056_12,53,F,test,ORD,control,client_identifier matching samples manifest list
+38,MPIB.01690,MPIB-01690,3812674,AE_072_12,20,F,training,ORD,control,client_identifier matching samples manifest list
+39,MPIB.01691,MPIB-01691,3812675,AE_073_12,45,M,test,TB,case,client_identifier matching samples manifest list
+40,MPIB.01692,MPIB-01692,3812676,AE_090_12,22,M,training,TB,case,client_identifier matching samples manifest list
+41,MPIB.01693,MPIB-01693,3812677,AE_092_12,22,F,training,ORD,control,client_identifier matching samples manifest list
+42,MPIB.01694,MPIB-01694,3812678,AE_093_12,22,F,training,ORD,control,client_identifier matching samples manifest list
+43,MPIB.01695,MPIB-01695,3812679,AE_094_12,47,M,training,ORD,control,client_identifier matching samples manifest list
+44,MPIB.01696,MPIB-01696,3812680,AE_096_12,27,M,test,ORD,control,client_identifier matching samples manifest list
+45,MPIB.01697,MPIB-01697,3812681,AE_097_12,55,M,test,ORD,control,client_identifier matching samples manifest list
+46,MPIB.01698,MPIB-01698,3812682,AE_098_11,32,M,training,ORD,control,client_identifier NOT matching samples manifest list
+47,MPIB.01699,MPIB-01699,3812683,AE_099_11,22,F,training,ORD,control,client_identifier NOT matching samples manifest list
+48,MPIB.01700,MPIB-01700,3812684,AE_100_12,43,M,test,ORD,control,client_identifier matching samples manifest list
+49,MPIB.01701,MPIB-01701,3812685,AE_102_12,33,M,training,TB,case,client_identifier matching samples manifest list
+50,MPIB.01702,MPIB-01702,3812686,AE_104_12,43,M,test,TB,case,client_identifier matching samples manifest list
+51,MPIB.01703,MPIB-01703,3812687,AE_105_12,30,F,training,ORD,control,client_identifier matching samples manifest list
+52,MPIB.01704,MPIB-01704,3812688,AE_106_12,46,M,training,ORD,control,client_identifier matching samples manifest list
+53,MPIB.01705,MPIB-01705,3812689,AE_107_12,53,M,training,ORD,control,client_identifier matching samples manifest list
+54,MPIB.01706,MPIB-01706,3812690,AE_108_12,29,M,test,TB,case,client_identifier matching samples manifest list
+55,MPIB.01707,MPIB-01707,3812691,AE_109_12,24,F,test,ORD,control,client_identifier matching samples manifest list
+56,MPIB.01708,MPIB-01708,3812692,AE_112_12,60,F,training,ORD,control,client_identifier matching samples manifest list
+57,MPIB.01709,MPIB-01709,3812693,AE_114_11,25,M,test,ORD,control,client_identifier NOT matching samples manifest list
+58,MPIB.01710,MPIB-01710,3812694,AE_115_12,25,M,training,ORD,control,client_identifier matching samples manifest list
+59,MPIB.01711,MPIB-01711,3812695,AE_116_11,52,M,training,TB,case,client_identifier NOT matching samples manifest list
+60,MPIB.01712,MPIB-01712,3812696,AE_117_11,27,F,test,ORD,control,client_identifier NOT matching samples manifest list
+61,MPIB.01713,MPIB-01713,3812697,AE_118_11,54,M,test,TB,case,client_identifier NOT matching samples manifest list
+62,MPIB.01714,MPIB-01714,3812698,AE_119_12,61,M,test,ORD,control,client_identifier matching samples manifest list
+63,MPIB.01715,MPIB-01715,3812699,AE_120_12,36,F,training,ORD,control,client_identifier matching samples manifest list
+64,MPIB.01716,MPIB-01716,3812700,AE_121_11,29,F,training,ORD,control,client_identifier NOT matching samples manifest list
+65,MPIB.01717,MPIB-01717,3812701,AE_122_12,29,M,training,TB,case,client_identifier matching samples manifest list
+66,MPIB.01718,MPIB-01718,3812702,AE_123_12,29,F,training,TB,case,client_identifier matching samples manifest list
+67,MPIB.01719,MPIB-01719,3812703,AE_124_12,43,M,test,ORD,control,client_identifier matching samples manifest list
+68,MPIB.01720,MPIB-01720,3812704,AE_126_12,52,M,training,ORD,control,client_identifier matching samples manifest list
+69,MPIB.01721,MPIB-01721,3812705,AE_127_12,52,F,training,ORD,control,client_identifier matching samples manifest list
+70,MPIB.01722,MPIB-01722,3812706,AE_130_12,23,M,training,TB,case,client_identifier matching samples manifest list
+71,MPIB.01723,MPIB-01723,3812707,AE_131_12,20,M,training,ORD,control,client_identifier matching samples manifest list
+72,MPIB.01724,MPIB-01724,3812708,AE_132_12,37,M,test,ORD,control,client_identifier matching samples manifest list
+73,MPIB.01725,MPIB-01725,3812709,AE_138_12,27,M,training,TB,case,client_identifier matching samples manifest list
+74,MPIB.01726,MPIB-01726,3812710,AE_144_12,34,F,training,ORD,control,client_identifier matching samples manifest list
+75,MPIB.01727,MPIB-01727,3812711,AE_145_12,44,M,training,ORD,control,client_identifier matching samples manifest list
+76,MPIB.01728,MPIB-01728,3812712,AE_146_12,55,M,training,ORD,control,client_identifier matching samples manifest list
+77,MPIB.01729,MPIB-01729,3812713,AE_147_12,25,M,training,ORD,control,client_identifier matching samples manifest list
+78,MPIB.01730,MPIB-01730,3812714,AE_148_12,28,M,test,TB,case,client_identifier matching samples manifest list
+79,MPIB.01731,MPIB-01731,3812715,AE_150_12,76,F,test,ORD,control,client_identifier matching samples manifest list
+80,MPIB.01732,MPIB-01732,3812716,AE_151_12,31,M,training,ORD,control,client_identifier matching samples manifest list
+81,MPIB.01733,MPIB-01733,3812717,AE_152_12,36,M,training,TB,case,client_identifier matching samples manifest list
+82,MPIB.01734,MPIB-01734,3812718,AE_153_12,21,F,training,ORD,control,client_identifier matching samples manifest list
+83,MPIB.01735,MPIB-01735,3812719,AE_155_12,22,M,training,ORD,control,client_identifier matching samples manifest list
+84,MPIB.01736,MPIB-01736,3812720,AE_156_12,19,F,training,TB,case,client_identifier matching samples manifest list
+85,MPIB.01737,MPIB-01737,3812721,AE_157_12,20,F,test,ORD,control,client_identifier matching samples manifest list
+86,MPIB.01738,MPIB-01738,3812722,AE_159_12,52,F,training,ORD,control,client_identifier matching samples manifest list
+87,MPIB.01739,MPIB-01739,3812723,AE_160_12,63,M,training,TB,case,client_identifier matching samples manifest list
+88,MPIB.01740,MPIB-01740,3812724,AE_161_12,20,M,training,ORD,control,client_identifier matching samples manifest list
+89,MPIB.01741,MPIB-01741,3812725,AE_165_12,35,M,training,ORD,control,client_identifier matching samples manifest list
+90,MPIB.01742,MPIB-01742,3812726,AE_166_12,64,M,training,ORD,control,client_identifier matching samples manifest list
+91,MPIB.01743,MPIB-01743,3812727,AE_167_12,19,F,training,ORD,control,client_identifier matching samples manifest list
+92,MPIB.01744,MPIB-01744,3812728,AE_168_12,56,F,training,ORD,control,client_identifier matching samples manifest list
+93,MPIB.01745,MPIB-01745,3812729,AE_170_12,39,F,test,ORD,control,client_identifier matching samples manifest list
+94,MPIB.01746,MPIB-01746,3812730,AE_172_12,31,M,training,TB,case,client_identifier matching samples manifest list
+95,MPIB.01747,MPIB-01747,3812731,AE_173_12,34,F,training,ORD,control,client_identifier matching samples manifest list
+96,MPIB.01748,MPIB-01748,3812732,AE_176_12,33,M,test,TB,case,client_identifier matching samples manifest list
+97,MPIB.01749,MPIB-01749,3812733,AE_177_12,25,M,test,ORD,control,client_identifier matching samples manifest list
+98,MPIB.01750,MPIB-01750,3812734,AE_178_12,38,M,training,ORD,control,client_identifier matching samples manifest list
+99,MPIB.01751,MPIB-01751,3812735,AE_179_12,27,M,training,TB,case,client_identifier matching samples manifest list
+100,MPIB.01752,MPIB-01752,3812736,AE_180_12,22,M,test,ORD,control,client_identifier matching samples manifest list
+101,MPIB.01753,MPIB-01753,3812737,AE_181_12,20,F,training,ORD,control,client_identifier matching samples manifest list
+102,MPIB.01754,MPIB-01754,3812738,AE_183_12,50,F,training,ORD,control,client_identifier matching samples manifest list
+103,MPIB.01755,MPIB-01755,3812739,AE_184_12,37,F,test,ORD,control,client_identifier matching samples manifest list
+104,MPIB.01756,MPIB-01756,3812740,AE_185_12,26,M,training,ORD,control,client_identifier matching samples manifest list
+105,MPIB.01757,MPIB-01757,3812741,AE_186_12,20,M,test,ORD,control,client_identifier matching samples manifest list
+106,MPIB.01758,MPIB-01758,3812742,AE_187_12,22,F,test,ORD,control,client_identifier matching samples manifest list
+107,MPIB.01759,MPIB-01759,3812743,AE_189_12,29,M,training,TB,case,client_identifier matching samples manifest list
+108,MPIB.01760,MPIB-01760,3812744,AE_190_12,27,M,test,ORD,control,client_identifier matching samples manifest list
+109,MPIB.01761,MPIB-01761,3812745,AE_192_12,30,F,test,ORD,control,client_identifier matching samples manifest list
+110,MPIB.01762,MPIB-01762,3812746,AE_194_12,28,M,training,TB,case,client_identifier matching samples manifest list
+111,MPIB.01763,MPIB-01763,3812747,AE_196_12,26,M,training,ORD,control,client_identifier matching samples manifest list
+112,MPIB.01764,MPIB-01764,3812748,AE_197_12,41,M,training,TB,case,client_identifier matching samples manifest list
+113,MPIB.01765,MPIB-01765,3812749,AE_199_12,23,M,training,TB,case,client_identifier matching samples manifest list
+114,MPIB.01766,MPIB-01766,3812750,AE_200_12,48,M,training,ORD,control,client_identifier matching samples manifest list
+115,MPIB.01767,MPIB-01767,3812751,AE_202_12,35,F,test,ORD,control,client_identifier matching samples manifest list
+116,MPIB.01768,MPIB-01768,3812752,AE_203_12,33,F,test,ORD,control,client_identifier matching samples manifest list
+117,MPIB.01769,MPIB-01769,3812753,AE_204_12,23,M,training,TB,case,client_identifier matching samples manifest list
+118,MPIB.01770,MPIB-01770,3812754,AE_205_12,34,M,training,ORD,control,client_identifier matching samples manifest list
+119,MPIB.01771,MPIB-01771,3812755,AE_206_12,20,M,training,ORD,control,client_identifier matching samples manifest list
+120,MPIB.01772,MPIB-01772,3812756,AE_208_12,42,M,training,TB,case,client_identifier matching samples manifest list
+121,MPIB.01773,MPIB-01773,3812757,AE_209_12,25,M,training,ORD,control,client_identifier matching samples manifest list
+122,MPIB.01774,MPIB-01774,3812758,AE_210_12,43,M,training,ORD,control,client_identifier matching samples manifest list
+123,MPIB.01775,MPIB-01775,3812759,AE_211_12,40,F,training,ORD,control,client_identifier matching samples manifest list
+124,MPIB.01776,MPIB-01776,3812760,AE_213_12,60,M,training,ORD,control,client_identifier matching samples manifest list
+125,MPIB.01777,MPIB-01777,3812761,AE_214_12,34,M,training,ORD,control,client_identifier matching samples manifest list
+126,MPIB.01778,MPIB-01778,3812762,AE_217_12,21,F,test,TB,case,client_identifier matching samples manifest list
+127,MPIB.01779,MPIB-01779,3812763,AE_219_12,29,F,training,ORD,control,client_identifier matching samples manifest list
+128,MPIB.01780,MPIB-01780,3812764,AE_220_12,35,M,training,TB,case,client_identifier matching samples manifest list
+129,MPIB.01781,MPIB-01781,3812765,AE_223_12,20,M,test,ORD,control,client_identifier matching samples manifest list
+130,MPIB.01782,MPIB-01782,3812766,AE_224_12,57,M,training,TB,case,client_identifier matching samples manifest list
+131,MPIB.01783,MPIB-01783,3812767,AE_225_12,34,M,test,ORD,control,client_identifier matching samples manifest list
+132,MPIB.01784,MPIB-01784,3812768,AE_226_12,29,F,test,ORD,control,client_identifier matching samples manifest list
+133,MPIB.01785,MPIB-01785,3812769,AE_227_12,20,F,training,ORD,control,client_identifier matching samples manifest list
+134,MPIB.01786,MPIB-01786,3812770,AE_229_12,29,F,test,ORD,control,client_identifier matching samples manifest list
+135,MPIB.01787,MPIB-01787,3812771,AE_230_12,33,F,training,ORD,control,client_identifier matching samples manifest list
+136,MPIB.01788,MPIB-01788,3812772,AE_231_12,22,F,training,ORD,control,client_identifier matching samples manifest list
+137,MPIB.01789,MPIB-01789,3812773,AE_232_12,30,F,test,ORD,control,client_identifier matching samples manifest list
+138,MPIB.01790,MPIB-01790,3812774,AE_233_12,46,F,test,ORD,control,client_identifier matching samples manifest list
+139,MPIB.01791,MPIB-01791,3812775,AE_234_12,46,F,training,ORD,control,client_identifier matching samples manifest list
+140,MPIB.01792,MPIB-01792,3812776,AE_237_12,20,F,training,ORD,control,client_identifier matching samples manifest list
+141,MPIB.01793,MPIB-01793,3812777,AE_238_12,35,F,test,ORD,control,client_identifier matching samples manifest list
+142,MPIB.01794,MPIB-01794,3812778,AE_239_12,60,M,training,ORD,control,client_identifier matching samples manifest list
+143,MPIB.01795,MPIB-01795,3812779,AE_240_12,30,M,training,TB,case,client_identifier matching samples manifest list
+144,MPIB.01796,MPIB-01796,3812780,AE_241_12,55,F,training,ORD,control,client_identifier matching samples manifest list
+145,MPIB.01797,MPIB-01797,3812781,AE_242_12,24,M,test,TB,case,client_identifier matching samples manifest list
+146,MPIB.01798,MPIB-01798,3812782,AE_243_12,22,F,training,ORD,control,client_identifier matching samples manifest list
+147,MPIB.01799,MPIB-01799,3812783,AE_245_12,33,F,training,ORD,control,client_identifier matching samples manifest list
+148,MPIB.01800,MPIB-01800,3812784,AE_247_12,34,F,training,ORD,control,client_identifier matching samples manifest list
+149,MPIB.01801,MPIB-01801,3812785,AE_248_12,34,M,test,ORD,control,client_identifier matching samples manifest list
+150,MPIB.01802,MPIB-01802,3812786,AE_249_12,23,F,training,TB,case,client_identifier matching samples manifest list
+151,MPIB.01803,MPIB-01803,3812787,AE_250_12,37,F,test,TB,case,client_identifier matching samples manifest list
+152,MPIB.01804,MPIB-01804,3812788,AE_251_12,50,M,training,ORD,control,client_identifier matching samples manifest list
+153,MPIB.01805,MPIB-01805,3812789,AE_254_12,44,F,training,ORD,control,client_identifier matching samples manifest list
+154,MPIB.01806,MPIB-01806,3812790,AE_255_12,22,M,training,TB,case,client_identifier matching samples manifest list
+155,MPIB.01807,MPIB-01807,3812791,AE_256_12,52,F,training,ORD,control,client_identifier matching samples manifest list
+156,MPIB.01808,MPIB-01808,3812792,AE_257_12,20,F,training,ORD,control,client_identifier matching samples manifest list
+157,MPIB.01809,MPIB-01809,3812793,AE_258_12,30,M,training,ORD,control,client_identifier matching samples manifest list
+158,MPIB.01810,MPIB-01810,3812794,AE_262_12,20,F,training,ORD,control,client_identifier matching samples manifest list
+159,MPIB.01811,MPIB-01811,3812795,AE_263_12,26,F,test,ORD,control,client_identifier matching samples manifest list
+160,MPIB.01812,MPIB-01812,3812796,AE_264_12,45,M,training,ORD,control,client_identifier matching samples manifest list
+161,MPIB.01813,MPIB-01813,3812797,AE_270_12,25,F,test,ORD,control,client_identifier matching samples manifest list
+162,MPIB.01814,MPIB-01814,3812798,AE_271_12,22,M,training,ORD,control,client_identifier matching samples manifest list
+163,MPIB.01815,MPIB-01815,3812799,AE_275_12,26,F,training,ORD,control,client_identifier matching samples manifest list
+164,MPIB.01816,MPIB-01816,3812800,AE_277_12,22,M,test,ORD,control,client_identifier matching samples manifest list
+165,MPIB.01817,MPIB-01817,3812801,AE_283_12,22,M,training,TB,case,client_identifier matching samples manifest list
+166,MPIB.01818,MPIB-01818,3812802,AE_285_11,31,M,test,ORD,control,client_identifier matching samples manifest list
+167,MPIB.01819,MPIB-01819,3812803,AE_286_12,54,M,training,ORD,control,client_identifier matching samples manifest list
+168,MPIB.01820,MPIB-01820,3812804,AE_290_12,28,M,test,TB,case,client_identifier matching samples manifest list
+169,MPIB.01821,MPIB-01821,3812805,AE_291_12,31,M,test,TB,case,client_identifier matching samples manifest list
+170,MPIB.01822,MPIB-01822,3812806,AE_045_12,36,M,test,TB,case,client_identifier matching samples manifest list
+171,MPIB.01823,MPIB-01823,3812807,AE_061_12,24,M,training,TB,case,client_identifier matching samples manifest list
+172,MPIB.01824,MPIB-01824,3812808,AE_069_12,23,F,test,ORD,control,client_identifier matching samples manifest list
+173,MPIB.01825,MPIB-01825,3812809,AE_091_11,39,F,test,ORD,control,client_identifier NOT matching samples manifest list
+174,MPIB.01826,MPIB-01826,3812810,AE_60_12 ,38,M,training,TB,case,client_identifier NOT in samples manifest list
+175,MPIB.01827,MPIB-01827,3812811,AE_58_12 ,57,M,test,ORD,control,client_identifier NOT in samples manifest list

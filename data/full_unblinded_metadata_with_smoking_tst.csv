@@ -1,0 +1,752 @@
+"","DONOR_ID","CASE_GROUP","CASE_CONTROL","AGE","SEX","TIMEPOINT","TIME_TO_TB","SITE","SAMPLE_TYPE","SAMPLE_ID","MPIIB_GROUP","SET","ID","revTP","group","site.gr","SMOKE","FSMOKE","SMOKEYRS","TST"
+"MPIIB.4261","SUN_03_donor2","SUN_03","case",45,"M","BL",19,"SUN","serum","MPIIB.4261","training","SET1","MPIIB.4261","minus2","case","SUN.case","> 6M","1-5",NA,20
+"MPIIB.0897","SUN_03_donor2","SUN_03","case",45,"M","M06",13,"SUN","serum","MPIIB.0897","training","SET1","MPIIB.0897","minus1","case","SUN.case","> 6M","1-5",NA,-99
+"MPIIB.2382","SUN_03_donor2","SUN_03","case",45,"M","M18",1,"SUN","serum","MPIIB.2382","training","SET1","MPIIB.2382","last","case","SUN.case","> 6M","1-5",NA,-99
+"MPIIB.2805","SUN_03_donor4","SUN_03","control",48,"M","BL",19,"SUN","serum","MPIIB.2805","training","SET1","MPIIB.2805","minus2","control","SUN.control","Yes","> 10",NA,11
+"MPIIB.8764","SUN_03_donor4","SUN_03","control",48,"M","M06",13,"SUN","serum","MPIIB.8764","training","SET1","MPIIB.8764","minus1","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.9075","SUN_03_donor4","SUN_03","control",48,"M","M18",1,"SUN","serum","MPIIB.9075","training","SET1","MPIIB.9075","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.4529","SUN_03_donor5","SUN_03","control",38,"M","BL",19,"SUN","serum","MPIIB.4529","training","SET1","MPIIB.4529","minus2","control","SUN.control","No","N.a.","N.a.",22
+"MPIIB.7764","SUN_03_donor5","SUN_03","control",38,"M","M06",13,"SUN","serum","MPIIB.7764","training","SET1","MPIIB.7764","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.0730","SUN_03_donor5","SUN_03","control",38,"M","M18",1,"SUN","serum","MPIIB.0730","training","SET1","MPIIB.0730","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.5351","SUN_03_donor3","SUN_03","control",59,"M","BL",19,"SUN","serum","MPIIB.5351","training","SET1","MPIIB.5351","minus1","control","SUN.control","Yes","> 10",NA,20
+"MPIIB.8782","SUN_03_donor3","SUN_03","control",59,"M","M06",13,"SUN","serum","MPIIB.8782","training","SET1","MPIIB.8782","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.9847","SUN_03_donor1","SUN_03","control",31,"M","BL",19,"SUN","serum","MPIIB.9847","training","SET1","MPIIB.9847","minus1","control","SUN.control","Yes","> 10",NA,12
+"MPIIB.4751","SUN_03_donor1","SUN_03","control",31,"M","M18",1,"SUN","serum","MPIIB.4751","training","SET1","MPIIB.4751","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.8036","SUN_15_donor4","SUN_15","case",17,"F","BL",14,"SUN","serum","MPIIB.8036","training","SET1","MPIIB.8036","minus1","case","SUN.case","Yes","1-5",NA,15
+"MPIIB.4041","SUN_15_donor4","SUN_15","case",17,"F","M06",8,"SUN","serum","MPIIB.4041","training","SET1","MPIIB.4041","last","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.9860","SUN_15_donor2","SUN_15","control",14,"F","BL",14,"SUN","serum","MPIIB.9860","training","SET1","MPIIB.9860","minus1","control","SUN.control","Yes","1-5",NA,0
+"MPIIB.8741","SUN_15_donor2","SUN_15","control",14,"F","M06",8,"SUN","serum","MPIIB.8741","training","SET1","MPIIB.8741","last","control","SUN.control","Yes","1-5",NA,22
+"MPIIB.6038","SUN_15_donor3","SUN_15","control",13,"F","BL",14,"SUN","serum","MPIIB.6038","training","SET1","MPIIB.6038","minus1","control","SUN.control","No","N.a.","N.a.",23
+"MPIIB.9503","SUN_15_donor3","SUN_15","control",13,"F","M06",8,"SUN","serum","MPIIB.9503","training","SET1","MPIIB.9503","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.5885","SUN_15_donor1","SUN_15","control",17,"F","BL",14,"SUN","serum","MPIIB.5885","training","SET1","MPIIB.5885","minus1","control","SUN.control","Yes","1-5",NA,20
+"MPIIB.3050","SUN_15_donor1","SUN_15","control",17,"F","M06",8,"SUN","serum","MPIIB.3050","training","SET1","MPIIB.3050","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.0139","SUN_25_donor4","SUN_25","case",47,"F","BL",23,"SUN","serum","MPIIB.0139","training","SET1","MPIIB.0139","minus2","case","SUN.case","Yes","6-10",NA,34
+"MPIIB.2594","SUN_25_donor4","SUN_25","case",47,"F","M06",17,"SUN","serum","MPIIB.2594","training","SET1","MPIIB.2594","minus1","case","SUN.case","Yes","6-10",NA,-99
+"MPIIB.5730","SUN_25_donor4","SUN_25","case",47,"F","M18",5,"SUN","serum","MPIIB.5730","training","SET1","MPIIB.5730","last","case","SUN.case","Yes","6-10",NA,-99
+"MPIIB.3158","SUN_25_donor5","SUN_25","control",47,"F","BL",23,"SUN","serum","MPIIB.3158","training","SET1","MPIIB.3158","minus2","control","SUN.control","Yes","1-5",NA,24
+"MPIIB.0253","SUN_25_donor5","SUN_25","control",47,"F","M06",17,"SUN","serum","MPIIB.0253","training","SET1","MPIIB.0253","minus1","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.9664","SUN_25_donor5","SUN_25","control",47,"F","M18",5,"SUN","serum","MPIIB.9664","training","SET1","MPIIB.9664","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.3011","SUN_25_donor1","SUN_25","control",37,"F","BL",23,"SUN","serum","MPIIB.3011","training","SET1","MPIIB.3011","minus2","control","SUN.control","No","N.a.","N.a.",20
+"MPIIB.8619","SUN_25_donor1","SUN_25","control",37,"F","M06",17,"SUN","serum","MPIIB.8619","training","SET1","MPIIB.8619","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4006","SUN_25_donor1","SUN_25","control",37,"F","M18",5,"SUN","serum","MPIIB.4006","training","SET1","MPIIB.4006","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.1805","SUN_25_donor3","SUN_25","control",37,"F","BL",23,"SUN","serum","MPIIB.1805","training","SET1","MPIIB.1805","minus2","control","SUN.control","Yes","> 10",NA,20
+"MPIIB.5363","SUN_25_donor3","SUN_25","control",37,"F","M06",17,"SUN","serum","MPIIB.5363","training","SET1","MPIIB.5363","minus1","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.1890","SUN_25_donor3","SUN_25","control",37,"F","M18",5,"SUN","serum","MPIIB.1890","training","SET1","MPIIB.1890","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.4879","SUN_25_donor2","SUN_25","control",38,"F","BL",23,"SUN","serum","MPIIB.4879","training","SET1","MPIIB.4879","minus2","control","SUN.control","No","N.a.","N.a.",36
+"MPIIB.2062","SUN_25_donor2","SUN_25","control",38,"F","M06",17,"SUN","serum","MPIIB.2062","training","SET1","MPIIB.2062","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.8805","SUN_25_donor2","SUN_25","control",38,"F","M18",5,"SUN","serum","MPIIB.8805","training","SET1","MPIIB.8805","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.5580","SUN_18_donor4","SUN_18","case",53,"M","BL",5,"SUN","serum","MPIIB.5580","training","SET1","MPIIB.5580","last","case","SUN.case","Yes","> 10",NA,22
+"MPIIB.3565","SUN_18_donor2","SUN_18","control",40,"M","BL",5,"SUN","serum","MPIIB.3565","training","SET1","MPIIB.3565","last","control","SUN.control","Yes","6-10",NA,15
+"MPIIB.0823","SUN_18_donor1","SUN_18","control",53,"M","BL",5,"SUN","serum","MPIIB.0823","training","SET1","MPIIB.0823","last","control","SUN.control","Yes","1-5",NA,0
+"MPIIB.8495","SUN_18_donor5","SUN_18","control",39,"M","BL",5,"SUN","serum","MPIIB.8495","training","SET1","MPIIB.8495","last","control","SUN.control","No","N.a.","N.a.",26
+"MPIIB.4643","SUN_18_donor3","SUN_18","control",49,"M","BL",5,"SUN","serum","MPIIB.4643","training","SET1","MPIIB.4643","last","control","SUN.control","Yes","6-10",NA,24
+"MPIIB.5183","SUN_06_donor2","SUN_06","case",25,"M","BL",4,"SUN","serum","MPIIB.5183","training","SET1","MPIIB.5183","last","case","SUN.case","Yes","6-10",NA,28
+"MPIIB.6525","SUN_06_donor5","SUN_06","control",19,"M","BL",4,"SUN","serum","MPIIB.6525","training","SET1","MPIIB.6525","last","control","SUN.control","No","N.a.","N.a.",0
+"MPIIB.8695","SUN_06_donor1","SUN_06","control",21,"M","BL",4,"SUN","serum","MPIIB.8695","training","SET1","MPIIB.8695","last","control","SUN.control","Yes","1-5",NA,25
+"MPIIB.7564","SUN_06_donor4","SUN_06","control",23,"M","BL",4,"SUN","serum","MPIIB.7564","training","SET1","MPIIB.7564","last","control","SUN.control","Yes","1-5",NA,18
+"MPIIB.2573","SUN_35_donor1","SUN_35","case",24,"F","BL",17,"SUN","serum","MPIIB.2573","training","SET1","MPIIB.2573","minus1","case","SUN.case","> 6M","6-10",NA,22
+"MPIIB.5911","SUN_35_donor1","SUN_35","case",24,"F","M18",-1,"SUN","serum","MPIIB.5911","training","SET1","MPIIB.5911","last","case","SUN.case","> 6M","6-10",NA,-99
+"MPIIB.6667","SUN_35_donor2","SUN_35","control",23,"F","BL",17,"SUN","serum","MPIIB.6667","training","SET1","MPIIB.6667","minus1","control","SUN.control","Yes","1-5",NA,22
+"MPIIB.6602","SUN_35_donor2","SUN_35","control",23,"F","M18",-1,"SUN","serum","MPIIB.6602","training","SET1","MPIIB.6602","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.7535","SUN_35_donor5","SUN_35","control",18,"F","BL",17,"SUN","serum","MPIIB.7535","training","SET1","MPIIB.7535","last","control","SUN.control","Yes","1-5",NA,18
+"MPIIB.6633","SUN_35_donor4","SUN_35","control",23,"F","BL",17,"SUN","serum","MPIIB.6633","training","SET1","MPIIB.6633","minus1","control","SUN.control","Yes","1-5",NA,25
+"MPIIB.9295","SUN_35_donor4","SUN_35","control",23,"F","M18",-1,"SUN","serum","MPIIB.9295","training","SET1","MPIIB.9295","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.2574","SUN_35_donor3","SUN_35","control",24,"F","BL",17,"SUN","serum","MPIIB.2574","training","SET1","MPIIB.2574","minus1","control","SUN.control","Yes","1-5",NA,22
+"MPIIB.7788","SUN_35_donor3","SUN_35","control",24,"F","M18",-1,"SUN","serum","MPIIB.7788","training","SET1","MPIIB.7788","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.3519","SUN_38_donor4","SUN_38","case",30,"F","BL",5,"SUN","serum","MPIIB.3519","training","SET1","MPIIB.3519","last","case","SUN.case","Yes","6-10",NA,18
+"MPIIB.0718","SUN_38_donor1","SUN_38","control",31,"F","BL",5,"SUN","serum","MPIIB.0718","training","SET1","MPIIB.0718","last","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.0508","SUN_38_donor3","SUN_38","control",31,"F","BL",5,"SUN","serum","MPIIB.0508","training","SET1","MPIIB.0508","last","control","SUN.control","Yes","> 10",NA,27
+"MPIIB.1629","SUN_38_donor5","SUN_38","control",30,"F","BL",5,"SUN","serum","MPIIB.1629","training","SET1","MPIIB.1629","last","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.1691","SUN_29_donor1","SUN_29","case",16,"F","BL",23,"SUN","serum","MPIIB.1691","training","SET1","MPIIB.1691","minus2","case","SUN.case","Yes","> 10",NA,19
+"MPIIB.4272","SUN_29_donor1","SUN_29","case",16,"F","M06",17,"SUN","serum","MPIIB.4272","training","SET1","MPIIB.4272","minus1","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.0304","SUN_29_donor1","SUN_29","case",16,"F","M18",5,"SUN","serum","MPIIB.0304","training","SET1","MPIIB.0304","last","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.0528","SUN_29_donor3","SUN_29","control",14,"F","BL",23,"SUN","serum","MPIIB.0528","training","SET1","MPIIB.0528","minus2","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.9870","SUN_29_donor3","SUN_29","control",14,"F","M06",17,"SUN","serum","MPIIB.9870","training","SET1","MPIIB.9870","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4240","SUN_29_donor3","SUN_29","control",14,"F","M18",5,"SUN","serum","MPIIB.4240","training","SET1","MPIIB.4240","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.9554","SUN_29_donor2","SUN_29","control",15,"F","BL",23,"SUN","serum","MPIIB.9554","training","SET1","MPIIB.9554","minus2","control","SUN.control","Yes","1-5",NA,17
+"MPIIB.3912","SUN_29_donor2","SUN_29","control",15,"F","M06",17,"SUN","serum","MPIIB.3912","training","SET1","MPIIB.3912","minus1","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.5495","SUN_29_donor2","SUN_29","control",15,"F","M18",5,"SUN","serum","MPIIB.5495","training","SET1","MPIIB.5495","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.1703","SUN_29_donor5","SUN_29","control",16,"F","BL",23,"SUN","serum","MPIIB.1703","training","SET1","MPIIB.1703","minus2","control","SUN.control","No","N.a.","N.a.",10
+"MPIIB.9030","SUN_29_donor5","SUN_29","control",16,"F","M06",17,"SUN","serum","MPIIB.9030","training","SET1","MPIIB.9030","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3069","SUN_29_donor5","SUN_29","control",16,"F","M18",5,"SUN","serum","MPIIB.3069","training","SET1","MPIIB.3069","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4684","SUN_29_donor4","SUN_29","control",11,"F","BL",23,"SUN","serum","MPIIB.4684","training","SET1","MPIIB.4684","minus1","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.7969","SUN_29_donor4","SUN_29","control",11,"F","M18",5,"SUN","serum","MPIIB.7969","training","SET1","MPIIB.7969","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.7910","SUN_17_donor1","SUN_17","case",35,"M","BL",19,"SUN","serum","MPIIB.7910","training","SET1","MPIIB.7910","minus2","case","SUN.case","Yes",NA,NA,20
+"MPIIB.0499","SUN_17_donor1","SUN_17","case",35,"M","M06",13,"SUN","serum","MPIIB.0499","training","SET1","MPIIB.0499","minus1","case","SUN.case","Yes",NA,NA,-99
+"MPIIB.7361","SUN_17_donor1","SUN_17","case",35,"M","M18",1,"SUN","serum","MPIIB.7361","training","SET1","MPIIB.7361","last","case","SUN.case","Yes",NA,NA,-99
+"MPIIB.0425","SUN_17_donor2","SUN_17","control",27,"M","BL",19,"SUN","serum","MPIIB.0425","training","SET1","MPIIB.0425","minus2","control","SUN.control","Yes","6-10",NA,19
+"MPIIB.1391","SUN_17_donor2","SUN_17","control",27,"M","M06",13,"SUN","serum","MPIIB.1391","training","SET1","MPIIB.1391","minus1","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.2915","SUN_17_donor2","SUN_17","control",27,"M","M18",1,"SUN","serum","MPIIB.2915","training","SET1","MPIIB.2915","last","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.3928","SUN_17_donor4","SUN_17","control",30,"M","BL",19,"SUN","serum","MPIIB.3928","training","SET1","MPIIB.3928","minus2","control","SUN.control","No","N.a.","N.a.",12
+"MPIIB.3414","SUN_17_donor4","SUN_17","control",30,"M","M06",13,"SUN","serum","MPIIB.3414","training","SET1","MPIIB.3414","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.7592","SUN_17_donor4","SUN_17","control",30,"M","M18",1,"SUN","serum","MPIIB.7592","training","SET1","MPIIB.7592","last","control","SUN.control","No","N.a.","N.a.",0
+"MPIIB.2345","SUN_17_donor5","SUN_17","control",25,"M","M18",1,"SUN","serum","MPIIB.2345","training","SET1","MPIIB.2345","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.0197","SUN_01_donor1","SUN_01","case",22,"F","M06",17,"SUN","serum","MPIIB.0197","training","SET1","MPIIB.0197","minus1","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.8482","SUN_01_donor1","SUN_01","case",22,"F","M18",5,"SUN","serum","MPIIB.8482","training","SET1","MPIIB.8482","last","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.7217","SUN_01_donor4","SUN_01","control",21,"F","M06",17,"SUN","serum","MPIIB.7217","training","SET1","MPIIB.7217","minus1","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.6952","SUN_01_donor4","SUN_01","control",21,"F","M18",5,"SUN","serum","MPIIB.6952","training","SET1","MPIIB.6952","last","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.5381","SUN_01_donor3","SUN_01","control",24,"F","M06",17,"SUN","serum","MPIIB.5381","training","SET1","MPIIB.5381","minus1","control","SUN.control","Yes","1-5",NA,22
+"MPIIB.2367","SUN_01_donor3","SUN_01","control",24,"F","M18",5,"SUN","serum","MPIIB.2367","training","SET1","MPIIB.2367","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.6887","SUN_01_donor2","SUN_01","control",19,"F","M06",17,"SUN","serum","MPIIB.6887","training","SET1","MPIIB.6887","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.1143","SUN_01_donor2","SUN_01","control",19,"F","M18",5,"SUN","serum","MPIIB.1143","training","SET1","MPIIB.1143","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4468","SUN_16_donor1","SUN_16","case",14,"F","BL",5,"SUN","serum","MPIIB.4468","training","SET1","MPIIB.4468","last","case","SUN.case","No","N.a.","N.a.",10
+"MPIIB.1294","SUN_16_donor4","SUN_16","control",10,"F","BL",5,"SUN","serum","MPIIB.1294","training","SET1","MPIIB.1294","last","control","SUN.control","No","N.a.","N.a.",10
+"MPIIB.3601","SUN_16_donor2","SUN_16","control",17,"F","BL",5,"SUN","serum","MPIIB.3601","training","SET1","MPIIB.3601","last","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.5746","SUN_16_donor3","SUN_16","control",13,"F","BL",5,"SUN","serum","MPIIB.5746","training","SET1","MPIIB.5746","last","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.8365","SUN_37_donor4","SUN_37","case",24,"F","BL",5,"SUN","serum","MPIIB.8365","training","SET1","MPIIB.8365","last","case","SUN.case","Yes","> 10",NA,12
+"MPIIB.7959","SUN_37_donor1","SUN_37","control",18,"F","BL",5,"SUN","serum","MPIIB.7959","training","SET1","MPIIB.7959","last","control","SUN.control","No","N.a.","N.a.",25
+"MPIIB.2634","SUN_37_donor2","SUN_37","control",24,"F","BL",5,"SUN","serum","MPIIB.2634","training","SET1","MPIIB.2634","last","control","SUN.control","No","N.a.","N.a.",20
+"MPIIB.3629","SUN_37_donor3","SUN_37","control",21,"F","BL",5,"SUN","serum","MPIIB.3629","training","SET1","MPIIB.3629","last","control","SUN.control","> 6M",NA,NA,9
+"MPIIB.2567","SUN_11_donor3","SUN_11","case",19,"F","BL",5,"SUN","serum","MPIIB.2567","training","SET1","MPIIB.2567","last","case","SUN.case","No","N.a.","N.a.",22
+"MPIIB.8781","SUN_11_donor1","SUN_11","control",19,"F","BL",5,"SUN","serum","MPIIB.8781","training","SET1","MPIIB.8781","last","control","SUN.control","Yes","1-5",NA,15
+"MPIIB.5033","SUN_11_donor4","SUN_11","control",18,"F","BL",5,"SUN","serum","MPIIB.5033","training","SET1","MPIIB.5033","last","control","SUN.control","Yes","1-5",NA,23
+"MPIIB.7098","SUN_11_donor2","SUN_11","control",24,"F","BL",5,"SUN","serum","MPIIB.7098","training","SET1","MPIIB.7098","last","control","SUN.control","Yes","1-5",NA,14
+"MPIIB.8890","SUN_36_donor3","SUN_36","case",39,"M","BL",18,"SUN","serum","MPIIB.8890","training","SET1","MPIIB.8890","minus1","case","SUN.case","Yes","6-10",NA,11
+"MPIIB.3082","SUN_36_donor3","SUN_36","case",39,"M","M18",0,"SUN","serum","MPIIB.3082","training","SET1","MPIIB.3082","last","case","SUN.case","Yes","6-10",NA,18
+"MPIIB.8584","SUN_36_donor1","SUN_36","control",46,"M","M18",0,"SUN","serum","MPIIB.8584","training","SET1","MPIIB.8584","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.1006","SUN_36_donor2","SUN_36","control",51,"M","BL",18,"SUN","serum","MPIIB.1006","training","SET1","MPIIB.1006","minus1","control","SUN.control","> 6M","> 10",NA,0
+"MPIIB.2963","SUN_36_donor2","SUN_36","control",51,"M","M18",0,"SUN","serum","MPIIB.2963","training","SET1","MPIIB.2963","last","control","SUN.control","> 6M","> 10",NA,30
+"MPIIB.7434","SUN_36_donor5","SUN_36","control",48,"M","BL",18,"SUN","serum","MPIIB.7434","training","SET1","MPIIB.7434","minus1","control","SUN.control","Yes","1-5",NA,22
+"MPIIB.3195","SUN_36_donor5","SUN_36","control",48,"M","M18",0,"SUN","serum","MPIIB.3195","training","SET1","MPIIB.3195","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.6805","SUN_21_donor5","SUN_21","case",47,"F","BL",17,"SUN","serum","MPIIB.6805","training","SET1","MPIIB.6805","minus1","case","SUN.case","Yes","1-5",NA,25
+"MPIIB.1119","SUN_21_donor5","SUN_21","case",47,"F","M06",11,"SUN","serum","MPIIB.1119","training","SET1","MPIIB.1119","last","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.8910","SUN_21_donor4","SUN_21","control",55,"F","BL",17,"SUN","serum","MPIIB.8910","training","SET1","MPIIB.8910","minus1","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.3221","SUN_21_donor4","SUN_21","control",55,"F","M06",11,"SUN","serum","MPIIB.3221","training","SET1","MPIIB.3221","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.6836","SUN_21_donor1","SUN_21","control",48,"F","BL",17,"SUN","serum","MPIIB.6836","training","SET1","MPIIB.6836","minus1","control","SUN.control","Yes","> 10",NA,29
+"MPIIB.8069","SUN_21_donor1","SUN_21","control",48,"F","M06",11,"SUN","serum","MPIIB.8069","training","SET1","MPIIB.8069","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.3138","SUN_21_donor3","SUN_21","control",52,"F","BL",17,"SUN","serum","MPIIB.3138","training","SET1","MPIIB.3138","last","control","SUN.control","Yes",NA,NA,18
+"MPIIB.6130","SUN_27_donor2","SUN_27","case",13,"M","BL",17,"SUN","serum","MPIIB.6130","training","SET1","MPIIB.6130","minus1","case","SUN.case","Yes","> 10",NA,21
+"MPIIB.9301","SUN_27_donor2","SUN_27","case",13,"M","M06",11,"SUN","serum","MPIIB.9301","training","SET1","MPIIB.9301","last","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.9922","SUN_27_donor1","SUN_27","control",11,"M","BL",17,"SUN","serum","MPIIB.9922","training","SET1","MPIIB.9922","minus1","control","SUN.control","No","N.a.","N.a.",20
+"MPIIB.0024","SUN_27_donor1","SUN_27","control",11,"M","M06",11,"SUN","serum","MPIIB.0024","training","SET1","MPIIB.0024","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.6092","SUN_27_donor4","SUN_27","control",12,"M","BL",17,"SUN","serum","MPIIB.6092","training","SET1","MPIIB.6092","minus1","control","SUN.control","No","N.a.","N.a.",19
+"MPIIB.6869","SUN_27_donor4","SUN_27","control",12,"M","M06",11,"SUN","serum","MPIIB.6869","training","SET1","MPIIB.6869","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.8733","SUN_27_donor5","SUN_27","control",16,"M","BL",17,"SUN","serum","MPIIB.8733","training","SET1","MPIIB.8733","last","control","SUN.control","> 6M","1-5",NA,12
+"MPIIB.9566","SUN_02_donor5","SUN_02","case",57,"F","BL",5,"SUN","serum","MPIIB.9566","training","SET1","MPIIB.9566","last","case","SUN.case","Yes","> 10",NA,15
+"MPIIB.5747","SUN_02_donor4","SUN_02","control",37,"F","BL",5,"SUN","serum","MPIIB.5747","training","SET1","MPIIB.5747","last","control","SUN.control","No","N.a.","N.a.",0
+"MPIIB.8383","SUN_02_donor1","SUN_02","control",42,"F","BL",5,"SUN","serum","MPIIB.8383","training","SET1","MPIIB.8383","last","control","SUN.control","No","N.a.","N.a.",22
+"MPIIB.7412","SUN_02_donor3","SUN_02","control",47,"F","BL",5,"SUN","serum","MPIIB.7412","training","SET1","MPIIB.7412","last","control","SUN.control","> 6M","1-5",NA,8
+"MPIIB.0037","SUN_20_donor4","SUN_20","case",17,"F","BL",4,"SUN","serum","MPIIB.0037","training","SET1","MPIIB.0037","last","case","SUN.case","Yes","6-10",NA,26
+"MPIIB.1480","SUN_20_donor2","SUN_20","control",13,"F","BL",4,"SUN","serum","MPIIB.1480","training","SET1","MPIIB.1480","last","control","SUN.control","No","N.a.","N.a.",26
+"MPIIB.2298","SUN_20_donor1","SUN_20","control",17,"F","BL",4,"SUN","serum","MPIIB.2298","training","SET1","MPIIB.2298","last","control","SUN.control","Yes","> 10",NA,10
+"MPIIB.6033","SUN_20_donor5","SUN_20","control",14,"F","BL",4,"SUN","serum","MPIIB.6033","training","SET1","MPIIB.6033","last","control","SUN.control","No","N.a.","N.a.",28
+"MPIIB.9337","SUN_10_donor1","SUN_10","case",27,"M","BL",6,"SUN","serum","MPIIB.9337","training","SET1","MPIIB.9337","last","case","SUN.case","No","N.a.","N.a.",11
+"MPIIB.6576","SUN_10_donor4","SUN_10","control",35,"M","BL",6,"SUN","serum","MPIIB.6576","training","SET1","MPIIB.6576","last","control","SUN.control","No","N.a.","N.a.",14
+"MPIIB.3852","SUN_10_donor6","SUN_10","control",25,"M","BL",6,"SUN","serum","MPIIB.3852","training","SET1","MPIIB.3852","last","control","SUN.control","Yes","6-10",NA,0
+"MPIIB.8654","SUN_10_donor2","SUN_10","control",30,"M","BL",6,"SUN","serum","MPIIB.8654","training","SET1","MPIIB.8654","last","control","SUN.control","Yes","6-10",NA,18
+"MPIIB.8717","SUN_28_donor5","SUN_28","case",17,"F","BL",23,"SUN","serum","MPIIB.8717","training","SET1","MPIIB.8717","minus2","case","SUN.case","Yes","1-5",NA,22
+"MPIIB.0682","SUN_28_donor5","SUN_28","case",17,"F","M06",17,"SUN","serum","MPIIB.0682","training","SET1","MPIIB.0682","minus1","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.6391","SUN_28_donor5","SUN_28","case",17,"F","M18",5,"SUN","serum","MPIIB.6391","training","SET1","MPIIB.6391","last","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.2084","SUN_28_donor1","SUN_28","control",15,"F","BL",23,"SUN","serum","MPIIB.2084","training","SET1","MPIIB.2084","minus2","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.9558","SUN_28_donor1","SUN_28","control",15,"F","M06",17,"SUN","serum","MPIIB.9558","training","SET1","MPIIB.9558","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.0864","SUN_28_donor1","SUN_28","control",15,"F","M18",5,"SUN","serum","MPIIB.0864","training","SET1","MPIIB.0864","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3530","SUN_28_donor2","SUN_28","control",15,"F","BL",23,"SUN","serum","MPIIB.3530","training","SET1","MPIIB.3530","minus2","control","SUN.control","No","N.a.","N.a.",17
+"MPIIB.0140","SUN_28_donor2","SUN_28","control",15,"F","M06",17,"SUN","serum","MPIIB.0140","training","SET1","MPIIB.0140","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.8802","SUN_28_donor2","SUN_28","control",15,"F","M18",5,"SUN","serum","MPIIB.8802","training","SET1","MPIIB.8802","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.1542","SUN_28_donor4","SUN_28","control",12,"F","BL",23,"SUN","serum","MPIIB.1542","training","SET1","MPIIB.1542","minus2","control","SUN.control","No","N.a.","N.a.",0
+"MPIIB.8440","SUN_28_donor4","SUN_28","control",12,"F","M06",17,"SUN","serum","MPIIB.8440","training","SET1","MPIIB.8440","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.9414","SUN_28_donor4","SUN_28","control",12,"F","M18",5,"SUN","serum","MPIIB.9414","training","SET1","MPIIB.9414","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.8037","SUN_28_donor3","SUN_28","control",14,"F","BL",23,"SUN","serum","MPIIB.8037","training","SET1","MPIIB.8037","last","control","SUN.control","No","N.a.","N.a.",20
+"MPIIB.4932","SUN_30_donor2","SUN_30","case",38,"M","BL",17,"SUN","serum","MPIIB.4932","training","SET1","MPIIB.4932","minus1","case","SUN.case","Yes","> 10",NA,32
+"MPIIB.2960","SUN_30_donor2","SUN_30","case",38,"M","M06",11,"SUN","serum","MPIIB.2960","training","SET1","MPIIB.2960","last","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.1578","SUN_30_donor4","SUN_30","control",22,"M","BL",17,"SUN","serum","MPIIB.1578","training","SET1","MPIIB.1578","minus1","control","SUN.control","Yes","> 10",NA,18
+"MPIIB.1269","SUN_30_donor4","SUN_30","control",22,"M","M06",11,"SUN","serum","MPIIB.1269","training","SET1","MPIIB.1269","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.2070","SUN_30_donor1","SUN_30","control",19,"M","BL",17,"SUN","serum","MPIIB.2070","training","SET1","MPIIB.2070","minus1","control","SUN.control","No","N.a.","N.a.",23
+"MPIIB.0329","SUN_30_donor1","SUN_30","control",19,"M","M06",11,"SUN","serum","MPIIB.0329","training","SET1","MPIIB.0329","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.9401","SUN_30_donor5","SUN_30","control",47,"M","BL",17,"SUN","serum","MPIIB.9401","training","SET1","MPIIB.9401","last","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.0844","SUN_34_donor1","SUN_34","case",14,"F","BL",17,"SUN","serum","MPIIB.0844","training","SET1","MPIIB.0844","minus1","case","SUN.case","No","N.a.","N.a.",16
+"MPIIB.0207","SUN_34_donor1","SUN_34","case",14,"F","M06",11,"SUN","serum","MPIIB.0207","training","SET1","MPIIB.0207","last","case","SUN.case","No","N.a.","N.a.",-99
+"MPIIB.5137","SUN_34_donor2","SUN_34","control",13,"F","BL",17,"SUN","serum","MPIIB.5137","training","SET1","MPIIB.5137","minus1","control","SUN.control","> 6M","1-5",NA,27
+"MPIIB.7989","SUN_34_donor2","SUN_34","control",13,"F","M06",11,"SUN","serum","MPIIB.7989","training","SET1","MPIIB.7989","last","control","SUN.control","> 6M","1-5",NA,-99
+"MPIIB.8671","SUN_34_donor3","SUN_34","control",11,"F","BL",17,"SUN","serum","MPIIB.8671","training","SET1","MPIIB.8671","minus1","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.2586","SUN_34_donor3","SUN_34","control",11,"F","M06",11,"SUN","serum","MPIIB.2586","training","SET1","MPIIB.2586","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.7110","SUN_34_donor4","SUN_34","control",12,"F","BL",17,"SUN","serum","MPIIB.7110","training","SET1","MPIIB.7110","minus1","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.0877","SUN_34_donor4","SUN_34","control",12,"F","M06",11,"SUN","serum","MPIIB.0877","training","SET1","MPIIB.0877","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4103","SUN_08_donor5","SUN_08","case",19,"F","BL",23,"SUN","serum","MPIIB.4103","training","SET1","MPIIB.4103","minus2","case","SUN.case","Yes","1-5",NA,18
+"MPIIB.1343","SUN_08_donor5","SUN_08","case",19,"F","M06",17,"SUN","serum","MPIIB.1343","training","SET1","MPIIB.1343","minus1","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.4101","SUN_08_donor5","SUN_08","case",19,"F","M18",5,"SUN","serum","MPIIB.4101","training","SET1","MPIIB.4101","last","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.8155","SUN_08_donor2","SUN_08","control",22,"F","BL",23,"SUN","serum","MPIIB.8155","training","SET1","MPIIB.8155","last","control","SUN.control","> 6M","1-5",NA,0
+"MPIIB.1944","SUN_08_donor4","SUN_08","control",21,"F","BL",23,"SUN","serum","MPIIB.1944","training","SET1","MPIIB.1944","minus2","control","SUN.control","> 6M","1-5",NA,14
+"MPIIB.7928","SUN_08_donor4","SUN_08","control",21,"F","M06",17,"SUN","serum","MPIIB.7928","training","SET1","MPIIB.7928","minus1","control","SUN.control","> 6M","1-5",NA,-99
+"MPIIB.3277","SUN_08_donor4","SUN_08","control",21,"F","M18",5,"SUN","serum","MPIIB.3277","training","SET1","MPIIB.3277","last","control","SUN.control","> 6M","1-5",NA,-99
+"MPIIB.3110","SUN_08_donor1","SUN_08","control",10,"F","BL",23,"SUN","serum","MPIIB.3110","training","SET1","MPIIB.3110","minus2","control","SUN.control","No","N.a.","N.a.",26
+"MPIIB.0402","SUN_08_donor1","SUN_08","control",10,"F","M06",17,"SUN","serum","MPIIB.0402","training","SET1","MPIIB.0402","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.2433","SUN_08_donor1","SUN_08","control",10,"F","M18",5,"SUN","serum","MPIIB.2433","training","SET1","MPIIB.2433","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.6518","SUN_07_donor1","SUN_07","case",22,"M","BL",17,"SUN","serum","MPIIB.6518","training","SET1","MPIIB.6518","minus1","case","SUN.case","Yes","1-5",NA,18
+"MPIIB.7835","SUN_07_donor1","SUN_07","case",22,"M","M06",11,"SUN","serum","MPIIB.7835","training","SET1","MPIIB.7835","last","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.0895","SUN_07_donor4","SUN_07","control",22,"M","BL",17,"SUN","serum","MPIIB.0895","training","SET1","MPIIB.0895","minus1","control","SUN.control","Yes","> 10",NA,10
+"MPIIB.9206","SUN_07_donor4","SUN_07","control",22,"M","M06",11,"SUN","serum","MPIIB.9206","training","SET1","MPIIB.9206","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.5527","SUN_07_donor3","SUN_07","control",21,"M","BL",17,"SUN","serum","MPIIB.5527","training","SET1","MPIIB.5527","minus1","control","SUN.control","Yes","6-10",NA,20
+"MPIIB.2313","SUN_07_donor3","SUN_07","control",21,"M","M06",11,"SUN","serum","MPIIB.2313","training","SET1","MPIIB.2313","last","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.0658","SUN_07_donor2","SUN_07","control",22,"M","BL",17,"SUN","serum","MPIIB.0658","training","SET1","MPIIB.0658","minus1","control","SUN.control","Yes","6-10",NA,20
+"MPIIB.1377","SUN_07_donor2","SUN_07","control",22,"M","M06",11,"SUN","serum","MPIIB.1377","training","SET1","MPIIB.1377","last","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.8387","SUN_14_donor4","SUN_14","case",45,"F","BL",5,"SUN","serum","MPIIB.8387","training","SET1","MPIIB.8387","last","case","SUN.case","> 6M","1-5",NA,20
+"MPIIB.0355","SUN_14_donor3","SUN_14","control",38,"F","BL",5,"SUN","serum","MPIIB.0355","training","SET1","MPIIB.0355","last","control","SUN.control","Yes","1-5",NA,23
+"MPIIB.6569","SUN_14_donor1","SUN_14","control",42,"F","BL",5,"SUN","serum","MPIIB.6569","training","SET1","MPIIB.6569","last","control","SUN.control","No","N.a.","N.a.",28
+"MPIIB.2151","SUN_14_donor2","SUN_14","control",49,"F","BL",5,"SUN","serum","MPIIB.2151","training","SET1","MPIIB.2151","last","control","SUN.control","No","N.a.","N.a.",12
+"MPIIB.9655","MRC_02_donor4","MRC_02","case",26,"M","BL",10,"MRC","plasma","MPIIB.9655","training","SET1","MPIIB.9655","last","case","MRC.case","Yes","> 10","5-10",16
+"MPIIB.5725","MRC_02_donor1","MRC_02","control",35,"M","BL",10,"MRC","plasma","MPIIB.5725","training","SET1","MPIIB.5725","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.6521","MRC_02_donor2","MRC_02","control",25,"M","BL",10,"MRC","plasma","MPIIB.6521","training","SET1","MPIIB.6521","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.7536","MRC_02_donor3","MRC_02","control",27,"M","BL",10,"MRC","plasma","MPIIB.7536","training","SET1","MPIIB.7536","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.4869","MRC_12_donor3","MRC_12","case",16,"M","BL",21,"MRC","plasma","MPIIB.4869","training","SET1","MPIIB.4869","minus1","case","MRC.case","No","N.a.","N.a.",18
+"MPIIB.7834","MRC_12_donor3","MRC_12","case",16,"M","M18",3,"MRC","plasma","MPIIB.7834","training","SET1","MPIIB.7834","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.8201","MRC_12_donor2","MRC_12","control",17,"M","BL",21,"MRC","plasma","MPIIB.8201","training","SET1","MPIIB.8201","minus2","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.7073","MRC_12_donor2","MRC_12","control",17,"M","M06",15,"MRC","plasma","MPIIB.7073","training","SET1","MPIIB.7073","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.8165","MRC_12_donor2","MRC_12","control",17,"M","M18",3,"MRC","plasma","MPIIB.8165","training","SET1","MPIIB.8165","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.5619","MRC_12_donor4","MRC_12","control",15,"M","BL",21,"MRC","plasma","MPIIB.5619","training","SET1","MPIIB.5619","minus2","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.8022","MRC_12_donor4","MRC_12","control",15,"M","M06",15,"MRC","plasma","MPIIB.8022","training","SET1","MPIIB.8022","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.5856","MRC_12_donor4","MRC_12","control",15,"M","M18",3,"MRC","plasma","MPIIB.5856","training","SET1","MPIIB.5856","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.9588","MRC_12_donor1","MRC_12","control",15,"M","BL",21,"MRC","plasma","MPIIB.9588","training","SET1","MPIIB.9588","minus2","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.2995","MRC_12_donor1","MRC_12","control",15,"M","M06",15,"MRC","plasma","MPIIB.2995","training","SET1","MPIIB.2995","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.4266","MRC_12_donor1","MRC_12","control",15,"M","M18",3,"MRC","plasma","MPIIB.4266","training","SET1","MPIIB.4266","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.2916","MRC_23_donor4","MRC_23","case",37,"F","BL",14,"MRC","plasma","MPIIB.2916","training","SET1","MPIIB.2916","minus1","case","MRC.case","No","N.a.","N.a.",16
+"MPIIB.5857","MRC_23_donor4","MRC_23","case",37,"F","M06",8,"MRC","plasma","MPIIB.5857","training","SET1","MPIIB.5857","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.6404","MRC_23_donor2","MRC_23","control",30,"F","BL",14,"MRC","plasma","MPIIB.6404","training","SET1","MPIIB.6404","minus1","control","MRC.control","No","N.a.","N.a.",40
+"MPIIB.5768","MRC_23_donor2","MRC_23","control",30,"F","M06",8,"MRC","plasma","MPIIB.5768","training","SET1","MPIIB.5768","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.1638","MRC_23_donor1","MRC_23","control",60,"F","BL",14,"MRC","plasma","MPIIB.1638","training","SET1","MPIIB.1638","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.6359","MRC_23_donor1","MRC_23","control",60,"F","M06",8,"MRC","plasma","MPIIB.6359","training","SET1","MPIIB.6359","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.8255","MRC_23_donor3","MRC_23","control",45,"F","BL",14,"MRC","plasma","MPIIB.8255","training","SET1","MPIIB.8255","minus1","control","MRC.control","No","N.a.","N.a.",12
+"MPIIB.3658","MRC_23_donor3","MRC_23","control",45,"F","M06",8,"MRC","plasma","MPIIB.3658","training","SET1","MPIIB.3658","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.1672","MRC_23_donor6","MRC_23","control",55,"F","M06",8,"MRC","plasma","MPIIB.1672","training","SET1","MPIIB.1672","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3273","MRC_23_donor5","MRC_23","control",51,"F","M06",8,"MRC","plasma","MPIIB.3273","training","SET1","MPIIB.3273","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.4719","MRC_27_donor4","MRC_27","case",21,"F","BL",10,"MRC","plasma","MPIIB.4719","training","SET1","MPIIB.4719","minus1","case","MRC.case","No","N.a.","N.a.",16
+"MPIIB.8376","MRC_27_donor4","MRC_27","case",21,"F","M06",4,"MRC","plasma","MPIIB.8376","training","SET1","MPIIB.8376","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.4102","MRC_27_donor2","MRC_27","control",18,"F","BL",10,"MRC","plasma","MPIIB.4102","training","SET1","MPIIB.4102","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.1167","MRC_27_donor2","MRC_27","control",18,"F","M06",4,"MRC","plasma","MPIIB.1167","training","SET1","MPIIB.1167","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3821","MRC_27_donor3","MRC_27","control",22,"F","BL",10,"MRC","plasma","MPIIB.3821","training","SET1","MPIIB.3821","minus1","control","MRC.control","No","N.a.","N.a.",15
+"MPIIB.8840","MRC_27_donor3","MRC_27","control",22,"F","M06",4,"MRC","plasma","MPIIB.8840","training","SET1","MPIIB.8840","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.8123","MRC_27_donor1","MRC_27","control",26,"F","BL",10,"MRC","plasma","MPIIB.8123","training","SET1","MPIIB.8123","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.5634","MRC_27_donor5","MRC_27","control",24,"F","M06",4,"MRC","plasma","MPIIB.5634","training","SET1","MPIIB.5634","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.9617","MRC_15_donor2","MRC_15","case",37,"F","BL",8,"MRC","plasma","MPIIB.9617","training","SET1","MPIIB.9617","minus1","case","MRC.case","No","N.a.","N.a.",15
+"MPIIB.1548","MRC_15_donor2","MRC_15","case",37,"F","M06",2,"MRC","plasma","MPIIB.1548","training","SET1","MPIIB.1548","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.3722","MRC_15_donor3","MRC_15","control",47,"F","BL",8,"MRC","plasma","MPIIB.3722","training","SET1","MPIIB.3722","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.4995","MRC_15_donor3","MRC_15","control",47,"F","M06",2,"MRC","plasma","MPIIB.4995","training","SET1","MPIIB.4995","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.6028","MRC_15_donor1","MRC_15","control",48,"F","BL",8,"MRC","plasma","MPIIB.6028","training","SET1","MPIIB.6028","minus1","control","MRC.control","No","N.a.","N.a.",13
+"MPIIB.5184","MRC_15_donor1","MRC_15","control",48,"F","M06",2,"MRC","plasma","MPIIB.5184","training","SET1","MPIIB.5184","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.8651","MRC_15_donor4","MRC_15","control",44,"F","BL",8,"MRC","plasma","MPIIB.8651","training","SET1","MPIIB.8651","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.4428","MRC_15_donor4","MRC_15","control",44,"F","M06",2,"MRC","plasma","MPIIB.4428","training","SET1","MPIIB.4428","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.8728","MRC_24_donor3","MRC_24","case",30,"F","BL",9,"MRC","plasma","MPIIB.8728","training","SET1","MPIIB.8728","minus1","case","MRC.case","No","N.a.","N.a.",20
+"MPIIB.2388","MRC_24_donor3","MRC_24","case",30,"F","M06",3,"MRC","plasma","MPIIB.2388","training","SET1","MPIIB.2388","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.0137","MRC_24_donor2","MRC_24","control",22,"F","BL",9,"MRC","plasma","MPIIB.0137","training","SET1","MPIIB.0137","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.2762","MRC_24_donor2","MRC_24","control",22,"F","M06",3,"MRC","plasma","MPIIB.2762","training","SET1","MPIIB.2762","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.4276","MRC_24_donor1","MRC_24","control",28,"F","BL",9,"MRC","plasma","MPIIB.4276","training","SET1","MPIIB.4276","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.5685","MRC_24_donor1","MRC_24","control",28,"F","M06",3,"MRC","plasma","MPIIB.5685","training","SET1","MPIIB.5685","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.5689","MRC_24_donor4","MRC_24","control",32,"F","BL",9,"MRC","plasma","MPIIB.5689","training","SET1","MPIIB.5689","minus1","control","MRC.control","No","N.a.","N.a.",5
+"MPIIB.2982","MRC_24_donor4","MRC_24","control",32,"F","M06",3,"MRC","plasma","MPIIB.2982","training","SET1","MPIIB.2982","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3274","MRC_25_donor1","MRC_25","case",20,"M","BL",12,"MRC","plasma","MPIIB.3274","training","SET1","MPIIB.3274","last","case","MRC.case","No","N.a.","N.a.",12
+"MPIIB.5542","MRC_25_donor2","MRC_25","control",18,"M","BL",12,"MRC","plasma","MPIIB.5542","training","SET1","MPIIB.5542","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.2978","MRC_25_donor3","MRC_25","control",19,"M","BL",12,"MRC","plasma","MPIIB.2978","training","SET1","MPIIB.2978","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.5528","MRC_25_donor4","MRC_25","control",18,"M","BL",12,"MRC","plasma","MPIIB.5528","training","SET1","MPIIB.5528","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.4458","MRC_07_donor1","MRC_07","case",56,"M","BL",10,"MRC","plasma","MPIIB.4458","training","SET1","MPIIB.4458","minus1","case","MRC.case","Yes","> 10","> 10",5
+"MPIIB.8581","MRC_07_donor1","MRC_07","case",56,"M","M06",4,"MRC","plasma","MPIIB.8581","training","SET1","MPIIB.8581","last","case","MRC.case","Yes","> 10","> 10",-99
+"MPIIB.5262","MRC_07_donor2","MRC_07","control",49,"M","BL",10,"MRC","plasma","MPIIB.5262","training","SET1","MPIIB.5262","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.2972","MRC_07_donor2","MRC_07","control",49,"M","M06",4,"MRC","plasma","MPIIB.2972","training","SET1","MPIIB.2972","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.1168","MRC_07_donor3","MRC_07","control",56,"M","BL",10,"MRC","plasma","MPIIB.1168","training","SET1","MPIIB.1168","minus1","control","MRC.control","Yes","1-5","> 10",0
+"MPIIB.2485","MRC_07_donor3","MRC_07","control",56,"M","M06",4,"MRC","plasma","MPIIB.2485","training","SET1","MPIIB.2485","last","control","MRC.control","Yes","1-5","> 10",14
+"MPIIB.8085","MRC_07_donor4","MRC_07","control",52,"M","BL",10,"MRC","plasma","MPIIB.8085","training","SET1","MPIIB.8085","minus1","control","MRC.control","Yes","1-5","> 10",0
+"MPIIB.5403","MRC_07_donor4","MRC_07","control",52,"M","M06",4,"MRC","plasma","MPIIB.5403","training","SET1","MPIIB.5403","last","control","MRC.control","Yes","1-5","> 10",10
+"MPIIB.7245","MRC_13_donor2","MRC_13","case",26,"F","BL",19,"MRC","plasma","MPIIB.7245","training","SET1","MPIIB.7245","last","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.3666","MRC_13_donor4","MRC_13","control",30,"F","BL",19,"MRC","plasma","MPIIB.3666","training","SET1","MPIIB.3666","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.0190","MRC_13_donor3","MRC_13","control",29,"F","BL",19,"MRC","plasma","MPIIB.0190","training","SET1","MPIIB.0190","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.3483","MRC_13_donor1","MRC_13","control",34,"F","BL",19,"MRC","plasma","MPIIB.3483","training","SET1","MPIIB.3483","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.1514","MRC_32_donor6","MRC_32","case",17,"M","BL",21,"MRC","plasma","MPIIB.1514","training","SET1","MPIIB.1514","minus2","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.3331","MRC_32_donor6","MRC_32","case",17,"M","M06",15,"MRC","plasma","MPIIB.3331","training","SET1","MPIIB.3331","minus1","case","MRC.case","No","N.a.","N.a.",21
+"MPIIB.9882","MRC_32_donor6","MRC_32","case",17,"M","M18",3,"MRC","plasma","MPIIB.9882","training","SET1","MPIIB.9882","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.3100","MRC_32_donor2","MRC_32","control",17,"M","BL",21,"MRC","plasma","MPIIB.3100","training","SET1","MPIIB.3100","minus2","control","MRC.control",NA,NA,NA,4
+"MPIIB.1300","MRC_32_donor2","MRC_32","control",17,"M","M06",15,"MRC","plasma","MPIIB.1300","training","SET1","MPIIB.1300","minus1","control","MRC.control",NA,NA,NA,-99
+"MPIIB.6758","MRC_32_donor2","MRC_32","control",17,"M","M18",3,"MRC","plasma","MPIIB.6758","training","SET1","MPIIB.6758","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.2174","MRC_32_donor4","MRC_32","control",15,"M","BL",21,"MRC","plasma","MPIIB.2174","training","SET1","MPIIB.2174","minus2","control","MRC.control",NA,NA,NA,0
+"MPIIB.8618","MRC_32_donor4","MRC_32","control",15,"M","M06",15,"MRC","plasma","MPIIB.8618","training","SET1","MPIIB.8618","minus1","control","MRC.control",NA,NA,NA,-99
+"MPIIB.5545","MRC_32_donor4","MRC_32","control",15,"M","M18",3,"MRC","plasma","MPIIB.5545","training","SET1","MPIIB.5545","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.5869","MRC_32_donor1","MRC_32","control",17,"M","BL",21,"MRC","plasma","MPIIB.5869","training","SET1","MPIIB.5869","minus2","control","MRC.control","No","N.a.","N.a.",12
+"MPIIB.3466","MRC_32_donor1","MRC_32","control",17,"M","M06",15,"MRC","plasma","MPIIB.3466","training","SET1","MPIIB.3466","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.7998","MRC_32_donor1","MRC_32","control",17,"M","M18",3,"MRC","plasma","MPIIB.7998","training","SET1","MPIIB.7998","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.8721","MRC_32_donor5","MRC_32","control",16,"M","BL",21,"MRC","plasma","MPIIB.8721","training","SET1","MPIIB.8721","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.7041","MRC_32_donor5","MRC_32","control",16,"M","M18",3,"MRC","plasma","MPIIB.7041","training","SET1","MPIIB.7041","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.4950","MRC_32_donor3","MRC_32","control",16,"M","BL",21,"MRC","plasma","MPIIB.4950","training","SET1","MPIIB.4950","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.8760","MRC_09_donor1","MRC_09","case",26,"F","BL",11,"MRC","plasma","MPIIB.8760","training","SET1","MPIIB.8760","last","case","MRC.case","No","N.a.","N.a.",20
+"MPIIB.8208","MRC_09_donor3","MRC_09","control",26,"F","BL",11,"MRC","plasma","MPIIB.8208","training","SET1","MPIIB.8208","last","control","MRC.control","No","N.a.","N.a.",20
+"MPIIB.5370","MRC_09_donor2","MRC_09","control",29,"F","BL",11,"MRC","plasma","MPIIB.5370","training","SET1","MPIIB.5370","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.8406","MRC_09_donor4","MRC_09","control",26,"F","BL",11,"MRC","plasma","MPIIB.8406","training","SET1","MPIIB.8406","last","control","MRC.control","No","N.a.","N.a.",20
+"MPIIB.3741","MRC_03_donor3","MRC_03","case",20,"F","BL",7,"MRC","plasma","MPIIB.3741","training","SET1","MPIIB.3741","minus1","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.3897","MRC_03_donor3","MRC_03","case",20,"F","M06",1,"MRC","plasma","MPIIB.3897","training","SET1","MPIIB.3897","last","case","MRC.case","No","N.a.","N.a.",10
+"MPIIB.3913","MRC_03_donor2","MRC_03","control",18,"F","BL",7,"MRC","plasma","MPIIB.3913","training","SET1","MPIIB.3913","minus1","control","MRC.control","No","N.a.","N.a.",18
+"MPIIB.0820","MRC_03_donor2","MRC_03","control",18,"F","M06",1,"MRC","plasma","MPIIB.0820","training","SET1","MPIIB.0820","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.5889","MRC_03_donor1","MRC_03","control",18,"F","BL",7,"MRC","plasma","MPIIB.5889","training","SET1","MPIIB.5889","minus1","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.7055","MRC_03_donor1","MRC_03","control",18,"F","M06",1,"MRC","plasma","MPIIB.7055","training","SET1","MPIIB.7055","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.6603","MRC_03_donor4","MRC_03","control",18,"F","BL",7,"MRC","plasma","MPIIB.6603","training","SET1","MPIIB.6603","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.2800","MRC_03_donor4","MRC_03","control",18,"F","M06",1,"MRC","plasma","MPIIB.2800","training","SET1","MPIIB.2800","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.2288","MRC_04_donor3","MRC_04","case",56,"M","BL",10,"MRC","plasma","MPIIB.2288","training","SET1","MPIIB.2288","minus1","case","MRC.case","< 6M","1-5","1-5",11
+"MPIIB.1897","MRC_04_donor3","MRC_04","case",56,"M","M06",4,"MRC","plasma","MPIIB.1897","training","SET1","MPIIB.1897","last","case","MRC.case","< 6M","1-5","1-5",-99
+"MPIIB.5342","MRC_04_donor6","MRC_04","control",57,"M","BL",10,"MRC","plasma","MPIIB.5342","training","SET1","MPIIB.5342","last","control","MRC.control","No","N.a.","N.a.",15
+"MPIIB.3275","MRC_04_donor2","MRC_04","control",52,"M","BL",10,"MRC","plasma","MPIIB.3275","training","SET1","MPIIB.3275","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.7833","MRC_04_donor5","MRC_04","control",51,"M","BL",10,"MRC","plasma","MPIIB.7833","training","SET1","MPIIB.7833","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.4335","MRC_04_donor5","MRC_04","control",51,"M","M06",4,"MRC","plasma","MPIIB.4335","training","SET1","MPIIB.4335","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.2735","MRC_04_donor4","MRC_04","control",55,"M","M06",4,"MRC","plasma","MPIIB.2735","training","SET1","MPIIB.2735","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.4061","MRC_04_donor1","MRC_04","control",57,"M","M06",4,"MRC","plasma","MPIIB.4061","training","SET1","MPIIB.4061","last","control","MRC.control","Yes","6-10","> 10",-99
+"MPIIB.9479","MRC_16_donor3","MRC_16","case",20,"F","BL",4,"MRC","plasma","MPIIB.9479","training","SET1","MPIIB.9479","last","case","MRC.case","No","N.a.","N.a.",10
+"MPIIB.3409","MRC_16_donor5","MRC_16","control",22,"F","BL",4,"MRC","plasma","MPIIB.3409","training","SET1","MPIIB.3409","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.9183","MRC_16_donor4","MRC_16","control",18,"F","BL",4,"MRC","plasma","MPIIB.9183","training","SET1","MPIIB.9183","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.5144","MRC_16_donor2","MRC_16","control",20,"F","BL",4,"MRC","plasma","MPIIB.5144","training","SET1","MPIIB.5144","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.8196","MRC_10_donor2","MRC_10","case",26,"F","BL",24,"MRC","plasma","MPIIB.8196","training","SET1","MPIIB.8196","minus2","case","MRC.case","No","N.a.","N.a.",22
+"MPIIB.1022","MRC_10_donor2","MRC_10","case",26,"F","M06",18,"MRC","plasma","MPIIB.1022","training","SET1","MPIIB.1022","minus1","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.1016","MRC_10_donor2","MRC_10","case",26,"F","M18",6,"MRC","plasma","MPIIB.1016","training","SET1","MPIIB.1016","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.1940","MRC_10_donor3","MRC_10","control",35,"F","BL",24,"MRC","plasma","MPIIB.1940","training","SET1","MPIIB.1940","minus2","control","MRC.control",NA,NA,NA,4
+"MPIIB.6981","MRC_10_donor3","MRC_10","control",35,"F","M06",18,"MRC","plasma","MPIIB.6981","training","SET1","MPIIB.6981","minus1","control","MRC.control",NA,NA,NA,-99
+"MPIIB.8327","MRC_10_donor3","MRC_10","control",35,"F","M18",6,"MRC","plasma","MPIIB.8327","training","SET1","MPIIB.8327","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.5312","MRC_10_donor5","MRC_10","control",28,"F","BL",24,"MRC","plasma","MPIIB.5312","training","SET1","MPIIB.5312","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.7154","MRC_10_donor5","MRC_10","control",28,"F","M06",18,"MRC","plasma","MPIIB.7154","training","SET1","MPIIB.7154","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.6649","MRC_10_donor1","MRC_10","control",29,"F","BL",24,"MRC","plasma","MPIIB.6649","training","SET1","MPIIB.6649","minus2","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.0662","MRC_10_donor1","MRC_10","control",29,"F","M06",18,"MRC","plasma","MPIIB.0662","training","SET1","MPIIB.0662","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.5847","MRC_10_donor1","MRC_10","control",29,"F","M18",6,"MRC","plasma","MPIIB.5847","training","SET1","MPIIB.5847","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.0994","MRC_10_donor4","MRC_10","control",29,"F","BL",24,"MRC","plasma","MPIIB.0994","training","SET1","MPIIB.0994","minus1","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.7783","MRC_10_donor4","MRC_10","control",29,"F","M18",6,"MRC","plasma","MPIIB.7783","training","SET1","MPIIB.7783","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.6236","MRC_28_donor1","MRC_28","case",21,"F","BL",22,"MRC","plasma","MPIIB.6236","training","SET1","MPIIB.6236","minus2","case","MRC.case","No","N.a.","N.a.",8
+"MPIIB.9583","MRC_28_donor1","MRC_28","case",21,"F","M06",16,"MRC","plasma","MPIIB.9583","training","SET1","MPIIB.9583","minus1","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.6652","MRC_28_donor1","MRC_28","case",21,"F","M18",4,"MRC","plasma","MPIIB.6652","training","SET1","MPIIB.6652","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.4096","MRC_28_donor3","MRC_28","control",20,"F","BL",22,"MRC","plasma","MPIIB.4096","training","SET1","MPIIB.4096","minus2","control","MRC.control","No","N.a.","N.a.",16
+"MPIIB.6042","MRC_28_donor3","MRC_28","control",20,"F","M06",16,"MRC","plasma","MPIIB.6042","training","SET1","MPIIB.6042","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.1697","MRC_28_donor3","MRC_28","control",20,"F","M18",4,"MRC","plasma","MPIIB.1697","training","SET1","MPIIB.1697","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.2196","MRC_28_donor4","MRC_28","control",20,"F","BL",22,"MRC","plasma","MPIIB.2196","training","SET1","MPIIB.2196","minus2","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.8313","MRC_28_donor4","MRC_28","control",20,"F","M06",16,"MRC","plasma","MPIIB.8313","training","SET1","MPIIB.8313","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.0830","MRC_28_donor4","MRC_28","control",20,"F","M18",4,"MRC","plasma","MPIIB.0830","training","SET1","MPIIB.0830","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.9198","MRC_28_donor2","MRC_28","control",21,"F","BL",22,"MRC","plasma","MPIIB.9198","training","SET1","MPIIB.9198","minus2","control","MRC.control","No","N.a.","N.a.",18
+"MPIIB.8682","MRC_28_donor2","MRC_28","control",21,"F","M06",16,"MRC","plasma","MPIIB.8682","training","SET1","MPIIB.8682","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3579","MRC_28_donor2","MRC_28","control",21,"F","M18",4,"MRC","plasma","MPIIB.3579","training","SET1","MPIIB.3579","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.9278","MRC_01_donor2","MRC_01","case",22,"M","BL",3,"MRC","plasma","MPIIB.9278","training","SET1","MPIIB.9278","last","case","MRC.case","No","N.a.","N.a.",20
+"MPIIB.8067","MRC_01_donor3","MRC_01","control",19,"M","BL",3,"MRC","plasma","MPIIB.8067","training","SET1","MPIIB.8067","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.9513","MRC_01_donor1","MRC_01","control",18,"M","BL",3,"MRC","plasma","MPIIB.9513","training","SET1","MPIIB.9513","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.7201","MRC_01_donor4","MRC_01","control",18,"M","BL",3,"MRC","plasma","MPIIB.7201","training","SET1","MPIIB.7201","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.4523","MRC_21_donor3","MRC_21","case",22,"F","BL",7,"MRC","plasma","MPIIB.4523","training","SET1","MPIIB.4523","minus1","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.0146","MRC_21_donor3","MRC_21","case",22,"F","M06",1,"MRC","plasma","MPIIB.0146","training","SET1","MPIIB.0146","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.0929","MRC_21_donor1","MRC_21","control",24,"F","BL",7,"MRC","plasma","MPIIB.0929","training","SET1","MPIIB.0929","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.4182","MRC_21_donor1","MRC_21","control",24,"F","M06",1,"MRC","plasma","MPIIB.4182","training","SET1","MPIIB.4182","last","control","MRC.control","No","N.a.","N.a.",20
+"MPIIB.8822","MRC_21_donor2","MRC_21","control",23,"F","BL",7,"MRC","plasma","MPIIB.8822","training","SET1","MPIIB.8822","minus1","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.1815","MRC_21_donor2","MRC_21","control",23,"F","M06",1,"MRC","plasma","MPIIB.1815","training","SET1","MPIIB.1815","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.7923","MRC_21_donor4","MRC_21","control",21,"F","BL",7,"MRC","plasma","MPIIB.7923","training","SET1","MPIIB.7923","minus1","control","MRC.control","No","N.a.","N.a.",9
+"MPIIB.3907","MRC_21_donor4","MRC_21","control",21,"F","M06",1,"MRC","plasma","MPIIB.3907","training","SET1","MPIIB.3907","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.3267","SUN_18_donor4","SUN_18","case",53,"M","BL",5,"SUN","plasma","MPIIB.3267","training","SET1","MPIIB.3267","last","case","SUN.case","Yes","> 10",NA,22
+"MPIIB.0746","SUN_18_donor2","SUN_18","control",40,"M","BL",5,"SUN","plasma","MPIIB.0746","training","SET1","MPIIB.0746","last","control","SUN.control","Yes","6-10",NA,15
+"MPIIB.8354","SUN_18_donor1","SUN_18","control",53,"M","BL",5,"SUN","plasma","MPIIB.8354","training","SET1","MPIIB.8354","last","control","SUN.control","Yes","1-5",NA,0
+"MPIIB.2338","SUN_18_donor3","SUN_18","control",49,"M","BL",5,"SUN","plasma","MPIIB.2338","training","SET1","MPIIB.2338","last","control","SUN.control","Yes","6-10",NA,24
+"MPIIB.3626","SUN_06_donor2","SUN_06","case",25,"M","BL",4,"SUN","plasma","MPIIB.3626","training","SET1","MPIIB.3626","last","case","SUN.case","Yes","6-10",NA,28
+"MPIIB.1135","SUN_06_donor5","SUN_06","control",19,"M","BL",4,"SUN","plasma","MPIIB.1135","training","SET1","MPIIB.1135","last","control","SUN.control","No","N.a.","N.a.",0
+"MPIIB.6539","SUN_06_donor1","SUN_06","control",21,"M","BL",4,"SUN","plasma","MPIIB.6539","training","SET1","MPIIB.6539","last","control","SUN.control","Yes","1-5",NA,25
+"MPIIB.1327","SUN_35_donor1","SUN_35","case",24,"F","BL",17,"SUN","plasma","MPIIB.1327","training","SET1","MPIIB.1327","minus1","case","SUN.case","> 6M","6-10",NA,22
+"MPIIB.7563","SUN_35_donor2","SUN_35","control",23,"F","BL",17,"SUN","plasma","MPIIB.7563","training","SET1","MPIIB.7563","minus1","control","SUN.control","Yes","1-5",NA,22
+"MPIIB.2853","SUN_35_donor5","SUN_35","control",18,"F","BL",17,"SUN","plasma","MPIIB.2853","training","SET1","MPIIB.2853","last","control","SUN.control","Yes","1-5",NA,18
+"MPIIB.2575","SUN_35_donor3","SUN_35","control",24,"F","BL",17,"SUN","plasma","MPIIB.2575","training","SET1","MPIIB.2575","minus1","control","SUN.control","Yes","1-5",NA,22
+"MPIIB.0316","SUN_38_donor4","SUN_38","case",30,"F","BL",5,"SUN","plasma","MPIIB.0316","training","SET1","MPIIB.0316","last","case","SUN.case","Yes","6-10",NA,18
+"MPIIB.2772","SUN_38_donor1","SUN_38","control",31,"F","BL",5,"SUN","plasma","MPIIB.2772","training","SET1","MPIIB.2772","last","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.5094","SUN_29_donor1","SUN_29","case",16,"F","BL",23,"SUN","plasma","MPIIB.5094","training","SET1","MPIIB.5094","minus2","case","SUN.case","Yes","> 10",NA,19
+"MPIIB.0202","SUN_29_donor3","SUN_29","control",14,"F","BL",23,"SUN","plasma","MPIIB.0202","training","SET1","MPIIB.0202","minus2","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.4628","SUN_29_donor2","SUN_29","control",15,"F","BL",23,"SUN","plasma","MPIIB.4628","training","SET1","MPIIB.4628","minus2","control","SUN.control","Yes","1-5",NA,17
+"MPIIB.2006","SUN_29_donor5","SUN_29","control",16,"F","BL",23,"SUN","plasma","MPIIB.2006","training","SET1","MPIIB.2006","minus2","control","SUN.control","No","N.a.","N.a.",10
+"MPIIB.3432","SUN_29_donor4","SUN_29","control",11,"F","BL",23,"SUN","plasma","MPIIB.3432","training","SET1","MPIIB.3432","minus1","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.7324","SUN_21_donor5","SUN_21","case",47,"F","BL",17,"SUN","plasma","MPIIB.7324","training","SET1","MPIIB.7324","minus1","case","SUN.case","Yes","1-5",NA,25
+"MPIIB.0364","SUN_21_donor4","SUN_21","control",55,"F","BL",17,"SUN","plasma","MPIIB.0364","training","SET1","MPIIB.0364","minus1","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.0932","SUN_21_donor1","SUN_21","control",48,"F","BL",17,"SUN","plasma","MPIIB.0932","training","SET1","MPIIB.0932","minus1","control","SUN.control","Yes","> 10",NA,29
+"MPIIB.9172","SUN_21_donor3","SUN_21","control",52,"F","BL",17,"SUN","plasma","MPIIB.9172","training","SET1","MPIIB.9172","last","control","SUN.control","Yes",NA,NA,18
+"MPIIB.9690","SUN_10_donor1","SUN_10","case",27,"M","BL",6,"SUN","plasma","MPIIB.9690","training","SET1","MPIIB.9690","last","case","SUN.case","No","N.a.","N.a.",11
+"MPIIB.9687","SUN_10_donor6","SUN_10","control",25,"M","BL",6,"SUN","plasma","MPIIB.9687","training","SET1","MPIIB.9687","last","control","SUN.control","Yes","6-10",NA,0
+"MPIIB.6062","SUN_10_donor2","SUN_10","control",30,"M","BL",6,"SUN","plasma","MPIIB.6062","training","SET1","MPIIB.6062","last","control","SUN.control","Yes","6-10",NA,18
+"MPIIB.2389","SUN_34_donor1","SUN_34","case",14,"F","BL",17,"SUN","plasma","MPIIB.2389","training","SET1","MPIIB.2389","minus1","case","SUN.case","No","N.a.","N.a.",16
+"MPIIB.2624","SUN_34_donor3","SUN_34","control",11,"F","BL",17,"SUN","plasma","MPIIB.2624","training","SET1","MPIIB.2624","minus1","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.6451","SUN_08_donor5","SUN_08","case",19,"F","BL",23,"SUN","plasma","MPIIB.6451","training","SET1","MPIIB.6451","minus2","case","SUN.case","Yes","1-5",NA,18
+"MPIIB.3935","SUN_08_donor4","SUN_08","control",21,"F","BL",23,"SUN","plasma","MPIIB.3935","training","SET1","MPIIB.3935","minus2","control","SUN.control","> 6M","1-5",NA,14
+"MPIIB.8928","SUN_07_donor1","SUN_07","case",22,"M","BL",17,"SUN","plasma","MPIIB.8928","training","SET1","MPIIB.8928","minus1","case","SUN.case","Yes","1-5",NA,18
+"MPIIB.9304","SUN_07_donor3","SUN_07","control",21,"M","BL",17,"SUN","plasma","MPIIB.9304","training","SET1","MPIIB.9304","minus1","control","SUN.control","Yes","6-10",NA,20
+"MPIIB.4979","SUN_07_donor2","SUN_07","control",22,"M","BL",17,"SUN","plasma","MPIIB.4979","training","SET1","MPIIB.4979","minus1","control","SUN.control","Yes","6-10",NA,20
+"MPIIB.0371","SUN_23_donor2","SUN_23","case",60,"M","BL",5,"SUN","serum","MPIIB.0371","training","SET2","MPIIB.0371","last","case","SUN.case","Yes","> 10",NA,20
+"MPIIB.3771","SUN_23_donor1","SUN_23","control",48,"M","BL",5,"SUN","serum","MPIIB.3771","training","SET2","MPIIB.3771","last","control","SUN.control","Yes","6-10",NA,40
+"MPIIB.3454","SUN_23_donor3","SUN_23","control",49,"M","BL",5,"SUN","serum","MPIIB.3454","training","SET2","MPIIB.3454","last","control","SUN.control","Yes","> 10",NA,35
+"MPIIB.4983","SUN_23_donor4","SUN_23","control",40,"M","BL",5,"SUN","serum","MPIIB.4983","training","SET2","MPIIB.4983","last","control","SUN.control","Yes","> 10",NA,27
+"MPIIB.4288","SUN_33_donor1","SUN_33","case",52,"M","BL",17,"SUN","serum","MPIIB.4288","training","SET2","MPIIB.4288","minus1","case","SUN.case","> 6M","> 10",NA,20
+"MPIIB.1144","SUN_33_donor1","SUN_33","case",52,"M","M06",11,"SUN","serum","MPIIB.1144","training","SET2","MPIIB.1144","last","case","SUN.case","> 6M","> 10",NA,-99
+"MPIIB.9696","SUN_33_donor4","SUN_33","control",57,"M","BL",17,"SUN","serum","MPIIB.9696","training","SET2","MPIIB.9696","minus1","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.5590","SUN_33_donor4","SUN_33","control",57,"M","M06",11,"SUN","serum","MPIIB.5590","training","SET2","MPIIB.5590","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3059","SUN_33_donor3","SUN_33","control",46,"M","BL",17,"SUN","serum","MPIIB.3059","training","SET2","MPIIB.3059","minus1","control","SUN.control","Yes","> 10",NA,23
+"MPIIB.6204","SUN_33_donor3","SUN_33","control",46,"M","M06",11,"SUN","serum","MPIIB.6204","training","SET2","MPIIB.6204","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.3914","SUN_33_donor2","SUN_33","control",27,"M","BL",17,"SUN","serum","MPIIB.3914","training","SET2","MPIIB.3914","minus1","control","SUN.control","Yes","1-5",NA,16
+"MPIIB.0161","SUN_33_donor2","SUN_33","control",27,"M","M06",11,"SUN","serum","MPIIB.0161","training","SET2","MPIIB.0161","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.7704","SUN_09_donor2","SUN_09","case",15,"F","BL",5,"SUN","serum","MPIIB.7704","training","SET2","MPIIB.7704","last","case","SUN.case","No","N.a.","N.a.",25
+"MPIIB.8009","SUN_09_donor3","SUN_09","control",13,"F","BL",5,"SUN","serum","MPIIB.8009","training","SET2","MPIIB.8009","last","control","SUN.control","No","N.a.","N.a.",30
+"MPIIB.5219","SUN_09_donor1","SUN_09","control",14,"F","BL",5,"SUN","serum","MPIIB.5219","training","SET2","MPIIB.5219","last","control","SUN.control","No","N.a.","N.a.",23
+"MPIIB.9243","SUN_09_donor4","SUN_09","control",15,"F","BL",5,"SUN","serum","MPIIB.9243","training","SET2","MPIIB.9243","last","control","SUN.control","No","N.a.","N.a.",25
+"MPIIB.9227","MRC_26_donor3","MRC_26","case",34,"M","BL",14,"MRC","plasma","MPIIB.9227","training","SET2","MPIIB.9227","minus1","case","MRC.case",NA,NA,NA,-99
+"MPIIB.5715","MRC_26_donor3","MRC_26","case",34,"M","M06",8,"MRC","plasma","MPIIB.5715","training","SET2","MPIIB.5715","last","case","MRC.case",NA,NA,NA,-99
+"MPIIB.2621","MRC_26_donor1","MRC_26","control",34,"M","BL",14,"MRC","plasma","MPIIB.2621","training","SET2","MPIIB.2621","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.5304","MRC_26_donor1","MRC_26","control",34,"M","M06",8,"MRC","plasma","MPIIB.5304","training","SET2","MPIIB.5304","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.3471","MRC_26_donor2","MRC_26","control",28,"M","BL",14,"MRC","plasma","MPIIB.3471","training","SET2","MPIIB.3471","minus1","control","MRC.control","No","N.a.","N.a.",15
+"MPIIB.4850","MRC_26_donor2","MRC_26","control",28,"M","M06",8,"MRC","plasma","MPIIB.4850","training","SET2","MPIIB.4850","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3592","MRC_26_donor5","MRC_26","control",30,"M","BL",14,"MRC","plasma","MPIIB.3592","training","SET2","MPIIB.3592","last","control","MRC.control","Yes","6-10","1-5",15
+"MPIIB.5369","MRC_26_donor4","MRC_26","control",27,"M","M06",8,"MRC","plasma","MPIIB.5369","training","SET2","MPIIB.5369","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.9357","MRC_30_donor3","MRC_30","case",52,"M","BL",18,"MRC","plasma","MPIIB.9357","training","SET2","MPIIB.9357","minus1","case","MRC.case",NA,NA,NA,0
+"MPIIB.6090","MRC_30_donor3","MRC_30","case",52,"M","M06",12,"MRC","plasma","MPIIB.6090","training","SET2","MPIIB.6090","last","case","MRC.case",NA,NA,NA,-99
+"MPIIB.1599","MRC_30_donor2","MRC_30","control",39,"M","BL",18,"MRC","plasma","MPIIB.1599","training","SET2","MPIIB.1599","minus1","control","MRC.control",NA,NA,NA,12
+"MPIIB.0045","MRC_30_donor2","MRC_30","control",39,"M","M06",12,"MRC","plasma","MPIIB.0045","training","SET2","MPIIB.0045","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.6239","MRC_30_donor1","MRC_30","control",41,"M","BL",18,"MRC","plasma","MPIIB.6239","training","SET2","MPIIB.6239","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.0393","MRC_30_donor1","MRC_30","control",41,"M","M06",12,"MRC","plasma","MPIIB.0393","training","SET2","MPIIB.0393","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.3625","MRC_33_donor2","MRC_33","case",17,"M","BL",19,"MRC","plasma","MPIIB.3625","training","SET2","MPIIB.3625","minus2","case","MRC.case","Yes","6-10","> 10",12
+"MPIIB.9608","MRC_33_donor2","MRC_33","case",17,"M","M06",13,"MRC","plasma","MPIIB.9608","training","SET2","MPIIB.9608","minus1","case","MRC.case","Yes","6-10","> 10",-99
+"MPIIB.1502","MRC_33_donor2","MRC_33","case",17,"M","M18",1,"MRC","plasma","MPIIB.1502","training","SET2","MPIIB.1502","last","case","MRC.case","Yes","6-10","> 10",-99
+"MPIIB.4873","MRC_33_donor1","MRC_33","control",16,"M","BL",19,"MRC","plasma","MPIIB.4873","training","SET2","MPIIB.4873","minus2","control","MRC.control",NA,NA,NA,0
+"MPIIB.7593","MRC_33_donor1","MRC_33","control",16,"M","M06",13,"MRC","plasma","MPIIB.7593","training","SET2","MPIIB.7593","minus1","control","MRC.control",NA,NA,NA,-99
+"MPIIB.5971","MRC_33_donor1","MRC_33","control",16,"M","M18",1,"MRC","plasma","MPIIB.5971","training","SET2","MPIIB.5971","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.7600","MRC_34_donor4","MRC_34","case",31,"F","BL",15,"MRC","plasma","MPIIB.7600","training","SET2","MPIIB.7600","last","case","MRC.case","No","N.a.","N.a.",14
+"MPIIB.1240","MRC_34_donor2","MRC_34","control",25,"F","BL",15,"MRC","plasma","MPIIB.1240","training","SET2","MPIIB.1240","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.1929","MRC_34_donor1","MRC_34","control",26,"F","BL",15,"MRC","plasma","MPIIB.1929","training","SET2","MPIIB.1929","last","control","MRC.control","No","N.a.","N.a.",18
+"MPIIB.3032","MRC_34_donor3","MRC_34","control",35,"F","BL",15,"MRC","plasma","MPIIB.3032","training","SET2","MPIIB.3032","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.6436","MRC_29_donor4","MRC_29","case",16,"M","BL",7,"MRC","plasma","MPIIB.6436","training","SET2","MPIIB.6436","last","case","MRC.case",NA,NA,NA,0
+"MPIIB.0475","MRC_29_donor2","MRC_29","control",16,"M","BL",7,"MRC","plasma","MPIIB.0475","training","SET2","MPIIB.0475","last","control","MRC.control","Yes","1-5","1-5",14
+"MPIIB.8403","MRC_29_donor3","MRC_29","control",16,"M","BL",7,"MRC","plasma","MPIIB.8403","training","SET2","MPIIB.8403","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.6041","MRC_29_donor1","MRC_29","control",17,"M","BL",7,"MRC","plasma","MPIIB.6041","training","SET2","MPIIB.6041","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.4227","SUN_09_donor2","SUN_09","case",15,"F","BL",5,"SUN","plasma","MPIIB.4227","training","SET2","MPIIB.4227","last","case","SUN.case","No","N.a.","N.a.",25
+"MPIIB.0136","AHRI_07_donor3","AHRI_07","control",35,"F","BL",15,"AHRI","plasma","MPIIB.0136","training","SET3","MPIIB.0136","minus1","control","AHRI.control",NA,NA,NA,9
+"MPIIB.0236","AHRI_09_donor2","AHRI_09","control",18,"M","BL",18,"AHRI","plasma","MPIIB.0236","training","SET3","MPIIB.0236","minus2","control","AHRI.control",NA,NA,NA,20
+"MPIIB.0240","MAK_09_donor5","MAK_09","control",52,"M","M06",10,"MAK","plasma.RPMI","MPIIB.0240","training","SET3","MPIIB.0240","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.0272","AHRI_10_donor4","AHRI_10","control",18,"M","M18",3,"AHRI","plasma","MPIIB.0272","training","SET3","MPIIB.0272","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.0319","MAK_07_donor2","MAK_07","case",23,"F","BL",11,"MAK","serum","MPIIB.0319","training","SET3","MPIIB.0319","last","case","MAK.case","No","N.a.","N.a.",0
+"MPIIB.0368","AHRI_03_donor4","AHRI_03","control",36,"F","M06",1,"AHRI","plasma","MPIIB.0368","training","SET3","MPIIB.0368","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.0523","MAK_05_donor2","MAK_05","control",20,"F","M06",3,"MAK","plasma.RPMI","MPIIB.0523","training","SET3","MPIIB.0523","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.0791","AHRI_09_donor3","AHRI_09","control",22,"M","M06",12,"AHRI","plasma","MPIIB.0791","training","SET3","MPIIB.0791","minus1","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.0829","AHRI_07_donor4","AHRI_07","case",35,"F","M06",9,"AHRI","plasma","MPIIB.0829","training","SET3","MPIIB.0829","last","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.1027","AHRI_11_donor3","AHRI_11","control",21,"M","BL",5,"AHRI","plasma","MPIIB.1027","training","SET3","MPIIB.1027","last","control","AHRI.control",NA,NA,NA,20
+"MPIIB.1124","MAK_09_donor5","MAK_09","control",52,"M","BL",16,"MAK","serum","MPIIB.1124","training","SET3","MPIIB.1124","minus1","control","MAK.control","No","N.a.","N.a.",16
+"MPIIB.1325","MAK_01_donor3","MAK_01","control",35,"F","BL",15,"MAK","serum","MPIIB.1325","training","SET3","MPIIB.1325","last","control","MAK.control","No","N.a.","N.a.",17
+"MPIIB.1368","AHRI_09_donor2","AHRI_09","control",18,"M","M06",12,"AHRI","plasma","MPIIB.1368","training","SET3","MPIIB.1368","minus1","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.1436","MAK_05_donor1","MAK_05","control",17,"F","BL",9,"MAK","serum","MPIIB.1436","training","SET3","MPIIB.1436","minus1","control","MAK.control","No","N.a.","N.a.",17
+"MPIIB.1512","AHRI_09_donor4","AHRI_09","case",20,"M","BL",18,"AHRI","plasma","MPIIB.1512","training","SET3","MPIIB.1512","minus2","case","AHRI.case",NA,NA,NA,9
+"MPIIB.1587","AHRI_09_donor1","AHRI_09","control",18,"M","M18",0,"AHRI","plasma","MPIIB.1587","training","SET3","MPIIB.1587","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.1881","AHRI_08_donor2","AHRI_08","control",24,"F","BL",4,"AHRI","plasma","MPIIB.1881","training","SET3","MPIIB.1881","last","control","AHRI.control",NA,NA,NA,10
+"MPIIB.2072","MAK_06_donor3","MAK_06","case",40,"M","BL",5,"MAK","plasma.RPMI","MPIIB.2072","training","SET3","MPIIB.2072","last","case","MAK.case","No","N.a.","N.a.",16
+"MPIIB.2076","MAK_04_donor1","MAK_04","control",19,"F","BL",11,"MAK","serum","MPIIB.2076","training","SET3","MPIIB.2076","last","control","MAK.control","No","N.a.","N.a.",16
+"MPIIB.2302","MAK_11_donor2","MAK_11","case",32,"F","BL",6,"MAK","serum","MPIIB.2302","training","SET3","MPIIB.2302","last","case","MAK.case","No","N.a.","N.a.",15
+"MPIIB.2304","MAK_04_donor5","MAK_04","control",20,"F","BL",11,"MAK","plasma.RPMI","MPIIB.2304","training","SET3","MPIIB.2304","last","control","MAK.control","No","N.a.","N.a.",11
+"MPIIB.2386","AHRI_07_donor2","AHRI_07","control",32,"F","M06",9,"AHRI","plasma","MPIIB.2386","training","SET3","MPIIB.2386","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.2491","AHRI_09_donor4","AHRI_09","case",20,"M","M18",0,"AHRI","plasma","MPIIB.2491","training","SET3","MPIIB.2491","last","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.2872","MAK_05_donor4","MAK_05","control",18,"F","BL",9,"MAK","plasma.RPMI","MPIIB.2872","training","SET3","MPIIB.2872","minus1","control","MAK.control","No","N.a.","N.a.",10
+"MPIIB.2888","AHRI_10_donor1","AHRI_10","control",22,"M","BL",21,"AHRI","plasma","MPIIB.2888","training","SET3","MPIIB.2888","minus1","control","AHRI.control",NA,NA,NA,11
+"MPIIB.2929","MAK_04_donor4","MAK_04","control",19,"F","BL",11,"MAK","serum","MPIIB.2929","training","SET3","MPIIB.2929","last","control","MAK.control","No","N.a.","N.a.",20
+"MPIIB.2949","MAK_04_donor3","MAK_04","case",18,"F","BL",11,"MAK","plasma.RPMI","MPIIB.2949","training","SET3","MPIIB.2949","last","case","MAK.case","No","N.a.","N.a.",19
+"MPIIB.3072","MAK_05_donor4","MAK_05","control",18,"F","BL",9,"MAK","serum","MPIIB.3072","training","SET3","MPIIB.3072","minus1","control","MAK.control","No","N.a.","N.a.",10
+"MPIIB.3319","MAK_05_donor2","MAK_05","control",20,"F","BL",9,"MAK","plasma.RPMI","MPIIB.3319","training","SET3","MPIIB.3319","minus1","control","MAK.control","No","N.a.","N.a.",18
+"MPIIB.3368","AHRI_07_donor1","AHRI_07","control",30,"F","M06",9,"AHRI","plasma","MPIIB.3368","training","SET3","MPIIB.3368","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.3476","AHRI_10_donor4","AHRI_10","control",18,"M","BL",21,"AHRI","plasma","MPIIB.3476","training","SET3","MPIIB.3476","minus1","control","AHRI.control",NA,NA,NA,10
+"MPIIB.3511","AHRI_07_donor4","AHRI_07","case",35,"F","BL",15,"AHRI","plasma","MPIIB.3511","training","SET3","MPIIB.3511","minus1","case","AHRI.case",NA,NA,NA,2
+"MPIIB.3602","MAK_09_donor4","MAK_09","control",41,"M","BL",16,"MAK","serum","MPIIB.3602","training","SET3","MPIIB.3602","minus1","control","MAK.control","No","N.a.","N.a.",15
+"MPIIB.3768","MAK_05_donor3","MAK_05","control",16,"F","BL",9,"MAK","plasma.RPMI","MPIIB.3768","training","SET3","MPIIB.3768","minus1","control","MAK.control","No","N.a.","N.a.",12
+"MPIIB.3770","MAK_05_donor2","MAK_05","control",20,"F","BL",9,"MAK","serum","MPIIB.3770","training","SET3","MPIIB.3770","minus1","control","MAK.control","No","N.a.","N.a.",18
+"MPIIB.3869","MAK_04_donor2","MAK_04","control",19,"F","BL",11,"MAK","serum","MPIIB.3869","training","SET3","MPIIB.3869","last","control","MAK.control","No","N.a.","N.a.",17
+"MPIIB.3916","MAK_07_donor3","MAK_07","control",22,"F","BL",11,"MAK","serum","MPIIB.3916","training","SET3","MPIIB.3916","last","control","MAK.control","No","N.a.","N.a.",20
+"MPIIB.3978","AHRI_10_donor2","AHRI_10","control",20,"M","BL",21,"AHRI","plasma","MPIIB.3978","training","SET3","MPIIB.3978","minus1","control","AHRI.control",NA,NA,NA,8
+"MPIIB.4027","AHRI_06_donor1","AHRI_06","control",19,"F","BL",14,"AHRI","plasma","MPIIB.4027","training","SET3","MPIIB.4027","minus1","control","AHRI.control",NA,NA,NA,0
+"MPIIB.4138","MAK_05_donor5","MAK_05","case",15,"F","M06",3,"MAK","plasma.RPMI","MPIIB.4138","training","SET3","MPIIB.4138","last","case","MAK.case","No","N.a.","N.a.",-99
+"MPIIB.4243","MAK_09_donor1","MAK_09","control",46,"M","M06",10,"MAK","plasma.RPMI","MPIIB.4243","training","SET3","MPIIB.4243","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.4312","MAK_05_donor1","MAK_05","control",17,"F","M06",3,"MAK","plasma.RPMI","MPIIB.4312","training","SET3","MPIIB.4312","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.4380","MAK_06_donor2","MAK_06","control",46,"M","BL",5,"MAK","plasma.RPMI","MPIIB.4380","training","SET3","MPIIB.4380","last","control","MAK.control","No","N.a.","N.a.",19
+"MPIIB.4420","AHRI_08_donor3","AHRI_08","control",50,"F","BL",4,"AHRI","plasma","MPIIB.4420","training","SET3","MPIIB.4420","last","control","AHRI.control",NA,NA,NA,11
+"MPIIB.4615","AHRI_11_donor2","AHRI_11","case",18,"M","BL",5,"AHRI","plasma","MPIIB.4615","training","SET3","MPIIB.4615","last","case","AHRI.case",NA,NA,NA,21
+"MPIIB.4622","AHRI_04_donor1","AHRI_04","case",25,"F","BL",12,"AHRI","plasma","MPIIB.4622","training","SET3","MPIIB.4622","last","case","AHRI.case",NA,NA,NA,0
+"MPIIB.4670","AHRI_04_donor3","AHRI_04","control",50,"F","BL",12,"AHRI","plasma","MPIIB.4670","training","SET3","MPIIB.4670","last","control","AHRI.control",NA,NA,NA,12
+"MPIIB.4755","MAK_05_donor1","MAK_05","control",17,"F","BL",9,"MAK","plasma.RPMI","MPIIB.4755","training","SET3","MPIIB.4755","minus1","control","MAK.control","No","N.a.","N.a.",17
+"MPIIB.4851","MAK_01_donor1","MAK_01","case",18,"F","BL",15,"MAK","serum","MPIIB.4851","training","SET3","MPIIB.4851","last","case","MAK.case","No","N.a.","N.a.",18
+"MPIIB.4965","AHRI_09_donor3","AHRI_09","control",22,"M","BL",18,"AHRI","plasma","MPIIB.4965","training","SET3","MPIIB.4965","minus2","control","AHRI.control",NA,NA,NA,25
+"MPIIB.4981","MAK_05_donor4","MAK_05","control",18,"F","M06",3,"MAK","plasma.RPMI","MPIIB.4981","training","SET3","MPIIB.4981","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.5177","AHRI_03_donor1","AHRI_03","control",30,"F","M06",1,"AHRI","plasma","MPIIB.5177","training","SET3","MPIIB.5177","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.5438","AHRI_07_donor3","AHRI_07","control",35,"F","M06",9,"AHRI","plasma","MPIIB.5438","training","SET3","MPIIB.5438","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.5459","MAK_07_donor4","MAK_07","control",23,"F","BL",11,"MAK","serum","MPIIB.5459","training","SET3","MPIIB.5459","last","control","MAK.control","No","N.a.","N.a.",26
+"MPIIB.5470","MAK_09_donor3","MAK_09","case",52,"M","BL",16,"MAK","serum","MPIIB.5470","training","SET3","MPIIB.5470","minus1","case","MAK.case","No","N.a.","N.a.",22
+"MPIIB.5539","AHRI_07_donor1","AHRI_07","control",30,"F","BL",15,"AHRI","plasma","MPIIB.5539","training","SET3","MPIIB.5539","minus1","control","AHRI.control",NA,NA,NA,10
+"MPIIB.5681","AHRI_11_donor1","AHRI_11","control",18,"M","BL",5,"AHRI","plasma","MPIIB.5681","training","SET3","MPIIB.5681","last","control","AHRI.control",NA,NA,NA,0
+"MPIIB.5834","AHRI_03_donor2","AHRI_03","control",27,"F","M06",1,"AHRI","plasma","MPIIB.5834","training","SET3","MPIIB.5834","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.5872","AHRI_10_donor3","AHRI_10","case",19,"M","M18",3,"AHRI","plasma","MPIIB.5872","training","SET3","MPIIB.5872","last","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.5969","MAK_09_donor2","MAK_09","control",47,"M","BL",16,"MAK","plasma.RPMI","MPIIB.5969","training","SET3","MPIIB.5969","minus1","control","MAK.control","No","N.a.","N.a.",15
+"MPIIB.5999","MAK_04_donor5","MAK_04","control",20,"F","BL",11,"MAK","serum","MPIIB.5999","training","SET3","MPIIB.5999","last","control","MAK.control","No","N.a.","N.a.",11
+"MPIIB.6037","MAK_09_donor4","MAK_09","control",41,"M","BL",16,"MAK","plasma.RPMI","MPIIB.6037","training","SET3","MPIIB.6037","minus1","control","MAK.control","No","N.a.","N.a.",15
+"MPIIB.6505","AHRI_09_donor1","AHRI_09","control",18,"M","BL",18,"AHRI","plasma","MPIIB.6505","training","SET3","MPIIB.6505","minus2","control","AHRI.control",NA,NA,NA,35
+"MPIIB.6594","AHRI_09_donor1","AHRI_09","control",18,"M","M06",12,"AHRI","plasma","MPIIB.6594","training","SET3","MPIIB.6594","minus1","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.6768","AHRI_06_donor2","AHRI_06","control",42,"F","BL",14,"AHRI","plasma","MPIIB.6768","training","SET3","MPIIB.6768","minus1","control","AHRI.control",NA,NA,NA,13
+"MPIIB.6948","MAK_11_donor1","MAK_11","control",28,"F","BL",6,"MAK","serum","MPIIB.6948","training","SET3","MPIIB.6948","last","control","MAK.control","No","N.a.","N.a.",15
+"MPIIB.7043","AHRI_09_donor2","AHRI_09","control",18,"M","M18",0,"AHRI","plasma","MPIIB.7043","training","SET3","MPIIB.7043","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.7049","MAK_09_donor2","MAK_09","control",47,"M","M06",10,"MAK","plasma.RPMI","MPIIB.7049","training","SET3","MPIIB.7049","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.7078","AHRI_09_donor3","AHRI_09","control",22,"M","M18",0,"AHRI","plasma","MPIIB.7078","training","SET3","MPIIB.7078","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.7092","MAK_04_donor3","MAK_04","case",18,"F","BL",11,"MAK","serum","MPIIB.7092","training","SET3","MPIIB.7092","last","case","MAK.case","No","N.a.","N.a.",19
+"MPIIB.7138","MAK_05_donor5","MAK_05","case",15,"F","BL",9,"MAK","plasma.RPMI","MPIIB.7138","training","SET3","MPIIB.7138","minus1","case","MAK.case","No","N.a.","N.a.",14
+"MPIIB.7191","AHRI_08_donor4","AHRI_08","control",40,"F","BL",4,"AHRI","plasma","MPIIB.7191","training","SET3","MPIIB.7191","last","control","AHRI.control",NA,NA,NA,0
+"MPIIB.7210","AHRI_04_donor2","AHRI_04","control",29,"F","BL",12,"AHRI","plasma","MPIIB.7210","training","SET3","MPIIB.7210","last","control","AHRI.control",NA,NA,NA,11
+"MPIIB.7279","AHRI_10_donor1","AHRI_10","control",22,"M","M18",3,"AHRI","plasma","MPIIB.7279","training","SET3","MPIIB.7279","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.7360","MAK_07_donor1","MAK_07","control",23,"F","BL",11,"MAK","serum","MPIIB.7360","training","SET3","MPIIB.7360","last","control","MAK.control","No","N.a.","N.a.",23
+"MPIIB.7374","MAK_09_donor5","MAK_09","control",52,"M","BL",16,"MAK","plasma.RPMI","MPIIB.7374","training","SET3","MPIIB.7374","minus1","control","MAK.control","No","N.a.","N.a.",16
+"MPIIB.7424","MAK_09_donor3","MAK_09","case",52,"M","BL",16,"MAK","plasma.RPMI","MPIIB.7424","training","SET3","MPIIB.7424","minus1","case","MAK.case","No","N.a.","N.a.",22
+"MPIIB.7468","MAK_06_donor5","MAK_06","control",42,"M","BL",5,"MAK","plasma.RPMI","MPIIB.7468","training","SET3","MPIIB.7468","last","control","MAK.control","No","N.a.","N.a.",10
+"MPIIB.7491","AHRI_07_donor2","AHRI_07","control",32,"F","BL",15,"AHRI","plasma","MPIIB.7491","training","SET3","MPIIB.7491","minus1","control","AHRI.control",NA,NA,NA,5
+"MPIIB.7717","MAK_04_donor4","MAK_04","control",19,"F","BL",11,"MAK","plasma.RPMI","MPIIB.7717","training","SET3","MPIIB.7717","last","control","MAK.control","No","N.a.","N.a.",20
+"MPIIB.7762","MAK_01_donor2","MAK_01","control",25,"F","BL",15,"MAK","serum","MPIIB.7762","training","SET3","MPIIB.7762","last","control","MAK.control","No","N.a.","N.a.",19
+"MPIIB.7831","AHRI_09_donor4","AHRI_09","case",20,"M","M06",12,"AHRI","plasma","MPIIB.7831","training","SET3","MPIIB.7831","minus1","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.7911","AHRI_11_donor4","AHRI_11","control",18,"M","BL",5,"AHRI","plasma","MPIIB.7911","training","SET3","MPIIB.7911","last","control","AHRI.control",NA,NA,NA,14
+"MPIIB.8120","AHRI_06_donor4","AHRI_06","case",21,"F","M06",8,"AHRI","plasma","MPIIB.8120","training","SET3","MPIIB.8120","last","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.8154","MAK_01_donor4","MAK_01","control",27,"F","BL",15,"MAK","serum","MPIIB.8154","training","SET3","MPIIB.8154","last","control","MAK.control","No","N.a.","N.a.",17
+"MPIIB.8316","AHRI_06_donor1","AHRI_06","control",19,"F","M06",8,"AHRI","plasma","MPIIB.8316","training","SET3","MPIIB.8316","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.8510","MAK_06_donor4","MAK_06","control",58,"M","BL",5,"MAK","plasma.RPMI","MPIIB.8510","training","SET3","MPIIB.8510","last","control","MAK.control","Yes","6-10",NA,17
+"MPIIB.8512","MAK_09_donor4","MAK_09","control",41,"M","M06",10,"MAK","plasma.RPMI","MPIIB.8512","training","SET3","MPIIB.8512","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.8608","MAK_05_donor5","MAK_05","case",15,"F","BL",9,"MAK","serum","MPIIB.8608","training","SET3","MPIIB.8608","minus1","case","MAK.case","No","N.a.","N.a.",14
+"MPIIB.8620","AHRI_03_donor3","AHRI_03","case",35,"F","M06",1,"AHRI","plasma","MPIIB.8620","training","SET3","MPIIB.8620","last","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.8708","MAK_09_donor1","MAK_09","control",46,"M","BL",16,"MAK","serum","MPIIB.8708","training","SET3","MPIIB.8708","minus1","control","MAK.control","No","N.a.","N.a.",21
+"MPIIB.8814","MAK_09_donor1","MAK_09","control",46,"M","BL",16,"MAK","plasma.RPMI","MPIIB.8814","training","SET3","MPIIB.8814","minus1","control","MAK.control","No","N.a.","N.a.",21
+"MPIIB.8823","AHRI_06_donor3","AHRI_06","control",22,"F","BL",14,"AHRI","plasma","MPIIB.8823","training","SET3","MPIIB.8823","minus1","control","AHRI.control",NA,NA,NA,5
+"MPIIB.8942","AHRI_06_donor3","AHRI_06","control",22,"F","M06",8,"AHRI","plasma","MPIIB.8942","training","SET3","MPIIB.8942","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.8977","MAK_09_donor2","MAK_09","control",47,"M","BL",16,"MAK","serum","MPIIB.8977","training","SET3","MPIIB.8977","minus1","control","MAK.control","No","N.a.","N.a.",15
+"MPIIB.9121","AHRI_10_donor2","AHRI_10","control",20,"M","M18",3,"AHRI","plasma","MPIIB.9121","training","SET3","MPIIB.9121","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.9162","AHRI_06_donor2","AHRI_06","control",42,"F","M06",8,"AHRI","plasma","MPIIB.9162","training","SET3","MPIIB.9162","last","control","AHRI.control",NA,NA,NA,11
+"MPIIB.9204","AHRI_10_donor3","AHRI_10","case",19,"M","BL",21,"AHRI","plasma","MPIIB.9204","training","SET3","MPIIB.9204","minus1","case","AHRI.case",NA,NA,NA,0
+"MPIIB.9274","AHRI_06_donor4","AHRI_06","case",21,"F","BL",14,"AHRI","plasma","MPIIB.9274","training","SET3","MPIIB.9274","minus1","case","AHRI.case",NA,NA,NA,0
+"MPIIB.9335","AHRI_08_donor1","AHRI_08","case",18,"F","BL",4,"AHRI","plasma","MPIIB.9335","training","SET3","MPIIB.9335","last","case","AHRI.case",NA,NA,NA,0
+"MPIIB.9763","MAK_09_donor3","MAK_09","case",52,"M","M06",10,"MAK","plasma.RPMI","MPIIB.9763","training","SET3","MPIIB.9763","last","case","MAK.case","No","N.a.","N.a.",-99
+"MPIIB.9787","MAK_05_donor3","MAK_05","control",16,"F","BL",9,"MAK","serum","MPIIB.9787","training","SET3","MPIIB.9787","minus1","control","MAK.control","No","N.a.","N.a.",12
+"MPIIB.9818","MAK_05_donor3","MAK_05","control",16,"F","M06",3,"MAK","plasma.RPMI","MPIIB.9818","training","SET3","MPIIB.9818","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.9939","MAK_01_donor5","MAK_01","control",29,"F","BL",15,"MAK","serum","MPIIB.9939","training","SET3","MPIIB.9939","last","control","MAK.control","No","N.a.","N.a.",17
+"MPIIB.0013","AHRI_12_donor1","AHRI_12","control",46,"F","BL",15,"AHRI","plasma","MPIIB.0013","test","SET4","MPIIB.0013","minus1","control","AHRI.control",NA,NA,NA,9
+"MPIIB.0120","MAK_03_donor3","MAK_03","control",27,"M","BL",3,"MAK","serum","MPIIB.0120","test","SET4","MPIIB.0120","last","control","MAK.control","No","N.a.","N.a.",18
+"MPIIB.0166","SUN_32_donor3","SUN_32","control",27,"M","BL",6,"SUN","serum","MPIIB.0166","test","SET4","MPIIB.0166","minus1","control","SUN.control","No","N.a.","N.a.",22
+"MPIIB.0252","MRC_32_donor7","MRC_32","control",16,"M","BL",21,"MRC","plasma","MPIIB.0252","test","SET4","MPIIB.0252","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.0273","SUN_31_donor4","SUN_31","control",12,"M","BL",7,"SUN","serum","MPIIB.0273","test","SET4","MPIIB.0273","minus1","control","SUN.control","No","N.a.","N.a.",10
+"MPIIB.0315","SUN_04_donor2","SUN_04","case",21,"F","BL",11,"SUN","serum","MPIIB.0315","test","SET4","MPIIB.0315","minus1","case","SUN.case","Yes","> 10",NA,23
+"MPIIB.0340","AHRI_02_donor1","AHRI_02","control",23,"M","BL",7,"AHRI","plasma","MPIIB.0340","test","SET4","MPIIB.0340","minus1","control","AHRI.control",NA,NA,NA,0
+"MPIIB.0358","SUN_30_donor3","SUN_30","control",21,"M","M06",11,"SUN","serum","MPIIB.0358","test","SET4","MPIIB.0358","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.0511","SUN_12_donor1","SUN_12","control",45,"F","BL",17,"SUN","serum","MPIIB.0511","test","SET4","MPIIB.0511","minus1","control","SUN.control","No","N.a.","N.a.",56
+"MPIIB.0556","MRC_11_donor1","MRC_11","control",30,"F","BL",3.5,"MRC","plasma","MPIIB.0556","test","SET4","MPIIB.0556","last","control","MRC.control","No","N.a.","N.a.",19
+"MPIIB.0560","MAK_03_donor4","MAK_03","control",32,"M","BL",3,"MAK","plasma.RPMI","MPIIB.0560","test","SET4","MPIIB.0560","last","control","MAK.control","No","N.a.","N.a.",22
+"MPIIB.0626","SUN_24_donor1","SUN_24","control",19,"F","M06",11,"SUN","serum","MPIIB.0626","test","SET4","MPIIB.0626","last","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.0634","SUN_13_donor2","SUN_13","control",56,"F","M06",0,"SUN","serum","MPIIB.0634","test","SET4","MPIIB.0634","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.0637","SUN_21_donor2","SUN_21","control",53,"F","M06",11,"SUN","serum","MPIIB.0637","test","SET4","MPIIB.0637","last","control","SUN.control","No","N.a.","N.a.",25
+"MPIIB.0644","MRC_18_donor5","MRC_18","case",23,"M","M18",3,"MRC","plasma","MPIIB.0644","test","SET4","MPIIB.0644","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.0898","MAK_10_donor2","MAK_10","case",18,"M","M06",1,"MAK","plasma.RPMI","MPIIB.0898","test","SET4","MPIIB.0898","last","case","MAK.case","No","N.a.","N.a.",15
+"MPIIB.0899","SUN_06_donor3","SUN_06","control",19,"M","BL",4,"SUN","plasma","MPIIB.0899","test","SET4","MPIIB.0899","last","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.0902","SUN_21_donor2","SUN_21","control",53,"F","BL",17,"SUN","serum","MPIIB.0902","test","SET4","MPIIB.0902","minus1","control","SUN.control","No","N.a.","N.a.",23
+"MPIIB.0943","SUN_12_donor4","SUN_12","control",51,"F","BL",17,"SUN","serum","MPIIB.0943","test","SET4","MPIIB.0943","minus1","control","SUN.control","Yes","> 10",NA,22
+"MPIIB.0974","MRC_19_donor4","MRC_19","control",23,"F","BL",19,"MRC","plasma","MPIIB.0974","test","SET4","MPIIB.0974","minus1","control","MRC.control","No","N.a.","N.a.",22
+"MPIIB.0999","MAK_08_donor2","MAK_08","case",40,"M","BL",5,"MAK","serum","MPIIB.0999","test","SET4","MPIIB.0999","last","case","MAK.case","No","N.a.","N.a.",0
+"MPIIB.1003","SUN_26_donor2","SUN_26","control",30,"M","BL",10,"SUN","serum","MPIIB.1003","test","SET4","MPIIB.1003","last","control","SUN.control","Yes","> 10",NA,25
+"MPIIB.1012","SUN_24_donor1","SUN_24","control",19,"F","BL",17,"SUN","serum","MPIIB.1012","test","SET4","MPIIB.1012","minus1","control","SUN.control","Yes","6-10",NA,16
+"MPIIB.1049","SUN_13_donor1","SUN_13","control",52,"F","M06",0,"SUN","serum","MPIIB.1049","test","SET4","MPIIB.1049","last","control","SUN.control","Yes","6-10",NA,-99
+"MPIIB.1198","SUN_19_donor1","SUN_19","case",15,"M","BL",5,"SUN","serum","MPIIB.1198","test","SET4","MPIIB.1198","last","case","SUN.case","Yes","1-5",NA,18
+"MPIIB.1246","MRC_08_donor2","MRC_08","control",30,"M","BL",11,"MRC","plasma","MPIIB.1246","test","SET4","MPIIB.1246","last","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.1253","MRC_18_donor5","MRC_18","case",23,"M","M06",15,"MRC","plasma","MPIIB.1253","test","SET4","MPIIB.1253","minus1","case","MRC.case","No","N.a.","N.a.",20
+"MPIIB.1340","MRC_17_donor4","MRC_17","control",22,"F","M06",1,"MRC","plasma","MPIIB.1340","test","SET4","MPIIB.1340","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.1415","MRC_08_donor3","MRC_08","case",22,"M","BL",11,"MRC","plasma","MPIIB.1415","test","SET4","MPIIB.1415","last","case","MRC.case","No","N.a.","N.a.",10
+"MPIIB.1425","MAK_03_donor4","MAK_03","control",32,"M","BL",3,"MAK","serum","MPIIB.1425","test","SET4","MPIIB.1425","last","control","MAK.control","No","N.a.","N.a.",22
+"MPIIB.1530","SUN_04_donor3","SUN_04","control",24,"F","BL",11,"SUN","serum","MPIIB.1530","test","SET4","MPIIB.1530","minus1","control","SUN.control","No","N.a.","N.a.",21
+"MPIIB.1533","MRC_06_donor1","MRC_06","control",18,"F","M06",0,"MRC","plasma","MPIIB.1533","test","SET4","MPIIB.1533","last","control","MRC.control","No","N.a.","N.a.",19
+"MPIIB.1585","SUN_32_donor1","SUN_32","case",31,"M","M06",0,"SUN","serum","MPIIB.1585","test","SET4","MPIIB.1585","last","case","SUN.case","Yes","6-10",NA,-99
+"MPIIB.1590","SUN_13_donor4","SUN_13","case",45,"F","M06",0,"SUN","serum","MPIIB.1590","test","SET4","MPIIB.1590","last","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.1659","SUN_27_donor3","SUN_27","control",15,"M","M06",11,"SUN","serum","MPIIB.1659","test","SET4","MPIIB.1659","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.1705","MRC_31_donor1","MRC_31","control",36,"F","M06",6,"MRC","plasma","MPIIB.1705","test","SET4","MPIIB.1705","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.1771","MRC_20_donor4","MRC_20","control",39,"F","BL",3,"MRC","plasma","MPIIB.1771","test","SET4","MPIIB.1771","last","control","MRC.control","No","N.a.","N.a.",18
+"MPIIB.1796","SUN_05_donor1","SUN_05","case",43,"M","BL",23,"SUN","serum","MPIIB.1796","test","SET4","MPIIB.1796","minus1","case","SUN.case","Yes","> 10",NA,12
+"MPIIB.1840","MRC_31_donor4","MRC_31","case",32,"F","BL",12,"MRC","plasma","MPIIB.1840","test","SET4","MPIIB.1840","last","case","MRC.case","No","N.a.","N.a.",28
+"MPIIB.1844","AHRI_01_donor4","AHRI_01","case",30,"F","M06",2,"AHRI","plasma","MPIIB.1844","test","SET4","MPIIB.1844","last","case","AHRI.case",NA,NA,NA,15
+"MPIIB.1913","MRC_19_donor3","MRC_19","control",23,"F","M06",13,"MRC","plasma","MPIIB.1913","test","SET4","MPIIB.1913","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.1949","SUN_12_donor1","SUN_12","control",45,"F","M06",11,"SUN","serum","MPIIB.1949","test","SET4","MPIIB.1949","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.1976","MRC_14_donor1","MRC_14","control",24,"M","M18",6,"MRC","plasma","MPIIB.1976","test","SET4","MPIIB.1976","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.2003","AHRI_02_donor4","AHRI_02","case",25,"M","BL",7,"AHRI","plasma","MPIIB.2003","test","SET4","MPIIB.2003","minus1","case","AHRI.case",NA,NA,NA,8
+"MPIIB.2078","MRC_14_donor1","MRC_14","control",24,"M","M06",18,"MRC","plasma","MPIIB.2078","test","SET4","MPIIB.2078","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.2102","AHRI_05_donor2","AHRI_05","case",26,"F","BL",4,"AHRI","plasma","MPIIB.2102","test","SET4","MPIIB.2102","last","case","AHRI.case",NA,NA,NA,1
+"MPIIB.2265","SUN_10_donor5","SUN_10","control",35,"M","BL",6,"SUN","serum","MPIIB.2265","test","SET4","MPIIB.2265","last","control","SUN.control","No","N.a.","N.a.",18
+"MPIIB.2274","MRC_06_donor3","MRC_06","control",16,"F","BL",6,"MRC","plasma","MPIIB.2274","test","SET4","MPIIB.2274","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.2286","MRC_06_donor3","MRC_06","control",16,"F","M06",0,"MRC","plasma","MPIIB.2286","test","SET4","MPIIB.2286","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.2294","MRC_14_donor4","MRC_14","control",24,"M","M18",6,"MRC","plasma","MPIIB.2294","test","SET4","MPIIB.2294","last","control","MRC.control","Yes","> 10","5-10",-99
+"MPIIB.2305","SUN_12_donor2","SUN_12","control",53,"F","M06",11,"SUN","serum","MPIIB.2305","test","SET4","MPIIB.2305","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.2336","MAK_03_donor1","MAK_03","case",30,"M","BL",3,"MAK","serum","MPIIB.2336","test","SET4","MPIIB.2336","last","case","MAK.case","Yes","> 10",NA,18
+"MPIIB.2408","SUN_31_donor1","SUN_31","control",15,"M","M06",1,"SUN","serum","MPIIB.2408","test","SET4","MPIIB.2408","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.2425","AHRI_12_donor3","AHRI_12","case",20,"F","BL",15,"AHRI","plasma","MPIIB.2425","test","SET4","MPIIB.2425","minus1","case","AHRI.case",NA,NA,NA,16
+"MPIIB.2430","MAK_10_donor1","MAK_10","control",19,"M","BL",7,"MAK","serum","MPIIB.2430","test","SET4","MPIIB.2430","minus1","control","MAK.control","No","N.a.","N.a.",15
+"MPIIB.2508","MRC_06_donor4","MRC_06","case",16,"F","M06",0,"MRC","plasma","MPIIB.2508","test","SET4","MPIIB.2508","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.2562","MRC_18_donor3","MRC_18","control",18,"M","M06",15,"MRC","plasma","MPIIB.2562","test","SET4","MPIIB.2562","minus1","control","MRC.control","No","N.a.","N.a.",20
+"MPIIB.2611","MRC_16_donor1","MRC_16","control",22,"F","BL",4,"MRC","plasma","MPIIB.2611","test","SET4","MPIIB.2611","last","control","MRC.control","No","N.a.","N.a.",11
+"MPIIB.2633","MAK_10_donor3","MAK_10","control",18,"M","BL",7,"MAK","serum","MPIIB.2633","test","SET4","MPIIB.2633","minus1","control","MAK.control","No","N.a.","N.a.",15
+"MPIIB.2677","MRC_19_donor2","MRC_19","case",21,"F","BL",19,"MRC","plasma","MPIIB.2677","test","SET4","MPIIB.2677","minus2","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.2700","MRC_08_donor1","MRC_08","control",21,"M","BL",11,"MRC","plasma","MPIIB.2700","test","SET4","MPIIB.2700","last","control","MRC.control","Yes","6-10","1-5",10
+"MPIIB.2726","MRC_19_donor2","MRC_19","case",21,"F","M06",13,"MRC","plasma","MPIIB.2726","test","SET4","MPIIB.2726","minus1","case","MRC.case","No","N.a.","N.a.",18
+"MPIIB.2819","SUN_39_donor4","SUN_39","control",45,"F","BL",5,"SUN","serum","MPIIB.2819","test","SET4","MPIIB.2819","last","control","SUN.control","> 6M","1-5",NA,22
+"MPIIB.2824","AHRI_12_donor1","AHRI_12","control",46,"F","M06",9,"AHRI","plasma","MPIIB.2824","test","SET4","MPIIB.2824","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.2902","MAK_02_donor1","MAK_02","control",17,"M","BL",3,"MAK","plasma.RPMI","MPIIB.2902","test","SET4","MPIIB.2902","last","control","MAK.control","No","N.a.","N.a.",17
+"MPIIB.2981","MAK_02_donor2","MAK_02","control",17,"M","BL",3,"MAK","plasma.RPMI","MPIIB.2981","test","SET4","MPIIB.2981","last","control","MAK.control","No","N.a.","N.a.",11
+"MPIIB.3018","MRC_18_donor6","MRC_18","control",24,"M","M06",15,"MRC","plasma","MPIIB.3018","test","SET4","MPIIB.3018","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3111","SUN_24_donor2","SUN_24","control",21,"F","M06",11,"SUN","serum","MPIIB.3111","test","SET4","MPIIB.3111","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3112","AHRI_02_donor3","AHRI_02","control",22,"M","M06",1,"AHRI","plasma","MPIIB.3112","test","SET4","MPIIB.3112","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.3337","MRC_14_donor5","MRC_14","control",22,"M","M06",18,"MRC","plasma","MPIIB.3337","test","SET4","MPIIB.3337","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3358","SUN_31_donor4","SUN_31","control",12,"M","M06",1,"SUN","serum","MPIIB.3358","test","SET4","MPIIB.3358","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3365","MAK_08_donor2","MAK_08","case",40,"M","BL",5,"MAK","plasma.RPMI","MPIIB.3365","test","SET4","MPIIB.3365","last","case","MAK.case","No","N.a.","N.a.",0
+"MPIIB.3373","SUN_20_donor3","SUN_20","control",15,"F","BL",4,"SUN","serum","MPIIB.3373","test","SET4","MPIIB.3373","last","control","SUN.control","No","N.a.","N.a.",22
+"MPIIB.3397","MRC_19_donor3","MRC_19","control",23,"F","BL",19,"MRC","plasma","MPIIB.3397","test","SET4","MPIIB.3397","minus2","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.3481","SUN_19_donor2","SUN_19","control",12,"M","BL",5,"SUN","serum","MPIIB.3481","test","SET4","MPIIB.3481","last","control","SUN.control","No","N.a.","N.a.",25
+"MPIIB.3514","MRC_06_donor2","MRC_06","control",16,"F","M06",0,"MRC","plasma","MPIIB.3514","test","SET4","MPIIB.3514","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.3538","MRC_06_donor1","MRC_06","control",18,"F","BL",6,"MRC","plasma","MPIIB.3538","test","SET4","MPIIB.3538","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.3568","AHRI_05_donor3","AHRI_05","control",35,"F","BL",4,"AHRI","plasma","MPIIB.3568","test","SET4","MPIIB.3568","last","control","AHRI.control",NA,NA,NA,10
+"MPIIB.3578","MRC_14_donor2","MRC_14","control",19,"M","M18",6,"MRC","plasma","MPIIB.3578","test","SET4","MPIIB.3578","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3606","SUN_04_donor1","SUN_04","control",18,"F","M06",5,"SUN","serum","MPIIB.3606","test","SET4","MPIIB.3606","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3614","MAK_08_donor1","MAK_08","control",48,"M","BL",5,"MAK","serum","MPIIB.3614","test","SET4","MPIIB.3614","last","control","MAK.control","Yes","1-5",NA,13
+"MPIIB.3660","MAK_03_donor1","MAK_03","case",30,"M","BL",3,"MAK","plasma.RPMI","MPIIB.3660","test","SET4","MPIIB.3660","last","case","MAK.case","Yes","> 10",NA,18
+"MPIIB.3671","SUN_24_donor5","SUN_24","control",19,"F","M06",11,"SUN","serum","MPIIB.3671","test","SET4","MPIIB.3671","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3675","SUN_21_donor2","SUN_21","control",53,"F","BL",17,"SUN","plasma","MPIIB.3675","test","SET4","MPIIB.3675","minus1","control","SUN.control","No","N.a.","N.a.",23
+"MPIIB.3693","SUN_08_donor3","SUN_08","control",21,"F","BL",23,"SUN","serum","MPIIB.3693","test","SET4","MPIIB.3693","minus2","control","SUN.control","No","N.a.","N.a.",28
+"MPIIB.3703","MRC_17_donor2","MRC_17","control",18,"F","BL",7,"MRC","plasma","MPIIB.3703","test","SET4","MPIIB.3703","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.3711","MRC_31_donor2","MRC_31","control",25,"F","BL",12,"MRC","plasma","MPIIB.3711","test","SET4","MPIIB.3711","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.3718","MRC_19_donor5","MRC_19","control",18,"F","M06",13,"MRC","plasma","MPIIB.3718","test","SET4","MPIIB.3718","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.3757","AHRI_12_donor4","AHRI_12","control",18,"F","M06",9,"AHRI","plasma","MPIIB.3757","test","SET4","MPIIB.3757","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.3772","MAK_08_donor5","MAK_08","control",38,"M","BL",5,"MAK","plasma.RPMI","MPIIB.3772","test","SET4","MPIIB.3772","last","control","MAK.control","> 6M","1-5",NA,16
+"MPIIB.3787","MAK_10_donor1","MAK_10","control",19,"M","M06",1,"MAK","plasma.RPMI","MPIIB.3787","test","SET4","MPIIB.3787","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.3851","MRC_18_donor1","MRC_18","control",21,"M","M06",15,"MRC","plasma","MPIIB.3851","test","SET4","MPIIB.3851","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.3887","SUN_32_donor3","SUN_32","control",27,"M","M06",0,"SUN","serum","MPIIB.3887","test","SET4","MPIIB.3887","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.3961","SUN_22_donor4","SUN_22","control",13,"F","BL",13,"SUN","serum","MPIIB.3961","test","SET4","MPIIB.3961","minus1","control","SUN.control","No","N.a.","N.a.",26
+"MPIIB.3967","MRC_22_donor2","MRC_22","case",28,"M","BL",6,"MRC","plasma","MPIIB.3967","test","SET4","MPIIB.3967","last","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.3986","SUN_13_donor3","SUN_13","control",49,"F","BL",6,"SUN","serum","MPIIB.3986","test","SET4","MPIIB.3986","minus1","control","SUN.control","Yes","1-5",NA,19
+"MPIIB.3993","MRC_18_donor2","MRC_18","control",28,"M","M18",3,"MRC","plasma","MPIIB.3993","test","SET4","MPIIB.3993","last","control","MRC.control","Yes","> 10","> 10",-99
+"MPIIB.4055","SUN_05_donor4","SUN_05","control",24,"M","M18",5,"SUN","serum","MPIIB.4055","test","SET4","MPIIB.4055","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4062","SUN_22_donor1","SUN_22","case",15,"F","BL",13,"SUN","serum","MPIIB.4062","test","SET4","MPIIB.4062","minus1","case","SUN.case","Yes","1-5",NA,24
+"MPIIB.4094","MRC_14_donor3","MRC_14","case",22,"M","M06",18,"MRC","plasma","MPIIB.4094","test","SET4","MPIIB.4094","minus1","case","MRC.case",NA,NA,NA,-99
+"MPIIB.4097","SUN_12_donor3","SUN_12","case",52,"F","BL",17,"SUN","serum","MPIIB.4097","test","SET4","MPIIB.4097","minus1","case","SUN.case","Yes","> 10",NA,24
+"MPIIB.4106","SUN_40_donor3","SUN_40","control",23,"F","BL",5,"SUN","serum","MPIIB.4106","test","SET4","MPIIB.4106","last","control","SUN.control","Yes","6-10",NA,11
+"MPIIB.4132","MAK_02_donor4","MAK_02","case",17,"M","BL",3,"MAK","plasma.RPMI","MPIIB.4132","test","SET4","MPIIB.4132","last","case","MAK.case","No","N.a.","N.a.",20
+"MPIIB.4277","MRC_14_donor3","MRC_14","case",22,"M","M18",6,"MRC","plasma","MPIIB.4277","test","SET4","MPIIB.4277","last","case","MRC.case",NA,NA,NA,-99
+"MPIIB.4293","SUN_22_donor2","SUN_22","control",15,"F","M06",7,"SUN","serum","MPIIB.4293","test","SET4","MPIIB.4293","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4294","MRC_23_donor7","MRC_23","control",35,"F","BL",14,"MRC","plasma","MPIIB.4294","test","SET4","MPIIB.4294","last","control","MRC.control","No","N.a.","N.a.",20
+"MPIIB.4341","MRC_08_donor4","MRC_08","control",21,"M","BL",11,"MRC","plasma","MPIIB.4341","test","SET4","MPIIB.4341","last","control","MRC.control","Yes","1-5","< 1",0
+"MPIIB.4374","SUN_08_donor3","SUN_08","control",21,"F","M06",17,"SUN","serum","MPIIB.4374","test","SET4","MPIIB.4374","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4413","MRC_19_donor5","MRC_19","control",18,"F","BL",19,"MRC","plasma","MPIIB.4413","test","SET4","MPIIB.4413","minus1","control","MRC.control","No","N.a.","N.a.",10
+"MPIIB.4444","SUN_31_donor2","SUN_31","control",12,"M","BL",7,"SUN","serum","MPIIB.4444","test","SET4","MPIIB.4444","minus1","control","SUN.control","No","N.a.","N.a.",21
+"MPIIB.4522","MRC_17_donor3","MRC_17","control",24,"F","BL",7,"MRC","plasma","MPIIB.4522","test","SET4","MPIIB.4522","minus1","control","MRC.control","No","N.a.","N.a.",18
+"MPIIB.4562","MRC_20_donor2","MRC_20","case",38,"F","BL",3,"MRC","plasma","MPIIB.4562","test","SET4","MPIIB.4562","last","case","MRC.case","No","N.a.","N.a.",10
+"MPIIB.4588","MRC_05_donor1","MRC_05","control",18,"F","BL",9,"MRC","plasma","MPIIB.4588","test","SET4","MPIIB.4588","last","control","MRC.control","No","N.a.","N.a.",16
+"MPIIB.4648","AHRI_01_donor3","AHRI_01","control",31,"F","BL",8,"AHRI","plasma","MPIIB.4648","test","SET4","MPIIB.4648","minus1","control","AHRI.control",NA,NA,NA,17
+"MPIIB.4674","MAK_08_donor5","MAK_08","control",38,"M","BL",5,"MAK","serum","MPIIB.4674","test","SET4","MPIIB.4674","last","control","MAK.control","> 6M","1-5",NA,16
+"MPIIB.4702","MRC_19_donor3","MRC_19","control",23,"F","M18",1,"MRC","plasma","MPIIB.4702","test","SET4","MPIIB.4702","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.4715","SUN_04_donor3","SUN_04","control",24,"F","M06",5,"SUN","serum","MPIIB.4715","test","SET4","MPIIB.4715","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.4727","SUN_13_donor3","SUN_13","control",49,"F","M06",0,"SUN","serum","MPIIB.4727","test","SET4","MPIIB.4727","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.4801","MRC_17_donor2","MRC_17","control",18,"F","M06",1,"MRC","plasma","MPIIB.4801","test","SET4","MPIIB.4801","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.4824","AHRI_01_donor1","AHRI_01","control",29,"F","M06",2,"AHRI","plasma","MPIIB.4824","test","SET4","MPIIB.4824","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.4924","MRC_05_donor3","MRC_05","case",18,"F","BL",9,"MRC","plasma","MPIIB.4924","test","SET4","MPIIB.4924","last","case","MRC.case",NA,NA,NA,0
+"MPIIB.5048","MRC_17_donor4","MRC_17","control",22,"F","BL",7,"MRC","plasma","MPIIB.5048","test","SET4","MPIIB.5048","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.5055","SUN_16_donor5","SUN_16","control",16,"F","BL",5,"SUN","serum","MPIIB.5055","test","SET4","MPIIB.5055","last","control","SUN.control","No","N.a.","N.a.",20
+"MPIIB.5074","MAK_08_donor1","MAK_08","control",48,"M","BL",5,"MAK","plasma.RPMI","MPIIB.5074","test","SET4","MPIIB.5074","last","control","MAK.control","Yes","1-5",NA,13
+"MPIIB.5126","SUN_32_donor2","SUN_32","control",19,"M","BL",6,"SUN","serum","MPIIB.5126","test","SET4","MPIIB.5126","minus1","control","SUN.control","Yes","1-5",NA,26
+"MPIIB.5154","MRC_22_donor1","MRC_22","control",27,"M","BL",6,"MRC","plasma","MPIIB.5154","test","SET4","MPIIB.5154","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.5221","SUN_05_donor1","SUN_05","case",43,"M","M18",5,"SUN","serum","MPIIB.5221","test","SET4","MPIIB.5221","last","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.5329","SUN_22_donor2","SUN_22","control",15,"F","BL",13,"SUN","serum","MPIIB.5329","test","SET4","MPIIB.5329","minus1","control","SUN.control","No","N.a.","N.a.",12
+"MPIIB.5330","MRC_20_donor1","MRC_20","control",39,"F","BL",3,"MRC","plasma","MPIIB.5330","test","SET4","MPIIB.5330","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.5390","AHRI_02_donor3","AHRI_02","control",22,"M","BL",7,"AHRI","plasma","MPIIB.5390","test","SET4","MPIIB.5390","minus1","control","AHRI.control",NA,NA,NA,10
+"MPIIB.5392","SUN_10_donor3","SUN_10","control",32,"M","BL",6,"SUN","plasma","MPIIB.5392","test","SET4","MPIIB.5392","last","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.5412","SUN_22_donor4","SUN_22","control",13,"F","M06",7,"SUN","serum","MPIIB.5412","test","SET4","MPIIB.5412","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.5431","MAK_02_donor5","MAK_02","control",16,"M","BL",3,"MAK","plasma.RPMI","MPIIB.5431","test","SET4","MPIIB.5431","last","control","MAK.control","No","N.a.","N.a.",14
+"MPIIB.5436","MRC_31_donor3","MRC_31","control",25,"F","BL",12,"MRC","plasma","MPIIB.5436","test","SET4","MPIIB.5436","minus1","control","MRC.control","No","N.a.","N.a.",21
+"MPIIB.5457","AHRI_02_donor2","AHRI_02","control",21,"M","BL",7,"AHRI","plasma","MPIIB.5457","test","SET4","MPIIB.5457","minus1","control","AHRI.control",NA,NA,NA,15
+"MPIIB.5541","MRC_18_donor3","MRC_18","control",18,"M","M18",3,"MRC","plasma","MPIIB.5541","test","SET4","MPIIB.5541","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.5547","SUN_04_donor2","SUN_04","case",21,"F","M06",5,"SUN","serum","MPIIB.5547","test","SET4","MPIIB.5547","last","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.5614","SUN_32_donor2","SUN_32","control",19,"M","M06",0,"SUN","serum","MPIIB.5614","test","SET4","MPIIB.5614","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.5649","SUN_12_donor2","SUN_12","control",53,"F","BL",17,"SUN","serum","MPIIB.5649","test","SET4","MPIIB.5649","minus1","control","SUN.control","Yes","1-5",NA,16
+"MPIIB.5667","AHRI_05_donor1","AHRI_05","control",25,"F","BL",4,"AHRI","plasma","MPIIB.5667","test","SET4","MPIIB.5667","last","control","AHRI.control",NA,NA,NA,0
+"MPIIB.5683","AHRI_02_donor2","AHRI_02","control",21,"M","M06",1,"AHRI","plasma","MPIIB.5683","test","SET4","MPIIB.5683","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.5720","SUN_31_donor1","SUN_31","control",15,"M","BL",7,"SUN","serum","MPIIB.5720","test","SET4","MPIIB.5720","minus1","control","SUN.control","No","N.a.","N.a.",25
+"MPIIB.5749","SUN_08_donor3","SUN_08","control",21,"F","M18",5,"SUN","serum","MPIIB.5749","test","SET4","MPIIB.5749","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.5780","MRC_19_donor1","MRC_19","control",18,"F","BL",19,"MRC","plasma","MPIIB.5780","test","SET4","MPIIB.5780","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.5848","SUN_10_donor3","SUN_10","control",32,"M","BL",6,"SUN","serum","MPIIB.5848","test","SET4","MPIIB.5848","last","control","SUN.control","Yes","> 10",NA,15
+"MPIIB.5900","AHRI_02_donor4","AHRI_02","case",25,"M","M06",1,"AHRI","plasma","MPIIB.5900","test","SET4","MPIIB.5900","last","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.5935","SUN_39_donor2","SUN_39","control",55,"F","BL",5,"SUN","serum","MPIIB.5935","test","SET4","MPIIB.5935","last","control","SUN.control","No","N.a.","N.a.",0
+"MPIIB.5965","MRC_11_donor3","MRC_11","case",26,"F","BL",3.5,"MRC","plasma","MPIIB.5965","test","SET4","MPIIB.5965","last","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.6003","AHRI_01_donor2","AHRI_01","control",32,"F","M06",2,"AHRI","plasma","MPIIB.6003","test","SET4","MPIIB.6003","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.6005","SUN_32_donor4","SUN_32","control",31,"M","BL",6,"SUN","serum","MPIIB.6005","test","SET4","MPIIB.6005","minus1","control","SUN.control","Yes","1-5",NA,23
+"MPIIB.6046","AHRI_12_donor2","AHRI_12","control",42,"F","M06",9,"AHRI","plasma","MPIIB.6046","test","SET4","MPIIB.6046","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.6056","SUN_22_donor1","SUN_22","case",15,"F","M06",7,"SUN","serum","MPIIB.6056","test","SET4","MPIIB.6056","last","case","SUN.case","Yes","1-5",NA,-99
+"MPIIB.6067","SUN_40_donor1","SUN_40","control",24,"F","BL",5,"SUN","serum","MPIIB.6067","test","SET4","MPIIB.6067","last","control","SUN.control","Yes","6-10",NA,0
+"MPIIB.6068","MAK_10_donor3","MAK_10","control",18,"M","M06",1,"MAK","plasma.RPMI","MPIIB.6068","test","SET4","MPIIB.6068","last","control","MAK.control","No","N.a.","N.a.",-99
+"MPIIB.6078","SUN_39_donor5","SUN_39","control",42,"F","BL",5,"SUN","serum","MPIIB.6078","test","SET4","MPIIB.6078","last","control","SUN.control","No","N.a.","N.a.",14
+"MPIIB.6114","MAK_03_donor3","MAK_03","control",27,"M","BL",3,"MAK","plasma.RPMI","MPIIB.6114","test","SET4","MPIIB.6114","last","control","MAK.control","No","N.a.","N.a.",18
+"MPIIB.6238","SUN_39_donor3","SUN_39","case",38,"F","BL",5,"SUN","serum","MPIIB.6238","test","SET4","MPIIB.6238","last","case","SUN.case","> 6M","1-5",NA,10
+"MPIIB.6250","MRC_18_donor4","MRC_18","control",24,"M","M18",3,"MRC","plasma","MPIIB.6250","test","SET4","MPIIB.6250","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.6281","MRC_19_donor2","MRC_19","case",21,"F","M18",1,"MRC","plasma","MPIIB.6281","test","SET4","MPIIB.6281","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.6288","SUN_30_donor3","SUN_30","control",21,"M","BL",17,"SUN","serum","MPIIB.6288","test","SET4","MPIIB.6288","minus1","control","SUN.control","No","N.a.","N.a.",23
+"MPIIB.6305","SUN_27_donor3","SUN_27","control",15,"M","BL",17,"SUN","serum","MPIIB.6305","test","SET4","MPIIB.6305","minus1","control","SUN.control","No","N.a.","N.a.",8
+"MPIIB.6390","SUN_04_donor1","SUN_04","control",18,"F","BL",11,"SUN","serum","MPIIB.6390","test","SET4","MPIIB.6390","minus1","control","SUN.control","No","N.a.","N.a.",28
+"MPIIB.6456","MRC_17_donor1","MRC_17","case",20,"F","BL",7,"MRC","plasma","MPIIB.6456","test","SET4","MPIIB.6456","minus1","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.6466","MRC_18_donor2","MRC_18","control",28,"M","M06",15,"MRC","plasma","MPIIB.6466","test","SET4","MPIIB.6466","minus1","control","MRC.control","Yes","> 10","> 10",-99
+"MPIIB.6503","SUN_32_donor4","SUN_32","control",31,"M","M06",0,"SUN","serum","MPIIB.6503","test","SET4","MPIIB.6503","last","control","SUN.control","Yes","1-5",NA,-99
+"MPIIB.6605","MRC_31_donor1","MRC_31","control",36,"F","BL",12,"MRC","plasma","MPIIB.6605","test","SET4","MPIIB.6605","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.6606","MAK_08_donor4","MAK_08","control",41,"M","BL",5,"MAK","plasma.RPMI","MPIIB.6606","test","SET4","MPIIB.6606","last","control","MAK.control","Yes","1-5",NA,11
+"MPIIB.6928","AHRI_01_donor1","AHRI_01","control",29,"F","BL",8,"AHRI","plasma","MPIIB.6928","test","SET4","MPIIB.6928","minus1","control","AHRI.control",NA,NA,NA,0
+"MPIIB.6942","SUN_39_donor1","SUN_39","control",37,"F","BL",5,"SUN","serum","MPIIB.6942","test","SET4","MPIIB.6942","last","control","SUN.control","No","N.a.","N.a.",28
+"MPIIB.6943","MRC_05_donor2","MRC_05","control",19,"F","BL",9,"MRC","plasma","MPIIB.6943","test","SET4","MPIIB.6943","last","control","MRC.control",NA,NA,NA,0
+"MPIIB.7081","SUN_06_donor3","SUN_06","control",19,"M","BL",4,"SUN","serum","MPIIB.7081","test","SET4","MPIIB.7081","last","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.7109","MRC_20_donor3","MRC_20","control",40,"F","BL",3,"MRC","plasma","MPIIB.7109","test","SET4","MPIIB.7109","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.7231","SUN_02_donor2","SUN_02","control",56,"F","BL",5,"SUN","serum","MPIIB.7231","test","SET4","MPIIB.7231","last","control","SUN.control","No","N.a.","N.a.",20
+"MPIIB.7305","AHRI_01_donor3","AHRI_01","control",31,"F","M06",2,"AHRI","plasma","MPIIB.7305","test","SET4","MPIIB.7305","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.7330","SUN_38_donor2","SUN_38","control",27,"F","BL",5,"SUN","serum","MPIIB.7330","test","SET4","MPIIB.7330","last","control","SUN.control","Yes","6-10",NA,18
+"MPIIB.7332","MRC_14_donor4","MRC_14","control",24,"M","BL",24,"MRC","plasma","MPIIB.7332","test","SET4","MPIIB.7332","minus2","control","MRC.control","Yes","> 10","5-10",0
+"MPIIB.7350","MRC_31_donor3","MRC_31","control",25,"F","M06",6,"MRC","plasma","MPIIB.7350","test","SET4","MPIIB.7350","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.7351","MRC_31_donor2","MRC_31","control",25,"F","M06",6,"MRC","plasma","MPIIB.7351","test","SET4","MPIIB.7351","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.7378","MRC_19_donor4","MRC_19","control",23,"F","M06",13,"MRC","plasma","MPIIB.7378","test","SET4","MPIIB.7378","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.7417","MRC_19_donor1","MRC_19","control",18,"F","M18",1,"MRC","plasma","MPIIB.7417","test","SET4","MPIIB.7417","last","control","MRC.control",NA,NA,NA,-99
+"MPIIB.7418","SUN_26_donor4","SUN_26","control",26,"M","BL",10,"SUN","serum","MPIIB.7418","test","SET4","MPIIB.7418","last","control","SUN.control","No","N.a.","N.a.",22
+"MPIIB.7422","MRC_18_donor4","MRC_18","control",24,"M","BL",21,"MRC","plasma","MPIIB.7422","test","SET4","MPIIB.7422","minus1","control","MRC.control","No","N.a.","N.a.",14
+"MPIIB.7467","SUN_12_donor3","SUN_12","case",52,"F","M06",11,"SUN","serum","MPIIB.7467","test","SET4","MPIIB.7467","last","case","SUN.case","Yes","> 10",NA,-99
+"MPIIB.7518","SUN_31_donor3","SUN_31","case",17,"M","BL",7,"SUN","serum","MPIIB.7518","test","SET4","MPIIB.7518","minus1","case","SUN.case","No","N.a.","N.a.",13
+"MPIIB.7569","MRC_06_donor4","MRC_06","case",16,"F","BL",6,"MRC","plasma","MPIIB.7569","test","SET4","MPIIB.7569","minus1","case","MRC.case","No","N.a.","N.a.",22
+"MPIIB.7620","SUN_24_donor4","SUN_24","control",23,"F","BL",17,"SUN","serum","MPIIB.7620","test","SET4","MPIIB.7620","last","control","SUN.control","Yes","1-5",NA,20
+"MPIIB.7731","SUN_14_donor5","SUN_14","control",52,"F","BL",5,"SUN","serum","MPIIB.7731","test","SET4","MPIIB.7731","last","control","SUN.control","No","N.a.","N.a.",0
+"MPIIB.7732","SUN_31_donor3","SUN_31","case",17,"M","M06",1,"SUN","serum","MPIIB.7732","test","SET4","MPIIB.7732","last","case","SUN.case","No","N.a.","N.a.",-99
+"MPIIB.7737","MRC_06_donor2","MRC_06","control",16,"F","BL",6,"MRC","plasma","MPIIB.7737","test","SET4","MPIIB.7737","minus1","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.7775","MRC_11_donor4","MRC_11","control",25,"F","BL",3.5,"MRC","plasma","MPIIB.7775","test","SET4","MPIIB.7775","last","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.7801","MRC_18_donor3","MRC_18","control",18,"M","BL",21,"MRC","plasma","MPIIB.7801","test","SET4","MPIIB.7801","minus2","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.7813","AHRI_01_donor2","AHRI_01","control",32,"F","BL",8,"AHRI","plasma","MPIIB.7813","test","SET4","MPIIB.7813","minus1","control","AHRI.control",NA,NA,NA,22
+"MPIIB.7816","MAK_03_donor5","MAK_03","control",35,"M","BL",3,"MAK","plasma.RPMI","MPIIB.7816","test","SET4","MPIIB.7816","last","control","MAK.control","> 6M",NA,NA,16
+"MPIIB.7860","SUN_36_donor4","SUN_36","control",53,"M","BL",18,"SUN","serum","MPIIB.7860","test","SET4","MPIIB.7860","last","control","SUN.control","Yes","6-10",NA,20
+"MPIIB.7906","MRC_14_donor4","MRC_14","control",24,"M","M06",18,"MRC","plasma","MPIIB.7906","test","SET4","MPIIB.7906","minus1","control","MRC.control","Yes","> 10","5-10",-99
+"MPIIB.7922","SUN_32_donor1","SUN_32","case",31,"M","BL",6,"SUN","serum","MPIIB.7922","test","SET4","MPIIB.7922","minus1","case","SUN.case","Yes","6-10",NA,21
+"MPIIB.7937","MAK_10_donor2","MAK_10","case",18,"M","BL",7,"MAK","serum","MPIIB.7937","test","SET4","MPIIB.7937","minus1","case","MAK.case","No","N.a.","N.a.",6
+"MPIIB.7963","SUN_17_donor3","SUN_17","control",26,"M","BL",19,"SUN","serum","MPIIB.7963","test","SET4","MPIIB.7963","minus2","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.8032","AHRI_01_donor4","AHRI_01","case",30,"F","BL",8,"AHRI","plasma","MPIIB.8032","test","SET4","MPIIB.8032","minus1","case","AHRI.case",NA,NA,NA,14
+"MPIIB.8039","SUN_13_donor4","SUN_13","case",45,"F","BL",6,"SUN","serum","MPIIB.8039","test","SET4","MPIIB.8039","minus1","case","SUN.case","Yes","> 10",NA,20
+"MPIIB.8040","MRC_12_donor5","MRC_12","control",17,"M","M18",3,"MRC","plasma","MPIIB.8040","test","SET4","MPIIB.8040","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.8077","SUN_26_donor1","SUN_26","case",27,"M","BL",10,"SUN","serum","MPIIB.8077","test","SET4","MPIIB.8077","last","case","SUN.case","Yes","> 10",NA,35
+"MPIIB.8090","SUN_40_donor2","SUN_40","case",24,"F","BL",5,"SUN","serum","MPIIB.8090","test","SET4","MPIIB.8090","last","case","SUN.case","Yes","6-10",NA,0
+"MPIIB.8220","SUN_24_donor2","SUN_24","control",21,"F","BL",17,"SUN","serum","MPIIB.8220","test","SET4","MPIIB.8220","minus1","control","SUN.control","No","N.a.","N.a.",35
+"MPIIB.8244","AHRI_12_donor2","AHRI_12","control",42,"F","BL",15,"AHRI","plasma","MPIIB.8244","test","SET4","MPIIB.8244","minus1","control","AHRI.control",NA,NA,NA,9
+"MPIIB.8275","MAK_10_donor5","MAK_10","control",22,"M","BL",7,"MAK","serum","MPIIB.8275","test","SET4","MPIIB.8275","last","control","MAK.control","No","N.a.","N.a.",14
+"MPIIB.8308","MAK_08_donor3","MAK_08","control",46,"M","BL",5,"MAK","plasma.RPMI","MPIIB.8308","test","SET4","MPIIB.8308","last","control","MAK.control","No","N.a.","N.a.",20
+"MPIIB.8321","SUN_05_donor3","SUN_05","control",24,"M","M18",5,"SUN","serum","MPIIB.8321","test","SET4","MPIIB.8321","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.8404","MRC_14_donor1","MRC_14","control",24,"M","BL",24,"MRC","plasma","MPIIB.8404","test","SET4","MPIIB.8404","minus2","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.8412","MAK_03_donor2","MAK_03","control",31,"M","BL",3,"MAK","serum","MPIIB.8412","test","SET4","MPIIB.8412","last","control","MAK.control","No","N.a.","N.a.",16
+"MPIIB.8488","SUN_19_donor4","SUN_19","control",15,"M","BL",5,"SUN","serum","MPIIB.8488","test","SET4","MPIIB.8488","last","control","SUN.control","No","N.a.","N.a.",15
+"MPIIB.8570","MRC_17_donor1","MRC_17","case",20,"F","M06",1,"MRC","plasma","MPIIB.8570","test","SET4","MPIIB.8570","last","case","MRC.case","No","N.a.","N.a.",-99
+"MPIIB.8587","SUN_19_donor3","SUN_19","control",17,"M","BL",5,"SUN","serum","MPIIB.8587","test","SET4","MPIIB.8587","last","control","SUN.control","Yes","1-5",NA,23
+"MPIIB.8588","SUN_17_donor3","SUN_17","control",26,"M","M06",13,"SUN","serum","MPIIB.8588","test","SET4","MPIIB.8588","minus1","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.8613","AHRI_12_donor3","AHRI_12","case",20,"F","M06",9,"AHRI","plasma","MPIIB.8613","test","SET4","MPIIB.8613","last","case","AHRI.case",NA,NA,NA,-99
+"MPIIB.8694","AHRI_02_donor1","AHRI_02","control",23,"M","M06",1,"AHRI","plasma","MPIIB.8694","test","SET4","MPIIB.8694","last","control","AHRI.control",NA,NA,NA,-99
+"MPIIB.8722","AHRI_05_donor4","AHRI_05","control",35,"F","BL",4,"AHRI","plasma","MPIIB.8722","test","SET4","MPIIB.8722","last","control","AHRI.control",NA,NA,NA,0
+"MPIIB.8784","SUN_05_donor2","SUN_05","control",33,"M","BL",23,"SUN","serum","MPIIB.8784","test","SET4","MPIIB.8784","minus1","control","SUN.control","Yes","> 10",NA,11
+"MPIIB.8808","MRC_18_donor1","MRC_18","control",21,"M","BL",21,"MRC","plasma","MPIIB.8808","test","SET4","MPIIB.8808","minus1","control","MRC.control",NA,NA,NA,0
+"MPIIB.8874","SUN_05_donor3","SUN_05","control",24,"M","BL",23,"SUN","serum","MPIIB.8874","test","SET4","MPIIB.8874","minus1","control","SUN.control","Yes","> 10",NA,11
+"MPIIB.8968","MRC_14_donor3","MRC_14","case",22,"M","BL",24,"MRC","plasma","MPIIB.8968","test","SET4","MPIIB.8968","minus2","case","MRC.case",NA,NA,NA,14
+"MPIIB.9046","MRC_18_donor5","MRC_18","case",23,"M","BL",21,"MRC","plasma","MPIIB.9046","test","SET4","MPIIB.9046","minus2","case","MRC.case","No","N.a.","N.a.",0
+"MPIIB.9129","AHRI_12_donor4","AHRI_12","control",18,"F","BL",15,"AHRI","plasma","MPIIB.9129","test","SET4","MPIIB.9129","minus1","control","AHRI.control",NA,NA,NA,4
+"MPIIB.9171","SUN_13_donor1","SUN_13","control",52,"F","BL",6,"SUN","serum","MPIIB.9171","test","SET4","MPIIB.9171","minus1","control","SUN.control","Yes","6-10",NA,30
+"MPIIB.9188","SUN_05_donor4","SUN_05","control",24,"M","BL",23,"SUN","serum","MPIIB.9188","test","SET4","MPIIB.9188","minus1","control","SUN.control","No","N.a.","N.a.",20
+"MPIIB.9241","MRC_17_donor3","MRC_17","control",24,"F","M06",1,"MRC","plasma","MPIIB.9241","test","SET4","MPIIB.9241","last","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.9271","MRC_14_donor2","MRC_14","control",19,"M","M06",18,"MRC","plasma","MPIIB.9271","test","SET4","MPIIB.9271","minus1","control","MRC.control","No","N.a.","N.a.",-99
+"MPIIB.9322","MAK_02_donor3","MAK_02","control",15,"M","BL",3,"MAK","plasma.RPMI","MPIIB.9322","test","SET4","MPIIB.9322","last","control","MAK.control","No","N.a.","N.a.",13
+"MPIIB.9326","SUN_13_donor2","SUN_13","control",56,"F","BL",6,"SUN","serum","MPIIB.9326","test","SET4","MPIIB.9326","minus1","control","SUN.control","Yes","1-5",NA,20
+"MPIIB.9344","SUN_17_donor3","SUN_17","control",26,"M","M18",1,"SUN","serum","MPIIB.9344","test","SET4","MPIIB.9344","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.9436","MAK_08_donor4","MAK_08","control",41,"M","BL",5,"MAK","serum","MPIIB.9436","test","SET4","MPIIB.9436","last","control","MAK.control","Yes","1-5",NA,11
+"MPIIB.9483","SUN_22_donor3","SUN_22","control",8,"F","M06",7,"SUN","serum","MPIIB.9483","test","SET4","MPIIB.9483","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.9567","SUN_24_donor3","SUN_24","case",19,"F","BL",17,"SUN","serum","MPIIB.9567","test","SET4","MPIIB.9567","minus1","case","SUN.case","No","N.a.","N.a.",27
+"MPIIB.9607","MRC_11_donor2","MRC_11","control",27,"F","BL",3.5,"MRC","plasma","MPIIB.9607","test","SET4","MPIIB.9607","last","control","MRC.control","No","N.a.","N.a.",13
+"MPIIB.9666","SUN_05_donor2","SUN_05","control",33,"M","M18",5,"SUN","serum","MPIIB.9666","test","SET4","MPIIB.9666","last","control","SUN.control","Yes","> 10",NA,-99
+"MPIIB.9678","MAK_10_donor4","MAK_10","control",18,"M","BL",7,"MAK","serum","MPIIB.9678","test","SET4","MPIIB.9678","last","control","MAK.control","Yes","1-5",NA,16
+"MPIIB.9689","SUN_22_donor3","SUN_22","control",8,"F","BL",13,"SUN","serum","MPIIB.9689","test","SET4","MPIIB.9689","minus1","control","SUN.control","No","N.a.","N.a.",18
+"MPIIB.9744","SUN_26_donor3","SUN_26","control",32,"M","BL",10,"SUN","serum","MPIIB.9744","test","SET4","MPIIB.9744","last","control","SUN.control","No","N.a.","N.a.",11
+"MPIIB.9751","SUN_24_donor3","SUN_24","case",19,"F","M06",11,"SUN","serum","MPIIB.9751","test","SET4","MPIIB.9751","last","case","SUN.case","No","N.a.","N.a.",-99
+"MPIIB.9798","MAK_03_donor2","MAK_03","control",31,"M","BL",3,"MAK","plasma.RPMI","MPIIB.9798","test","SET4","MPIIB.9798","last","control","MAK.control","No","N.a.","N.a.",16
+"MPIIB.9836","MAK_03_donor5","MAK_03","control",35,"M","BL",3,"MAK","serum","MPIIB.9836","test","SET4","MPIIB.9836","last","control","MAK.control","> 6M",NA,NA,16
+"MPIIB.9930","SUN_31_donor2","SUN_31","control",12,"M","M06",1,"SUN","serum","MPIIB.9930","test","SET4","MPIIB.9930","last","control","SUN.control","No","N.a.","N.a.",-99
+"MPIIB.9965","MRC_14_donor2","MRC_14","control",19,"M","BL",24,"MRC","plasma","MPIIB.9965","test","SET4","MPIIB.9965","minus2","control","MRC.control","No","N.a.","N.a.",0
+"MPIIB.9992","SUN_12_donor4","SUN_12","control",51,"F","M06",11,"SUN","serum","MPIIB.9992","test","SET4","MPIIB.9992","last","control","SUN.control","Yes","> 10",NA,-99

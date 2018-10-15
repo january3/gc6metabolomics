@@ -1,0 +1,247 @@
+"","predictions","sampleID","MetabDonorID.x","Site","Group","timepoint","timeToTB","sampleType","MetabDonorID.y","DonorID","RnaID"
+"1",0.318107466,"MPIIB.2003","AHRI_02_donor4","AHRI","case","BL",7,"plasma","AHRI_02_donor4","KHHC26",1019
+"2",0.045213891,"MPIIB.5900","AHRI_02_donor4","AHRI","case","M06",1,"plasma","AHRI_02_donor4","KHHC26",1020
+"3",0.070066122,"MPIIB.0340","AHRI_02_donor1","AHRI","control","BL",NA,"plasma","AHRI_02_donor1","KHHC10",1016
+"4",0.019568635,"MPIIB.8694","AHRI_02_donor1","AHRI","control","M06",NA,"plasma","AHRI_02_donor1","KHHC10",NA
+"5",0.195844912,"MPIIB.5390","AHRI_02_donor3","AHRI","control","BL",NA,"plasma","AHRI_02_donor3","TEKHHC10",1032
+"6",0.157650722,"MPIIB.3112","AHRI_02_donor3","AHRI","control","M06",NA,"plasma","AHRI_02_donor3","TEKHHC10",1033
+"7",0.045514014,"MPIIB.5457","AHRI_02_donor2","AHRI","control","BL",NA,"plasma","AHRI_02_donor2","KHHC11",1017
+"8",0.024944527,"MPIIB.5683","AHRI_02_donor2","AHRI","control","M06",NA,"plasma","AHRI_02_donor2","KHHC11",NA
+"9",0.285939928,"MPIIB.2102","AHRI_05_donor2","AHRI","case","BL",4,"plasma","AHRI_05_donor2","KHHC78",1027
+"10",0.153570875,"MPIIB.5667","AHRI_05_donor1","AHRI","control","BL",NA,"plasma","AHRI_05_donor1","TEKHHC81",1039
+"11",0.436565095,"MPIIB.8722","AHRI_05_donor4","AHRI","control","BL",NA,"plasma","AHRI_05_donor4","KAZHHC50",1037
+"12",0.361763954,"MPIIB.3568","AHRI_05_donor3","AHRI","control","BL",NA,"plasma","AHRI_05_donor3","TEKHHC105",1050
+"13",0.028385315,"MPIIB.2425","AHRI_12_donor3","AHRI","case","BL",15,"plasma","AHRI_12_donor3","ARHHC63",987
+"14",0.022801971,"MPIIB.8613","AHRI_12_donor3","AHRI","case","M06",9,"plasma","AHRI_12_donor3","ARHHC63",235
+"15",0.896940466,"MPIIB.9129","AHRI_12_donor4","AHRI","control","BL",NA,"plasma","AHRI_12_donor4","DZHHC84",956
+"16",0.272669811,"MPIIB.3757","AHRI_12_donor4","AHRI","control","M06",NA,"plasma","AHRI_12_donor4","DZHHC84",NA
+"17",0.11916247,"MPIIB.0013","AHRI_12_donor1","AHRI","control","BL",NA,"plasma","AHRI_12_donor1","TEKHHC53",1035
+"18",0.238880971,"MPIIB.2824","AHRI_12_donor1","AHRI","control","M06",NA,"plasma","AHRI_12_donor1","TEKHHC53",1036
+"19",0.039294364,"MPIIB.8244","AHRI_12_donor2","AHRI","control","BL",NA,"plasma","AHRI_12_donor2","DZHHC70",1010
+"20",0.063299522,"MPIIB.6046","AHRI_12_donor2","AHRI","control","M06",NA,"plasma","AHRI_12_donor2","DZHHC70",995
+"21",0.059507016,"MPIIB.8032","AHRI_01_donor4","AHRI","case","BL",8,"plasma","AHRI_01_donor4","MOHHC04",1029
+"22",0.702195693,"MPIIB.1844","AHRI_01_donor4","AHRI","case","M06",2,"plasma","AHRI_01_donor4","MOHHC04",935
+"23",0.781719841,"MPIIB.4648","AHRI_01_donor3","AHRI","control","BL",NA,"plasma","AHRI_01_donor3","KHHC03",1012
+"24",0.539614458,"MPIIB.7305","AHRI_01_donor3","AHRI","control","M06",NA,"plasma","AHRI_01_donor3","KHHC03",1013
+"25",0.584128873,"MPIIB.6928","AHRI_01_donor1","AHRI","control","BL",NA,"plasma","AHRI_01_donor1","KHHC42",1021
+"26",0.15388027,"MPIIB.4824","AHRI_01_donor1","AHRI","control","M06",NA,"plasma","AHRI_01_donor1","KHHC42",1022
+"27",0.179662336,"MPIIB.7813","AHRI_01_donor2","AHRI","control","BL",NA,"plasma","AHRI_01_donor2","KHHC43",1023
+"28",0.044051815,"MPIIB.6003","AHRI_01_donor2","AHRI","control","M06",NA,"plasma","AHRI_01_donor2","KHHC43",1024
+"29",0.025655626,"MPIIB.8040","MRC _12_donor5","MRC","control","M18",NA,"plasma","MRC _12_donor5","08/G196",284
+"30",0.025655626,"MPIIB.8040","MRC _12_donor5","MRC","control","M18",NA,"plasma","MRC _12_donor5","08/G196",284
+"31",0.343768057,"MPIIB.8968","MRC _14_donor3","MRC","case","BL",24,"plasma","MRC _14_donor3","08/G249",NA
+"32",0.638059725,"MPIIB.4094","MRC _14_donor3","MRC","case","M06",18,"plasma","MRC _14_donor3","08/G249",285
+"33",0.275240452,"MPIIB.4277","MRC _14_donor3","MRC","case","M18",6,"plasma","MRC _14_donor3","08/G249",286
+"34",0.029558511,"MPIIB.9965","MRC _14_donor2","MRC","control","BL",NA,"plasma","MRC _14_donor2","08/G506",289
+"35",0.036880616,"MPIIB.9271","MRC _14_donor2","MRC","control","M06",NA,"plasma","MRC _14_donor2","08/G506",290
+"36",0.116929314,"MPIIB.3578","MRC _14_donor2","MRC","control","M18",NA,"plasma","MRC _14_donor2","08/G506",291
+"37",0.622230523,"MPIIB.7332","MRC _14_donor4","MRC","control","BL",NA,"plasma","MRC _14_donor4","08/G496",355
+"38",0.911292829,"MPIIB.7906","MRC _14_donor4","MRC","control","M06",NA,"plasma","MRC _14_donor4","08/G496",356
+"39",0.373060605,"MPIIB.2294","MRC _14_donor4","MRC","control","M18",NA,"plasma","MRC _14_donor4","08/G496",357
+"40",0.149592266,"MPIIB.8404","MRC _14_donor1","MRC","control","BL",NA,"plasma","MRC _14_donor1","09/G110",486
+"41",0.05026638,"MPIIB.2078","MRC _14_donor1","MRC","control","M06",NA,"plasma","MRC _14_donor1","09/G110",487
+"42",0.024610174,"MPIIB.1976","MRC _14_donor1","MRC","control","M18",NA,"plasma","MRC _14_donor1","09/G110",488
+"43",0.055627047,"MPIIB.3337","MRC _14_donor5","MRC","control","M06",NA,"plasma","MRC _14_donor5","08/G593",293
+"44",0.00994452,"MPIIB.4294","MRC _23_donor7","MRC","control","BL",NA,"plasma","MRC _23_donor7","09/G397",596
+"45",0.367539972,"MPIIB.9046","MRC _18_donor5","MRC","case","BL",21,"plasma","MRC _18_donor5","08/G762",348
+"46",0.470635988,"MPIIB.1253","MRC _18_donor5","MRC","case","M06",15,"plasma","MRC _18_donor5","08/G762",349
+"47",0.10886638,"MPIIB.0644","MRC _18_donor5","MRC","case","M18",3,"plasma","MRC _18_donor5","08/G762",350
+"48",0.120736092,"MPIIB.6466","MRC _18_donor2","MRC","control","M06",NA,"plasma","MRC _18_donor2","09/G252",603
+"49",0.046376597,"MPIIB.3993","MRC _18_donor2","MRC","control","M18",NA,"plasma","MRC _18_donor2","09/G252",604
+"50",0.489858789,"MPIIB.7801","MRC _18_donor3","MRC","control","BL",NA,"plasma","MRC _18_donor3","08/G828",370
+"51",0.013594263,"MPIIB.2562","MRC _18_donor3","MRC","control","M06",NA,"plasma","MRC _18_donor3","08/G828",371
+"52",0.137129958,"MPIIB.5541","MRC _18_donor3","MRC","control","M18",NA,"plasma","MRC _18_donor3","08/G828",372
+"53",0.04961732,"MPIIB.8808","MRC _18_donor1","MRC","control","BL",NA,"plasma","MRC _18_donor1","08/G143",287
+"54",0.025384117,"MPIIB.3851","MRC _18_donor1","MRC","control","M06",NA,"plasma","MRC _18_donor1","08/G143",288
+"55",0.037457606,"MPIIB.7422","MRC _18_donor4","MRC","control","BL",NA,"plasma","MRC _18_donor4","08/G802",358
+"56",0.606820212,"MPIIB.6250","MRC _18_donor4","MRC","control","M18",NA,"plasma","MRC _18_donor4","08/G802",360
+"57",0.691234581,"MPIIB.3018","MRC _18_donor6","MRC","control","M06",NA,"plasma","MRC _18_donor6","08/G568",354
+"58",0.20953681,"MPIIB.6456","MRC _17_donor1","MRC","case","BL",7,"plasma","MRC _17_donor1","08/G876",373
+"59",0.321233835,"MPIIB.8570","MRC _17_donor1","MRC","case","M06",1,"plasma","MRC _17_donor1","08/G876",374
+"60",0.033122105,"MPIIB.5048","MRC _17_donor4","MRC","control","BL",NA,"plasma","MRC _17_donor4","08/G109",313
+"61",0.017242952,"MPIIB.1340","MRC _17_donor4","MRC","control","M06",NA,"plasma","MRC _17_donor4","08/G109",312
+"62",0.112702197,"MPIIB.4522","MRC _17_donor3","MRC","control","BL",NA,"plasma","MRC _17_donor3","08/G826",314
+"63",0.004862272,"MPIIB.9241","MRC _17_donor3","MRC","control","M06",NA,"plasma","MRC _17_donor3","08/G826",315
+"64",0.428361927,"MPIIB.3703","MRC _17_donor2","MRC","control","BL",NA,"plasma","MRC _17_donor2","08/G154",380
+"65",0.019654173,"MPIIB.4801","MRC _17_donor2","MRC","control","M06",NA,"plasma","MRC _17_donor2","08/G154",381
+"66",0.103435632,"MPIIB.5965","MRC _11_donor3","MRC","case","BL",3.5,"plasma","MRC _11_donor3","09/G262",NA
+"67",0.02062986,"MPIIB.9607","MRC _11_donor2","MRC","control","BL",NA,"plasma","MRC _11_donor2","09/G237",387
+"68",0.492175788,"MPIIB.7775","MRC _11_donor4","MRC","control","BL",NA,"plasma","MRC _11_donor4","09/G209",393
+"69",0.059541133,"MPIIB.0556","MRC _11_donor1","MRC","control","BL",NA,"plasma","MRC _11_donor1","09/G111",395
+"70",0.027587439,"MPIIB.0252","MRC _32_donor7","MRC","control","BL",NA,"plasma","MRC _32_donor7","09/G431",428
+"71",0.246845495,"MPIIB.2677","MRC _19_donor2","MRC","case","BL",19,"plasma","MRC _19_donor2","10/G279",463
+"72",0.21625435,"MPIIB.2726","MRC _19_donor2","MRC","case","M06",13,"plasma","MRC _19_donor2","10/G279",464
+"73",0.340290262,"MPIIB.6281","MRC _19_donor2","MRC","case","M18",1,"plasma","MRC _19_donor2","10/G279",465
+"74",0.014599526,"MPIIB.5780","MRC _19_donor1","MRC","control","BL",NA,"plasma","MRC _19_donor1","08/G198",585
+"75",0.113254815,"MPIIB.7417","MRC _19_donor1","MRC","control","M18",NA,"plasma","MRC _19_donor1","08/G198",587
+"76",0.048560533,"MPIIB.3397","MRC _19_donor3","MRC","control","BL",NA,"plasma","MRC _19_donor3","09/G391",466
+"77",0.487951653,"MPIIB.1913","MRC _19_donor3","MRC","control","M06",NA,"plasma","MRC _19_donor3","09/G391",467
+"78",0.036480711,"MPIIB.4702","MRC _19_donor3","MRC","control","M18",NA,"plasma","MRC _19_donor3","09/G391",468
+"79",0.142702268,"MPIIB.4413","MRC _19_donor5","MRC","control","BL",NA,"plasma","MRC _19_donor5","09/G401",469
+"80",0.038112366,"MPIIB.3718","MRC _19_donor5","MRC","control","M06",NA,"plasma","MRC _19_donor5","09/G401",470
+"81",0.097518383,"MPIIB.0974","MRC _19_donor4","MRC","control","BL",NA,"plasma","MRC _19_donor4","09/G482",471
+"82",0.570908828,"MPIIB.7378","MRC _19_donor4","MRC","control","M06",NA,"plasma","MRC _19_donor4","09/G482",472
+"83",0.671460468,"MPIIB.1415","MRC _08_donor3","MRC","case","BL",11,"plasma","MRC _08_donor3","10/G369",477
+"84",0.388736016,"MPIIB.2700","MRC _08_donor1","MRC","control","BL",NA,"plasma","MRC _08_donor1","08/G434",294
+"85",0.188019392,"MPIIB.1246","MRC _08_donor2","MRC","control","BL",NA,"plasma","MRC _08_donor2","09/G162",610
+"86",0.111733477,"MPIIB.4341","MRC _08_donor4","MRC","control","BL",NA,"plasma","MRC _08_donor4","09/G212",485
+"87",0.323601905,"MPIIB.2611","MRC _16_donor1","MRC","control","BL",NA,"plasma","MRC _16_donor1","08/G131",320
+"88",0.323601905,"MPIIB.2611","MRC _16_donor1","MRC","control","BL",NA,"plasma","MRC _16_donor1","08/G131",320
+"89",0.023457426,"MPIIB.4924","MRC _05_donor3","MRC","case","BL",9,"plasma","MRC _05_donor3","07/G437",543
+"90",0.319813075,"MPIIB.6943","MRC _05_donor2","MRC","control","BL",NA,"plasma","MRC _05_donor2","07/G474",550
+"91",0.550327525,"MPIIB.4588","MRC _05_donor1","MRC","control","BL",NA,"plasma","MRC _05_donor1","07/G369",552
+"92",0.196768458,"MPIIB.1840","MRC _31_donor4","MRC","case","BL",12,"plasma","MRC _31_donor4","09/G280",NA
+"93",0.581428266,"MPIIB.5436","MRC _31_donor3","MRC","control","BL",NA,"plasma","MRC _31_donor3","09/G143",592
+"94",0.61586212,"MPIIB.7350","MRC _31_donor3","MRC","control","M06",NA,"plasma","MRC _31_donor3","09/G143",593
+"95",0.032382171,"MPIIB.6605","MRC _31_donor1","MRC","control","BL",NA,"plasma","MRC _31_donor1","08/G372",576
+"96",0.00885019,"MPIIB.1705","MRC _31_donor1","MRC","control","M06",NA,"plasma","MRC _31_donor1","08/G372",577
+"97",0.186616701,"MPIIB.3711","MRC _31_donor2","MRC","control","BL",NA,"plasma","MRC _31_donor2","07/G328",538
+"98",0.248861421,"MPIIB.7351","MRC _31_donor2","MRC","control","M06",NA,"plasma","MRC _31_donor2","07/G328",539
+"99",0.003098945,"MPIIB.3967","MRC _22_donor2","MRC","case","BL",6,"plasma","MRC _22_donor2","09/G340",NA
+"100",0.316361605,"MPIIB.5154","MRC _22_donor1","MRC","control","BL",NA,"plasma","MRC _22_donor1","07/G491",256
+"101",0.185274685,"MPIIB.4562","MRC _20_donor2","MRC","case","BL",3,"plasma","MRC _20_donor2","10/G261",626
+"102",0.240694476,"MPIIB.1771","MRC _20_donor4","MRC","control","BL",NA,"plasma","MRC _20_donor4","09/G112",629
+"103",0.030357086,"MPIIB.5330","MRC _20_donor1","MRC","control","BL",NA,"plasma","MRC _20_donor1","09/G113",634
+"104",0.029950189,"MPIIB.7109","MRC _20_donor3","MRC","control","BL",NA,"plasma","MRC _20_donor3","09/G384",637
+"105",0.204946909,"MPIIB.7569","MRC _06_donor4","MRC","case","BL",6,"plasma","MRC _06_donor4","10/G289",640
+"106",0.975601412,"MPIIB.2508","MRC _06_donor4","MRC","case","M06",0,"plasma","MRC _06_donor4","10/G289",641
+"107",0.239873285,"MPIIB.3538","MRC _06_donor1","MRC","control","BL",NA,"plasma","MRC _06_donor1","09/G172",666
+"108",0.038453454,"MPIIB.1533","MRC _06_donor1","MRC","control","M06",NA,"plasma","MRC _06_donor1","09/G172",667
+"109",0.187437207,"MPIIB.7737","MRC _06_donor2","MRC","control","BL",NA,"plasma","MRC _06_donor2","09/G449",649
+"110",0.078007036,"MPIIB.3514","MRC _06_donor2","MRC","control","M06",NA,"plasma","MRC _06_donor2","09/G449",650
+"111",0.066896796,"MPIIB.2274","MRC _06_donor3","MRC","control","BL",NA,"plasma","MRC _06_donor3","09/G450",652
+"112",0.016083837,"MPIIB.2286","MRC _06_donor3","MRC","control","M06",NA,"plasma","MRC _06_donor3","09/G450",653
+"113",0.437219207,"MPIIB.0899","SUN_06_donor3","SUN","control","BL",NA,"plasma","SUN_06_donor3","2856",869
+"114",0.057065012,"MPIIB.3675","SUN_21_donor2","SUN","control","BL",NA,"plasma","SUN_21_donor2","3004",33
+"115",0.365501532,"MPIIB.5392","SUN_10_donor3","SUN","control","BL",NA,"plasma","SUN_10_donor3","2713",862
+"116",0.103249567,"MPIIB.4062","SUN_22_donor1","SUN","case","BL",13,"serum","SUN_22_donor1","1445",834
+"117",0.03849981,"MPIIB.6056","SUN_22_donor1","SUN","case","M06",7,"serum","SUN_22_donor1","1445",NA
+"118",0.041166771,"MPIIB.3961","SUN_22_donor4","SUN","control","BL",NA,"serum","SUN_22_donor4","301",749
+"119",0.200984815,"MPIIB.5412","SUN_22_donor4","SUN","control","M06",NA,"serum","SUN_22_donor4","301",NA
+"120",0.503956893,"MPIIB.9689","SUN_22_donor3","SUN","control","BL",NA,"serum","SUN_22_donor3","359",757
+"121",0.438159907,"MPIIB.9483","SUN_22_donor3","SUN","control","M06",NA,"serum","SUN_22_donor3","359",NA
+"122",0.334933124,"MPIIB.5329","SUN_22_donor2","SUN","control","BL",NA,"serum","SUN_22_donor2","503",802
+"123",0.097318604,"MPIIB.4293","SUN_22_donor2","SUN","control","M06",NA,"serum","SUN_22_donor2","503",NA
+"124",0.493322826,"MPIIB.1198","SUN_19_donor1","SUN","case","BL",5,"serum","SUN_19_donor1","149",741
+"125",0.176333306,"MPIIB.3481","SUN_19_donor2","SUN","control","BL",NA,"serum","SUN_19_donor2","96",733
+"126",0.053280659,"MPIIB.8587","SUN_19_donor3","SUN","control","BL",NA,"serum","SUN_19_donor3","140",731
+"127",0.159796789,"MPIIB.8488","SUN_19_donor4","SUN","control","BL",NA,"serum","SUN_19_donor4","46",717
+"128",0.368055432,"MPIIB.7081","SUN_06_donor3","SUN","control","BL",NA,"serum","SUN_06_donor3","2856",869
+"129",0.015412268,"MPIIB.7330","SUN_38_donor2","SUN","control","BL",NA,"serum","SUN_38_donor2","1556",213
+"130",0.0076985,"MPIIB.7963","SUN_17_donor3","SUN","control","BL",NA,"serum","SUN_17_donor3","919",821
+"131",0.06823916,"MPIIB.8588","SUN_17_donor3","SUN","control","M06",NA,"serum","SUN_17_donor3","919",NA
+"132",0.059138205,"MPIIB.9344","SUN_17_donor3","SUN","control","M18",NA,"serum","SUN_17_donor3","919",914
+"133",0.496487599,"MPIIB.5055","SUN_16_donor5","SUN","control","BL",NA,"serum","SUN_16_donor5","2077",853
+"134",0.513768343,"MPIIB.7922","SUN_32_donor1","SUN","case","BL",6,"serum","SUN_32_donor1","317",755
+"135",0.39788583,"MPIIB.1585","SUN_32_donor1","SUN","case","M06",0,"serum","SUN_32_donor1","317",NA
+"136",0.026349452,"MPIIB.5126","SUN_32_donor2","SUN","control","BL",NA,"serum","SUN_32_donor2","122",723
+"137",0.138293508,"MPIIB.5614","SUN_32_donor2","SUN","control","M06",NA,"serum","SUN_32_donor2","122",NA
+"138",0.0148617,"MPIIB.6005","SUN_32_donor4","SUN","control","BL",NA,"serum","SUN_32_donor4","659",794
+"139",0.047699822,"MPIIB.6503","SUN_32_donor4","SUN","control","M06",NA,"serum","SUN_32_donor4","659",NA
+"140",0.015720761,"MPIIB.0166","SUN_32_donor3","SUN","control","BL",NA,"serum","SUN_32_donor3","380",766
+"141",0.062816044,"MPIIB.3887","SUN_32_donor3","SUN","control","M06",NA,"serum","SUN_32_donor3","380",NA
+"142",0.389854168,"MPIIB.9567","SUN_24_donor3","SUN","case","BL",17,"serum","SUN_24_donor3","63",719
+"143",0.159018845,"MPIIB.9751","SUN_24_donor3","SUN","case","M06",11,"serum","SUN_24_donor3","63",NA
+"144",0.012272835,"MPIIB.8220","SUN_24_donor2","SUN","control","BL",NA,"serum","SUN_24_donor2","741",799
+"145",0.058824054,"MPIIB.3111","SUN_24_donor2","SUN","control","M06",NA,"serum","SUN_24_donor2","741",NA
+"146",0.668260673,"MPIIB.1012","SUN_24_donor1","SUN","control","BL",NA,"serum","SUN_24_donor1","353",771
+"147",0.043718953,"MPIIB.0626","SUN_24_donor1","SUN","control","M06",NA,"serum","SUN_24_donor1","353",NA
+"148",0.022997922,"MPIIB.3671","SUN_24_donor5","SUN","control","M06",NA,"serum","SUN_24_donor5","1239",NA
+"149",0.115246991,"MPIIB.7620","SUN_24_donor4","SUN","control","BL",NA,"serum","SUN_24_donor4","89",730
+"150",0.07806864,"MPIIB.8077","SUN_26_donor1","SUN","case","BL",10,"serum","SUN_26_donor1","886",805
+"151",0.102001751,"MPIIB.9744","SUN_26_donor3","SUN","control","BL",NA,"serum","SUN_26_donor3","1126",815
+"152",0.042579222,"MPIIB.7418","SUN_26_donor4","SUN","control","BL",NA,"serum","SUN_26_donor4","758",800
+"153",0.013671822,"MPIIB.1003","SUN_26_donor2","SUN","control","BL",NA,"serum","SUN_26_donor2","1074",849
+"154",0.774812566,"MPIIB.4097","SUN_12_donor3","SUN","case","BL",17,"serum","SUN_12_donor3","93",721
+"155",0.926026826,"MPIIB.7467","SUN_12_donor3","SUN","case","M06",11,"serum","SUN_12_donor3","93",NA
+"156",0.060631099,"MPIIB.5649","SUN_12_donor2","SUN","control","BL",NA,"serum","SUN_12_donor2","907",809
+"157",0.080124874,"MPIIB.2305","SUN_12_donor2","SUN","control","M06",NA,"serum","SUN_12_donor2","907",NA
+"158",0.034072613,"MPIIB.0511","SUN_12_donor1","SUN","control","BL",NA,"serum","SUN_12_donor1","752",798
+"159",0.101643182,"MPIIB.1949","SUN_12_donor1","SUN","control","M06",NA,"serum","SUN_12_donor1","752",NA
+"160",0.15233815,"MPIIB.0943","SUN_12_donor4","SUN","control","BL",NA,"serum","SUN_12_donor4","1064",846
+"161",0.468935589,"MPIIB.9992","SUN_12_donor4","SUN","control","M06",NA,"serum","SUN_12_donor4","1064",NA
+"162",0.121750763,"MPIIB.7860","SUN_36_donor4","SUN","control","BL",NA,"serum","SUN_36_donor4","405",762
+"163",0.92156883,"MPIIB.1796","SUN_05_donor1","SUN","case","BL",23,"serum","SUN_05_donor1","1051",824
+"164",0.994213616,"MPIIB.5221","SUN_05_donor1","SUN","case","M18",5,"serum","SUN_05_donor1","1051",197
+"165",0.162880494,"MPIIB.8784","SUN_05_donor2","SUN","control","BL",NA,"serum","SUN_05_donor2","5551",111
+"166",0.044225843,"MPIIB.9666","SUN_05_donor2","SUN","control","M18",NA,"serum","SUN_05_donor2","5551",67
+"167",0.543934419,"MPIIB.8874","SUN_05_donor3","SUN","control","BL",NA,"serum","SUN_05_donor3","1241",847
+"168",0.600403167,"MPIIB.8321","SUN_05_donor3","SUN","control","M18",NA,"serum","SUN_05_donor3","1241",104
+"169",0.011805525,"MPIIB.9188","SUN_05_donor4","SUN","control","BL",NA,"serum","SUN_05_donor4","1023",832
+"170",0.017928733,"MPIIB.4055","SUN_05_donor4","SUN","control","M18",NA,"serum","SUN_05_donor4","1023",131
+"171",0.850171276,"MPIIB.6238","SUN_39_donor3","SUN","case","BL",5,"serum","SUN_39_donor3","1371",836
+"172",0.0290306,"MPIIB.6942","SUN_39_donor1","SUN","control","BL",NA,"serum","SUN_39_donor1","468",773
+"173",0.023856181,"MPIIB.2819","SUN_39_donor4","SUN","control","BL",NA,"serum","SUN_39_donor4","70",738
+"174",0.039744515,"MPIIB.5935","SUN_39_donor2","SUN","control","BL",NA,"serum","SUN_39_donor2","671",786
+"175",0.045897057,"MPIIB.6078","SUN_39_donor5","SUN","control","BL",NA,"serum","SUN_39_donor5","355",871
+"176",0.084373874,"MPIIB.0902","SUN_21_donor2","SUN","control","BL",NA,"serum","SUN_21_donor2","3004",33
+"177",0.204662408,"MPIIB.0637","SUN_21_donor2","SUN","control","M06",NA,"serum","SUN_21_donor2","3004",NA
+"178",0.268054279,"MPIIB.6305","SUN_27_donor3","SUN","control","BL",NA,"serum","SUN_27_donor3","495",791
+"179",0.56011412,"MPIIB.1659","SUN_27_donor3","SUN","control","M06",NA,"serum","SUN_27_donor3","495",NA
+"180",0.027009535,"MPIIB.7231","SUN_02_donor2","SUN","control","BL",NA,"serum","SUN_02_donor2","315",751
+"181",0.226945653,"MPIIB.8090","SUN_40_donor2","SUN","case","BL",5,"serum","SUN_40_donor2","878",825
+"182",0.313886365,"MPIIB.6067","SUN_40_donor1","SUN","control","BL",NA,"serum","SUN_40_donor1","1007",813
+"183",0.348610677,"MPIIB.4106","SUN_40_donor3","SUN","control","BL",NA,"serum","SUN_40_donor3","447",764
+"184",0.069905459,"MPIIB.3373","SUN_20_donor3","SUN","control","BL",NA,"serum","SUN_20_donor3","198",745
+"185",0.221078134,"MPIIB.0315","SUN_04_donor2","SUN","case","BL",11,"serum","SUN_04_donor2","19",735
+"186",0.955009062,"MPIIB.5547","SUN_04_donor2","SUN","case","M06",5,"serum","SUN_04_donor2","19",NA
+"187",0.025934663,"MPIIB.1530","SUN_04_donor3","SUN","control","BL",NA,"serum","SUN_04_donor3","945",848
+"188",0.16460497,"MPIIB.4715","SUN_04_donor3","SUN","control","M06",NA,"serum","SUN_04_donor3","945",NA
+"189",0.009923821,"MPIIB.6390","SUN_04_donor1","SUN","control","BL",NA,"serum","SUN_04_donor1","124",724
+"190",0.33689429,"MPIIB.3606","SUN_04_donor1","SUN","control","M06",NA,"serum","SUN_04_donor1","124",NA
+"191",0.145070243,"MPIIB.8039","SUN_13_donor4","SUN","case","BL",6,"serum","SUN_13_donor4","196",753
+"192",0.317807444,"MPIIB.1590","SUN_13_donor4","SUN","case","M06",0,"serum","SUN_13_donor4","196",NA
+"193",0.109955933,"MPIIB.9326","SUN_13_donor2","SUN","control","BL",NA,"serum","SUN_13_donor2","465",774
+"194",0.061530476,"MPIIB.0634","SUN_13_donor2","SUN","control","M06",NA,"serum","SUN_13_donor2","465",NA
+"195",0.659480888,"MPIIB.3986","SUN_13_donor3","SUN","control","BL",NA,"serum","SUN_13_donor3","716",797
+"196",0.139661667,"MPIIB.4727","SUN_13_donor3","SUN","control","M06",NA,"serum","SUN_13_donor3","716",NA
+"197",0.308232426,"MPIIB.9171","SUN_13_donor1","SUN","control","BL",NA,"serum","SUN_13_donor1","649",781
+"198",0.113940488,"MPIIB.1049","SUN_13_donor1","SUN","control","M06",NA,"serum","SUN_13_donor1","649",NA
+"199",0.227691817,"MPIIB.5848","SUN_10_donor3","SUN","control","BL",NA,"serum","SUN_10_donor3","2713",862
+"200",0.018288414,"MPIIB.2265","SUN_10_donor5","SUN","control","BL",NA,"serum","SUN_10_donor5","3237",863
+"201",0.023727592,"MPIIB.7518","SUN_31_donor3","SUN","case","BL",7,"serum","SUN_31_donor3","921",807
+"202",0.027765749,"MPIIB.7732","SUN_31_donor3","SUN","case","M06",1,"serum","SUN_31_donor3","921",NA
+"203",0.047202788,"MPIIB.4444","SUN_31_donor2","SUN","control","BL",NA,"serum","SUN_31_donor2","358",756
+"204",0.033719696,"MPIIB.9930","SUN_31_donor2","SUN","control","M06",NA,"serum","SUN_31_donor2","358",NA
+"205",0.92207898,"MPIIB.5720","SUN_31_donor1","SUN","control","BL",NA,"serum","SUN_31_donor1","730",796
+"206",0.091370112,"MPIIB.2408","SUN_31_donor1","SUN","control","M06",NA,"serum","SUN_31_donor1","730",NA
+"207",0.141916133,"MPIIB.0273","SUN_31_donor4","SUN","control","BL",NA,"serum","SUN_31_donor4","654",787
+"208",0.011932491,"MPIIB.3358","SUN_31_donor4","SUN","control","M06",NA,"serum","SUN_31_donor4","654",NA
+"209",0.28582901,"MPIIB.6288","SUN_30_donor3","SUN","control","BL",NA,"serum","SUN_30_donor3","5434",80
+"210",0.039640037,"MPIIB.0358","SUN_30_donor3","SUN","control","M06",NA,"serum","SUN_30_donor3","5434",NA
+"211",0.058416713,"MPIIB.3693","SUN_08_donor3","SUN","control","BL",NA,"serum","SUN_08_donor3","5572",146
+"212",0.07738002,"MPIIB.4374","SUN_08_donor3","SUN","control","M06",NA,"serum","SUN_08_donor3","5572",NA
+"213",0.05986626,"MPIIB.5749","SUN_08_donor3","SUN","control","M18",NA,"serum","SUN_08_donor3","5572",101
+"214",0.082122066,"MPIIB.7731","SUN_14_donor5","SUN","control","BL",NA,"serum","SUN_14_donor5","918",770
+"215",0.022331877,"MPIIB.7937","MAK_10_donor2","MAK","case","BL",7,"serum","MAK_10_donor2","92227",671
+"216",0.230021433,"MPIIB.9678","MAK_10_donor4","MAK","control","BL",NA,"serum","MAK_10_donor4","91956102",700
+"217",0.046047196,"MPIIB.2633","MAK_10_donor3","MAK","control","BL",NA,"serum","MAK_10_donor3","91235102",691
+"218",0.02920981,"MPIIB.8275","MAK_10_donor5","MAK","control","BL",NA,"serum","MAK_10_donor5","90963",686
+"219",0.211464899,"MPIIB.2430","MAK_10_donor1","MAK","control","BL",NA,"serum","MAK_10_donor1","91836102",680
+"220",0.44649448,"MPIIB.2336","MAK_03_donor1","MAK","case","BL",3,"serum","MAK_03_donor1","90749102",NA
+"221",0.060524886,"MPIIB.1425","MAK_03_donor4","MAK","control","BL",NA,"serum","MAK_03_donor4","91269106",692
+"222",0.080217777,"MPIIB.0120","MAK_03_donor3","MAK","control","BL",NA,"serum","MAK_03_donor3","91633102",679
+"223",0.154216219,"MPIIB.9836","MAK_03_donor5","MAK","control","BL",NA,"serum","MAK_03_donor5","92045102",705
+"224",0.036499429,"MPIIB.8412","MAK_03_donor2","MAK","control","BL",NA,"serum","MAK_03_donor2","91395102",673
+"225",0.044025635,"MPIIB.0999","MAK_08_donor2","MAK","case","BL",5,"serum","MAK_08_donor2","90850102",NA
+"226",0.041291395,"MPIIB.4674","MAK_08_donor5","MAK","control","BL",NA,"serum","MAK_08_donor5","91148502",714
+"227",0.073559886,"MPIIB.9436","MAK_08_donor4","MAK","control","BL",NA,"serum","MAK_08_donor4","91013102",NA
+"228",0.230210161,"MPIIB.3614","MAK_08_donor1","MAK","control","BL",NA,"serum","MAK_08_donor1","90897104",NA
+"229",0.300486227,"MPIIB.4132","MAK_02_donor4","MAK","case","BL",3,"plasma+RPMI","MAK_02_donor4","89902105",NA
+"230",0.425193054,"MPIIB.5431","MAK_02_donor5","MAK","control","BL",NA,"plasma+RPMI","MAK_02_donor5","91124103",687
+"231",0.027205814,"MPIIB.2981","MAK_02_donor2","MAK","control","BL",NA,"plasma+RPMI","MAK_02_donor2","92274102",709
+"232",0.746194877,"MPIIB.2902","MAK_02_donor1","MAK","control","BL",NA,"plasma+RPMI","MAK_02_donor1","91545104",697
+"233",0.097563033,"MPIIB.9322","MAK_02_donor3","MAK","control","BL",NA,"plasma+RPMI","MAK_02_donor3","91675103",678
+"234",0.246438203,"MPIIB.0898","MAK_10_donor2","MAK","case","M06",1,"plasma+RPMI","MAK_10_donor2","92227",NA
+"235",0.258077151,"MPIIB.6068","MAK_10_donor3","MAK","control","M06",NA,"plasma+RPMI","MAK_10_donor3","91235102",NA
+"236",0.412590954,"MPIIB.3787","MAK_10_donor1","MAK","control","M06",NA,"plasma+RPMI","MAK_10_donor1","91836102",NA
+"237",0.36639948,"MPIIB.3660","MAK_03_donor1","MAK","case","BL",3,"plasma+RPMI","MAK_03_donor1","90749102",NA
+"238",0.54888908,"MPIIB.0560","MAK_03_donor4","MAK","control","BL",NA,"plasma+RPMI","MAK_03_donor4","91269106",692
+"239",0.00768768,"MPIIB.6114","MAK_03_donor3","MAK","control","BL",NA,"plasma+RPMI","MAK_03_donor3","91633102",679
+"240",0.590213668,"MPIIB.7816","MAK_03_donor5","MAK","control","BL",NA,"plasma+RPMI","MAK_03_donor5","92045102",705
+"241",0.068870947,"MPIIB.9798","MAK_03_donor2","MAK","control","BL",NA,"plasma+RPMI","MAK_03_donor2","91395102",673
+"242",0.240611324,"MPIIB.3365","MAK_08_donor2","MAK","case","BL",5,"plasma+RPMI","MAK_08_donor2","90850102",NA
+"243",0.012356162,"MPIIB.3772","MAK_08_donor5","MAK","control","BL",NA,"plasma+RPMI","MAK_08_donor5","91148502",714
+"244",0.192224342,"MPIIB.6606","MAK_08_donor4","MAK","control","BL",NA,"plasma+RPMI","MAK_08_donor4","91013102",NA
+"245",0.038992927,"MPIIB.8308","MAK_08_donor3","MAK","control","BL",NA,"plasma+RPMI","MAK_08_donor3","91050102",NA
+"246",0.186014631,"MPIIB.5074","MAK_08_donor1","MAK","control","BL",NA,"plasma+RPMI","MAK_08_donor1","90897104",NA
