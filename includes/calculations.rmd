@@ -1,0 +1,656 @@
+
+```{r,echo=FALSE}
+## Set default options for the knitr RMD processing
+knitr::opts_chunk$set(echo=FALSE,warning=FALSE,message=FALSE,fig.width=5,fig.height=5,cache=FALSE,autodep=TRUE, results="hide")
+```
+
+[//]: # (Library and data loading                                     )
+```{r libraries,cache=FALSE}
+
+source( "functions/functions.R" )
+source( "functions/load_libraries.R" )
+source( "functions/load_data.R" )
+source( "functions/make_strata.R" )
+```
+
+```{r,echo=FALSE}
+## Tables and figures numbering
+## counters for manuscript. These are used to automatically number the
+## figures, tables etc. in the manuscript. To change the order, modify the
+## calls below.
+
+## figures
+fig_register(c("consort", "cv", "metabo", "signature", "profiles", "diff_res"),
+             prefix="fig_")
+
+## tables
+#fig_register(c("samples", "diff_res"), prefix="tab_")
+fig_register(c("diff_res"), prefix="tab_")
+
+## suplementary tables
+fig_register(c("recruitment", "criteria", "approvals", "tst", "sample_types", 
+  "kfold", "sitecross", "samplecross", "topcompounds", 
+  "unblinding", "unblinding_bysite", "metabo_performance", "metabo_red", "tbord_performance", #"tbord_rev_performance", 
+  "diff_res", "timecourse", "lmer_enr",
+  "sessionInfo"), prefix="s_tab_")
+
+## suplementary figures
+fig_register(c("scheme", "validation_scheme", "cv", "cross_cohort", # "cross_stype", 
+             "pred_rev", "nvar",
+             # "fd", 
+             # "profiles",
+             "profiles_mod", "smoking"), prefix="s_fig_")
+```
+
+
+[//]: # (Machine learning  -----)
+```{r ml}
+## mapping all IDs in the universe
+group <- set$group
+names(group) <- rownames(set)
+group <- c(group, setNames(r.metabo$targets$group, rownames(r.metabo$targets)))
+```
+
+[//]: # (Machine learning: k-fold)
+```{r mlkfold}
+## this is a slow procedure. The k-fold is on donors (not samples) to
+## avoid splitting the samples from the same donor between the training and
+## test sets, which might result in overfitting.
+## The results are cached since they take quite long to compute; to
+## recompute, remove the file static_cache/ss3_kfold.rda
+if(file.exists("static_cache/ss3_kfold.rda")) {
+  load("static_cache/ss3_kfold.rda")
+} else {
+  set.seed(20170120)
+  ss3_kfold <- sapply(ss3, 
+    function(x) mykfold(x, 
+                        response=set[colnames(x), "group"], 
+                        grouping_var=set[colnames(x), "DONOR_ID"]), 
+    simplify=F)
+  save(ss3_kfold, file="static_cache/ss3_kfold.rda")
+}
+ss3_kfold.tab <- rocseriestable(ss3_kfold)
+ss3_kfold.tab$Nvar <- sapply(ss3, nrow)
+```
+
+```{r mlsamplecross}
+## cross sample type predictions.
+## The results are cached since they take quite long to compute; to
+## recompute, remove the file static_cache/stype_cross.rda
+if(file.exists("static_cache/stype_cross.rda")) {
+  load("static_cache/stype_cross.rda")
+} else {
+  set.seed(20170203)
+  strata <- names(stype.ss3)
+    
+  stype.cross <- sapply(strata, function(xn) { 
+    x <- stype.ss3[[xn]]
+
+    # cross-predictions only
+    subset <- strata[ !grepl(gsub("\\..*", "", xn), strata) ]
+    sapply(subset, function(yn) {
+      y <- stype.ss3[[yn]]
+      xpredict(x=x, x.response=set123[colnames(x), "group"], y=y, y.response=set[ colnames(y), "group" ])
+    }, simplify=FALSE)
+  }, simplify=FALSE)
+  save(stype.cross, file="static_cache/stype_cross.rda")
+}
+```
+
+```{r mlsitecross}
+## cross site predictions.
+## The results are cached since they take quite long to compute; to
+## recompute, remove the file static_cache/site_cross.rda
+if(file.exists("static_cache/site_cross.rda")) {
+  load("static_cache/site_cross.rda")
+} else {
+
+  set.seed(20170201)
+
+  # all strata (cohort x time point), but not "TOT"
+  strata <- names(ss3)[ !grepl("TOT", names(ss3)) ]
+  strata <- strata[ grep("\\.all$", strata) ]
+
+  # cross contains each-against-each CV of the strata
+  # e.g. cross[[1]] are predictions of "SUN.all" on all strata
+  site.cross <- sapply(strata, function(xn) {
+    x <- ss3[[xn]]
+    subset <- strata[ !grepl(gsub("\\..*", "", xn), strata) ]
+    sapply(subset, function(yn) {
+      y <- ss3[[yn]]
+      xpredict(x=x, x.response=set123[colnames(x), "group"], y=y, y.response=set[ colnames(y), "group" ])
+    }, simplify=FALSE)
+  }, simplify=FALSE)
+
+  save(site.cross, file="static_cache/site_cross.rda")
+}
+
+
+
+```{r blinded}
+## the blinded predictions have been generated once; the code is accessible
+## (see readme.txt), but the predictions have been locked in a static file
+## (data/set4_predictions_weiner.csv),
+## transmitted to the GC6 consortium and not
+## re-calculated again. Here, they are only evaluated.
+## The object "pred" is loaded by functions/load_data.R
+
+set4 <- set[ rownames(pred), ]
+pred.models <- colnames(pred)
+pred.full <- sapply(pred.models, function(cn) {
+    df <- data.frame(reality=set4$group, prediction=pred[,cn], decision=pred.decision[,cn], row.names=rownames(set4))
+    list(all=df, proximate=df[ set4$TIME_TO_TB < cutoff, ], distal=df[ set4$TIME_TO_TB >= cutoff, ], BL=df[ set4$TIMEPOINT == "BL", ])
+}, simplify=FALSE)
+pred.full <- unlist(pred.full, recursive=FALSE)
+pred.full.tab <- rocseriestable(pred.full)
+
+
+pred.bysite <- sapply(c("TotalF", "Total.BL"), function(cn) {
+    df <- data.frame(reality=set4$group, prediction=pred[,cn], decision=pred.decision[,cn])
+    sapply(sites, function(s) df[ set4$SITE == s, ], simplify=FALSE)
+}, simplify=FALSE)
+pred.bysite <- unlist(pred.bysite, recursive=FALSE)
+pred.bysite.tab <- rocseriestable(pred.bysite)
+
+
+pred.bl <- sapply(c("TotalF", "Total.BL"), function(cn) {
+    df <- data.frame(reality=set4$group, prediction=pred[,cn], decision=pred.decision[,cn])
+    sapply(sites, function(s) df[ set4$SITE == s & set4$TIMEPOINT == "BL", ], simplify=FALSE)
+}, simplify=FALSE)
+pred.bl <- unlist(pred.bl, recursive=FALSE)
+pred.bl.tab <- rocseriestable(pred.bl)
+```
+
+```{r reduced_model_2}
+## the reason that we are creating a new reduced model is that the original
+## model by Fergal Duffy included unknown variables and did not include
+## information on variable importance, necessary for a resulting list
+## Note that this code was written after unblinding of the data, however it
+## still uses the validation set to determine the model performance.
+# set.seed(20170207)
+# sel <- !grepl("^X - ", rg$genes$BIOCHEMICAL)
+# reduced.model <- xpredict(x=x[sel,], y=y, x.response=set123$group, y.response=set4$group, nvar=15, return.list=TRUE)
+# pred.reduced <- list(reduced.all=reduced.model$ret)
+# 
+# ssel <- set4$TIME_TO_TB < cutoff
+# pred.reduced$reduced.proximate <- xpredict(x=x[sel,], y=y[ , ssel ], x.response=set123$group, y.response=set4$group[ssel], rf=reduced.model$rf)
+# pred.reduced$reduced.distal    <- xpredict(x=x[sel,], y=y[ , !ssel], x.response=set123$group, y.response=set4$group[!ssel], rf=reduced.model$rf)
+# pred.reduced.tab <- rocseriestable(pred.reduced)
+```
+
+```{r pred_enrichment}
+## we test the models for enrichment
+## models are stored in the data directory
+## goal is to see which classes of substances are important for the models
+require(tmod)
+data(modmetabo)
+## we will only use modules for which there are at least 5 metabolites in
+## our data set
+
+load("data/rf.total.rda")
+load("data/rf.total.bl.rda")
+
+m.l <- sapply(modmetabo$MODULES2GENES, function(s) sum(s %in% all.biochemicals[ rownames(rf.total$importance), ]$HMDB))
+m.l <- sapply(modmetabo$MODULES2GENES, function(s) sum(s %in% all.biochemicals$HMDB))
+m.l2 <- lengths(modmetabo$MODULES2GENES)
+mm <- modmetabo[ m.l > 5 & m.l2 > 5 ]
+
+res <- list()
+g <- all.biochemicals[ rownames(rf.total$importance)[ order(rf.total$importance[,4], decreasing=T) ], ]$HMDB
+res$Total <- tmodUtest(g, mset=mm, qval=Inf)
+g <- all.biochemicals[ rownames(rf.total$importance)[ order(rf.total.bl$importance[,4], decreasing=T) ], ]$HMDB
+res[["Total / Baseline"]] <- tmodUtest(g, mset=mm, qval=Inf)
+
+## we only consider positive enrichment
+res <- sapply(res, function(x) x <- x[ x$AUC > 0.5, ], simplify=FALSE)
+res <- sapply(res, function(x) { x$adj.P.Val <- p.adjust(x$P.Value, method="fdr") ; x }, simplify=FALSE)
+
+res.enrichment.rfs <- res
+rm(res)
+```
+
+```{r simula}
+### we use sampling to determine the optimal number of features in a model
+### based on the metabo data set
+if(file.exists("static_cache/simula.rda")) {
+  load("static_cache/simula.rda")
+} else {
+  set.seed(20180807)
+  sel <- Reduce(intersect, c(list(r.metabo$genes$ID), sapply(ss4, rownames)))
+  response <- factor(r.metabo$targets$group)
+
+  steps <- c(3:11, 13, 15, seq(20, 100, by=10), 150, 200)
+  n <- 100
+
+  res.sim <- sapply(steps, function(s) {
+    message(s)
+    replicate(n, {
+        ret <- mykfold2(r.metabo$E[sel,], response, var=s)
+        auc(ret)[2] })
+    })
+
+  colnames(res.sim) <- paste0("N.", steps)
+  save(res.sim, file="static_cache/simula.rda")
+}
+
+```
+
+```{r mlmetabo}
+## The Metabo data set is directly derived from Weiner et al. 2012
+## That is, it is a completely independent data set. We use it here to test
+## the efficiency of a biosignature profiled on the disease in discriminating the
+## early stages of the disease.
+## Here: cross-predictions of metabo on *all* of GC6
+set.seed(20170110)
+sel <- Reduce(intersect, c(list(r.metabo$genes$ID), sapply(ss4, rownames)))
+response <- factor(r.metabo$targets$group)
+mod.metabo.full <- randomForest(t(r.metabo$E[sel, ]), response, importance=TRUE)
+
+## construction of the shrinked model based only on known compounds
+sel <- intersect(sel, r.metabo$genes$ID[ !grepl("^X - ", r.metabo$genes$BIOCHEMICAL.NAME) ])
+mod.metabo.shrinked <- randomForest(t(r.metabo$E[sel, ]), response, importance=TRUE)
+imp <- mod.metabo.shrinked$importance
+sel <- rownames(imp)[ order(-imp[,4]) ][1:10]
+mod.metabo.shrinked <- randomForest(t(r.metabo$E[sel, ]), response, importance=TRUE)
+
+pred.metabo.models <- sapply(ss4, function(s) {
+  ## first a full model
+  y.resp <- set[ colnames(s), "group" ]
+  xx <- xpredict(x=r.metabo$E, x.response=response, y=s, y.response=y.resp, return.list=TRUE, rf=mod.metabo.full)
+  r  <- xx$ret
+  ## now model shrinked to top 10 variables
+  r2 <- xpredict(x=r.metabo$E, x.response=response, y=s, y.response=y.resp, return.list=TRUE, rf=mod.metabo.shrinked)
+  list(full=xx, shrinked=r2)
+}, simplify=F)
+pred.metabo <- sapply(pred.metabo.models, function(m) list(full=m$full$ret, shrinked=m$shrinked$ret), simplify=FALSE)
+pred.metabo <- unlist(pred.metabo, recursive=FALSE)
+
+pred.metabo.tab <- rocseriestable(pred.metabo)
+
+## model only on TOT
+pred.metabo.tot <- xpredict(x=r.metabo$E, x.response=r.metabo$targets$group, y=ss4$TOT.all, y.response=set[ colnames(ss4$TOT.all), "group" ], return.list=TRUE)
+
+## reverse predictions
+pred.metabo.tot.rev <- xpredict(y=r.metabo$E, y.response=r.metabo$targets$group, x=ss4$TOT.all, x.response=set[ colnames(ss4$TOT.all), "group" ], return.list=TRUE)
+```
+
+```{r mlgambia}
+## This data set is based on differential diagnosis between TB patients and
+## patients suffering from other respiratory diseases and has been collected in The Gambia
+set.seed(20180117)
+sel <- Reduce(intersect, c(list(rownames(tbord.d)), sapply(ss4, rownames)))
+response <- factor(tbord$group)
+mod.jayne.full <- randomForest(t(tbord.d[sel,]), response, importance=TRUE)
+
+pred.jayne <- sapply(ss4, function(s) {
+      xpredict(x=tbord.d, x.response=tbord$group, y=s, y.response=set[ colnames(s), "group"], rf=mod.jayne.full)
+}, simplify=F)
+
+ord.rev.pred <- xpredict(x=ss3$TOT.all, x.response=set123[ colnames(ss3$TOT.all), "group" ], y=tbord.d, y.response=tbord$group)
+pred.jayne.tot.model <- xpredict(y=ss3$TOT.all, y.response=set123[ colnames(ss3$TOT.all), "group" ], x=tbord.d, x.response=tbord$group, return.list=TRUE)
+```
+
+[//]: # (Similarity calculation between the Total, TB-HEALTHY and TB-ORD models)
+```{r similarity}
+load("data/rf.total.rda") # this is the final model saved prior to the unblinding
+cor.models <- list()
+
+imp <- list()
+imp$metabo <- pred.metabo.tot$rf$importance[ order(pred.metabo.tot$rf$importance[,4], decreasing=T), ]
+imp$jayne  <- pred.jayne.tot.model$rf$importance[ order(pred.jayne.tot.model$rf$importance[,4], decreasing=T), ]
+imp$totalF <- rf.total$importance[ order(rf.total$importance[,4], decreasing=T), ]
+
+sel <- intersect(rownames(imp$metabo), rownames(imp$totalF))
+cor.models$metabo <- cor.test(imp$metabo[sel,4], imp$totalF[sel,4])
+sel <- intersect(rownames(imp$jayne), rownames(imp$totalF))
+cor.models$jayne  <- cor.test(imp$jayne[sel, 4], imp$totalF[sel,4])
+```
+
+
+
+
+
+
+[//]: # (Differential abundance analysis based on all data sets -----)
+```{r diff,results="hide"}
+## create a joint object containing metabolite measurements for all
+## metabolites that can be found in all sample types
+sel <- Reduce(intersect, lapply(list(serum, plasma, rpmi), rownames))
+rg <- make.EList(data.matrix(cbind(serum[sel,], plasma[sel,], rpmi[sel,])), all.biochemicals, set)
+rg$targets$group <- factor(rg$targets$group, levels=c("control", "case"))
+
+## not interested in "unnamed" compounds
+#rg <- rg[ !is.na(rg$genes$CHEMICAL.ID), ]
+
+## rank normalization
+rgR <- EList.ranknorm(rg)
+
+## model 1: proximal
+mod.1 <- model.fit(rgR,
+  #selection=rgR$targets$revTP == "last",
+  selection=rgR$targets$TIME_TO_TB < cutoff,
+  formula="~ 0 + group + SITE + TIME_TO_TB + SEX + SAMPLE_TYPE + CASE_GROUP",
+  contrasts=c(full="groupcase-groupcontrol"))
+
+## model: sites
+mod.sites <- sapply(sites, 
+	function(s) 
+		model.fit(rgR,
+		selection=rgR$targets$SITE == s,
+		formula="~ 0 + group + TIME_TO_TB + SEX + CASE_GROUP",
+		contrasts=c(full="groupcase-groupcontrol")),
+  simplify=FALSE)
+
+#mod.trend <- list(trend=model.fit(
+#  rgR,
+#  selection=rgR$targets$group == "case",
+#  formula="~ TIME_TO_TB + SITE + SEX + CASE_GROUP",
+#  contrasts=NULL))
+
+sets <- list(
+  full=TRUE,
+  proximate= rgR$targets$TIME_TO_TB < cutoff,
+  distal=rgR$targets$TIME_TO_TB > cutoff
+  )
+
+mod.tps <- sapply(sets, function(s) 
+  model.fit(rgR, selection=s, formula="~ 0 + group + SITE + SEX + SAMPLE_TYPE + CASE_GROUP", 
+  contrasts=c(full="groupcase-groupcontrol")), 
+  simplify=FALSE)
+
+mods.all <- c(mod.tps, mod.sites)
+
+
+## model 2: all time points
+mod.2 <- model.fit(rgR,
+  selection=TRUE,
+  formula="~ 0 + group + SITE + TIME_TO_TB + SEX + SAMPLE_TYPE + CASE_GROUP",
+  contrasts=c(full="groupcase-groupcontrol"))
+```
+
+
+
+
+[//]: # (TST: do we see a signature of conversion rather than incipient TB?)
+
+```{r tst, results="hide"}
+## select only clear conversion cases, and only in controls to eliminate
+## signatures of disease
+foo <- set[ set$TIMEPOINT != "BL" & set$TST >= 10, ]$DONOR_ID
+foo <- set[ set$DONOR_ID %in% foo & set$TST < 10 & set$TST > -99 & set$TIMEPOINT == "BL" & set$CASE_CONTROL == "control", ]$DONOR_ID
+foo1 <- set[ set$DONOR_ID %in% foo & set$TIMEPOINT == "BL", ]
+foo2 <- set[ set$DONOR_ID %in% foo & set$TIMEPOINT != "BL" & set$TST > -99, ]
+foo1 <- foo1[ match(foo, foo1$DONOR_ID), ]
+foo2 <- foo2[ match(foo, foo2$DONOR_ID), ]
+all(foo1$DONOR_ID == foo2$DONOR_ID) # TRUE
+all(foo1$SAMPLE_ID %in% colnames(rg)) # TRUE
+
+## paired wilcoxon test
+foo1.smp <- match(foo1$SAMPLE_ID, colnames(rg))
+foo2.smp <- match(foo2$SAMPLE_ID, colnames(rg))
+foo.res <- apply(rg$E, 1, function(x) { wilcox.test(x[ foo1.smp ], x[ foo2.smp ], paired=T)$p.value })
+sum(p.adjust(foo.res, method="fdr") < 0.05, na.rm=T) # 0
+sum(p.adjust(foo.res, method="fdr") < 0.10, na.rm=T) # 0
+sum(p.adjust(foo.res, method="fdr") < 0.20, na.rm=T) # 0
+
+## test machine learning model to distinguish the after conversion samples
+xx <- rg$E[ , c(foo1.smp, foo2.smp) ]
+xx.g <- rep(c("BL", "conv"), each=length(foo1.smp))
+
+rf <- randomForest(t(xx), factor(xx.g))
+roc(response=rf$y, predictor=rf$votes[,1], ci=TRUE) # AUC 0.5625 95% CI: 0.2451-0.8799
+
+## test in MRC only given the large number of TST-
+## only controls, only baseline samples, only samples with determined test
+## result
+sel <- with(set, TIMEPOINT == "BL" & SITE == "MRC" & TST > -99 & CASE_CONTROL == "control")
+xx <- t(rg$E[ , set$SAMPLE_ID[sel]])
+
+## correlation between the TST reported size in mm and metabolic compounds
+foo.pv <- apply(xx, 2, function(xxx) cor.test(xxx, set$TST[sel], method="s")$p.value)
+sum(p.adjust(foo.pv, method="fdr") < 0.05, na.rm=T) # 0
+
+## wilcoxon test to distinguish between TST- and TST+
+foo.gr <- paste0("x", set$TST[sel] >= 10)
+foo.pv <- apply(xx, 2, function(xxx) wilcox.test(xxx ~ foo.gr)$p.value)
+sum(p.adjust(foo.pv, method="fdr") < 0.05, na.rm=T) # 0
+
+## random forest. We don't crossvalidate, because we don't worry about
+## overfitting - we worry only about lack of sensitivity.
+set.seed(20180807)
+rf <- randomForest(xx, factor(foo.gr))
+roc(response=rf$y, predictor=rf$votes[,1], ci=TRUE) # AUC 0.5527 95% CI: 0.4393-0.6661
+
+## same for SUN
+## since the prevalence of TST positivity is different in different
+## populations, one cannot bin the data
+sel <- with(set, TIMEPOINT == "BL" & SITE == "SUN" & TST > -99 & CASE_CONTROL == "control")
+xx <- t(rg$E[ , set$SAMPLE_ID[sel]])
+foo.pv <- apply(xx, 2, function(xxx) cor.test(xxx, set$TST[sel], method="s")$p.value)
+sum(p.adjust(foo.pv, method="fdr") < 0.01, na.rm=T) # 0
+
+## wilcoxon test to distinguish between TST- and TST+
+foo.gr <- paste0("x", set$TST[sel] >= 10)
+foo.pv <- apply(xx, 2, function(xxx) wilcox.test(xxx ~ foo.gr)$p.value)
+sum(p.adjust(foo.pv, method="fdr") < 0.05, na.rm=T) # 0
+
+## RF
+set.seed(20180807)
+rf <- randomForest(xx, factor(foo.gr))
+roc(response=rf$y, predictor=rf$votes[,1], ci=TRUE) # AUC 0.5717 95% CI: 0.4149-0.7284
+
+
+## MAK. There are only TST+ controls in MAK, therefore only the correlation
+## is tested
+sel <- with(set, TIMEPOINT == "BL" & SITE == "MAK" & TST > -99 & CASE_CONTROL == "control")
+xx <- t(rg$E[ , set$SAMPLE_ID[sel]])
+foo.pv <- apply(xx, 2, function(xxx) cor.test(xxx, set$TST[sel], method="s")$p.value)
+sum(p.adjust(foo.pv, method="fdr") < 0.01, na.rm=T) # 0
+
+## same for AHRI
+sel <- with(set, TIMEPOINT == "BL" & SITE == "AHRI" & TST > -99 & CASE_CONTROL == "control")
+xx <- t(rg$E[ , set$SAMPLE_ID[sel]])
+foo.pv <- apply(xx, 2, function(xxx) cor.test(xxx, set$TST[sel], method="s")$p.value)
+sum(p.adjust(foo.pv, method="fdr") < 0.01, na.rm=T) # 0
+
+## wilcoxon test to distinguish between TST- and TST+
+foo.gr <- paste0("x", set$TST[sel] >= 10)
+foo.pv <- apply(xx, 2, function(xxx) wilcox.test(xxx ~ foo.gr)$p.value)
+sum(p.adjust(foo.pv, method="fdr") < 0.05, na.rm=T) # 0
+
+## RF
+set.seed(20180807)
+tst.ahri.rf <- randomForest(xx, factor(foo.gr))
+roc(response=tst.ahri.rf$y, predictor=tst.ahri.rf$votes[,1], ci=TRUE) # AUC 0.8968 95% CI: 0.7852-1 [!!!]
+tst.ahri.gr <- foo.gr
+tst.ahri.pred <- data.frame(prediction=tst.ahri.rf$votes[,1], reality=tst.ahri.gr)
+tst.ahri.tab <- rocseriestable(list(a=tst.ahri.pred), levels=c("xFALSE", "xTRUE"))
+
+## 
+
+```
+
+
+
+
+
+
+[//]: # (Sample type specific differential abundance analysis -----)
+```{r diff_spec,results="hide"}
+## plasma, serum and rpmi specific models
+## only for compounds not in the general models to save on statistical
+## power
+mod.plasma <- model.fit(r.plasmaR,
+  selection=TRUE,
+  formula="~ 0 + group + TIME_TO_TB + SEX + CASE_GROUP",
+  contrasts=c(full="groupcase-groupcontrol"))
+
+mod.serum <- model.fit(r.serumR,
+  selection=TRUE,
+  formula="~ 0 + group + TIME_TO_TB + SEX + CASE_GROUP",
+  contrasts=c(full="groupcase-groupcontrol"))
+
+mod.rpmi <- model.fit(r.rpmiR,
+  selection=TRUE,
+  formula="~ 0 + group + TIME_TO_TB + SEX + CASE_GROUP",
+  contrasts=c(full="groupcase-groupcontrol"))
+```
+
+
+[//]: # (Joint results table for all models -----)
+```{r diff_jointTT,results="hide"}
+
+## a joint results table for the different models
+all.models <- list(mod.1, mod.2, mod.plasma, mod.serum, mod.rpmi)
+names(all.models) <- c("mod.1", "mod.2", "mod.plasma", "mod.serum", "mod.rpmi")
+
+tts <- lapply(all.models, 
+  function(x) topTable(x$fit, number=Inf, sort.by="n")[,c("ID", "adj.P.Val")])
+names(tts) <- c("mod.1", "mod.2", "mod.plasma", "mod.serum", "mod.rpmi")
+jointTT <- Reduce(function(x,y) merge(x, y, by.x="ID", by.y="ID", all=T), tts)
+colnames(jointTT)[-1] <- names(tts)
+jointTT$min.P <- apply(jointTT[,c("mod.1", "mod.2")], 1, function(x) min(x, na.rm=T))
+jointTT <- jointTT[order(jointTT$min.P), ]
+jointTT <- data.frame(ID=jointTT$ID, Name=all.biochemicals[ jointTT$ID, "BIOCHEMICAL" ],
+                      Group=all.biochemicals[ jointTT$ID, "SUPER.PATHWAY" ],
+                      jointTT[,-1])
+nn.joint <- apply(jointTT[,names(all.models)], 2, function(x) sum(x < 0.05, na.rm=T))
+
+## mod contains residual variation from a stratification model for making nice plots
+mod.resid <- lm(t(rg$E) ~ SITE + SAMPLE_TYPE + CASE_GROUP + SEX, data=rgR$targets)
+mod.resid <- t(mod.resid$residuals)
+sel <- rgR$targets$group == "control"
+#mod <- t(apply(rgR$E, 1, function(x) { (x - median(x[sel])) / IQR(x[sel]) }))
+mod <- t(apply(rgR$E, 1, scale))
+mod <- t(apply(rgR$E, 1, function(x) { (x - median(x[sel])) / IQR(x[sel]) }))
+```
+
+[//]: # (glm models - binomial logit regression -----)
+```{r glm,cache=TRUE}
+if(file.exists("static_cache/glm_models.rgl")) {
+  load("static_cache/glm_models.rgl") 
+} else {
+  formula1 <- "group ~ x + SAMPLE_TYPE + CASE_GROUP"
+  formula2 <- "group ~     SAMPLE_TYPE + CASE_GROUP"
+  glm.full      <- run.glm(rg, mod1=formula1, mod2=formula2)
+  glm.proximate <- run.glm(rg[ , rg$targets$TIME_TO_TB <  cutoff | rg$targets$group == "control" ], mod1=formula1, mod2=formula2)
+  glm.distal    <- run.glm(rg[ , rg$targets$TIME_TO_TB >= cutoff | rg$targets$group == "control" ], mod1=formula1, mod2=formula2)
+  save(glm.full, glm.proximate, glm.distal, file="static_cache/glm_models.rgl")
+}
+```
+
+[//]: # (Time dependence models)
+```{r diff_time,cache=TRUE}
+message("Running diff_time")
+require(lme4)
+sel <- rg$targets$group == "case"
+rgC <- rg[,sel]
+
+y <- t(rgC$E)
+lm.mod <- summary(lm(y ~ TIME_TO_TB + SAMPLE_TYPE + SEX + DONOR_ID, data=rgC$targets))
+lm.mod.res <- sapply(lm.mod, function(x) x$coefficients["TIME_TO_TB", "Pr(>|t|)"])
+names(lm.mod.res) <- gsub(".* ", "", names(lm.mod.res))
+
+if(file.exists("static_cache/lmer.res.rda")) {
+  load("static_cache/lmer.res.rda")
+} else {
+  mod1 <- "y ~              SAMPLE_TYPE + CASE_GROUP + (1|DONOR_ID)"
+  mod2 <- "y ~ TIME_TO_TB + SAMPLE_TYPE + CASE_GROUP + (1|DONOR_ID)"
+  lmer.res <- run.lmer.2(rgC, mod1, mod2)
+  save(lmer.res, file="static_cache/lmer.res.rda")
+}
+## we do the same using a mixed effects model
+##   message("Running lmer.0")
+##   lmer.0 <- apply(rgC$E, 1, function(y) lmer(y ~ SAMPLE_TYPE + SEX + (1|DONOR_ID), data=rgC$targets, REML=F))
+##   message("Running lmer.M")
+##   lmer.M <- apply(rgC$E, 1, function(y) lmer(y ~ TIME_TO_TB + SAMPLE_TYPE + SEX + (1|DONOR_ID), data=rgC$targets, REML=F))
+##   message("done")
+##   lmer.res <- t(sapply(names(lmer.0), function(n) { xx <- anova(lmer.0[[n]], lmer.M[[n]]) ; Reduce(rbind, xx) }))
+##   colnames(lmer.res) <- c("df.1", "AIC.1", "BIC.1", "LL.1", "DEV.1", "x", "x1", "x2", "df.2", "AIC.2", "BIC.2", "LL.2", "DEV.2", "Chisq", "Chi_df", "p")
+##   lmer.res <- lmer.res[ , -c(6:8) ]
+##   lmer.res <- data.frame(rgC$genes[ , c("ID", "BIOCHEMICAL", "HMDB")], lmer.res[,c("AIC.1", "AIC.2", "p")])
+##   lmer.res$p.adj <- p.adjust(lmer.res$p, method="fdr")
+##   #lmer.res <- run.lmer(rgC, "y ~ SAMPLE_TYPE + SEX + (1|DONOR_ID)", "y ~ TIME_TO_TB + SAMPLE_TYPE + SEX + (1|DONOR_ID)")
+##   lmer.res$lm.mod.p <- lm.mod.res
+##   lmer.res$lm.mod.p.adj <- p.adjust(lmer.res$lm.mod.p, method="fdr")
+
+
+# enrichment test using tmod
+lmer.enr.res <- tmodUtest(rgC$genes$HMDB[ order(lmer.res$P.Value) ], mset=mm, qval=1)
+# only positive enrichment
+lmer.enr.res <- lmer.enr.res[ lmer.enr.res$AUC > 0.5, ]
+lmer.enr.res$adj.P.Val <- p.adjust(lmer.enr.res$P.Value, method="fdr")
+```
+
+[//]: # (Metabolite classification based on the modeling results)
+
+```{r classification,cache=TRUE}
+ids <- rownames(glm.full)
+classification <- data.frame(ID=ids,
+  Description=all.biochemicals[ids, "BIOCHEMICAL"],
+  GLM.D=glm.distal[ids, ]$adj.P.Val,
+  GLM.P=glm.proximate[ids, ]$adj.P.Val,
+  GLM.F=glm.full[ids, ]$adj.P.Val,
+  LMER=lmer.res[ids, ]$adj.P.Val)
+rownames(classification) <- ids
+
+classification$class <- "" # undefined
+
+sel.dis <- with(classification, 
+  GLM.D > 0.05 & (LMER < 0.05 | GLM.P < 0.05))
+
+sel.risk <- with(classification,
+  GLM.D < 0.01 & GLM.P > 0.01 & (LMER > 0.1 | (LMER < 0.05 & GLM.P > 0.1)))
+
+classification$class[sel.risk] <- "risk-associated"
+classification$class[sel.dis] <- "disease-associated"
+```
+
+
+
+
+
+```{r smoking}
+## SMOKING ISSUE
+
+# order of smoking levels to have "No smoking" as reference
+
+t.SMOKE <- factor(rg$targets$SMOKE, levels=c("No", "> 6M", "< 6M", "Yes"))
+t.group <- factor(rg$targets$group, levels=c("control", "case"))
+
+# all data
+smoke.m  <- glm(t.group ~ t.SMOKE, family=binomial(logit))
+
+smoke.coef <- summary(smoke.m)$coefficients[c("t.SMOKE> 6M","t.SMOKE< 6M","t.SMOKEYes"),]
+smoke.p    <- 1 - pchisq(smoke.m$null.deviance - smoke.m$deviance, smoke.m$df.null - smoke.m$df.residual)
+smoke.or   <- exp(smoke.coef[,1])
+
+smoke.ci.l <- smoke.or / exp(qnorm(0.975) * smoke.coef[,2])
+smoke.ci.r <- smoke.or * exp(qnorm(0.975) * smoke.coef[,2])
+
+res.all.smoke <- cbind(smoke.or, smoke.ci.l, smoke.ci.r, smoke.coef[,4], smoke.p)
+colnames(res.all.smoke ) <- c("OR", "CI.L", "CI.R", "Beta.P.Value","LRT")
+
+# by SITE
+t.site <- setdiff(sites, "AHRI") # no available data
+
+smoke.site <- sapply(t.site, function(site) {
+  sel <- rg$targets$SITE == site
+  t.s <- t.SMOKE[ sel ]
+  t.g <- t.group[ sel ]
+	m  <- glm(t.g ~ t.s, family=binomial(logit))
+  name <- rownames(summary(m)$coefficients)
+  coef <- summary(m)$coefficients[name[2:length(name)],]
+  p <- 1 - pchisq(m$null.deviance - m$deviance, m$df.null - m$df.residual)
+  or   <- exp(coef[,1])
+  ci.l <- or / exp(qnorm(0.975) * coef[,2])
+  ci.r <- or * exp(qnorm(0.975) * coef[,2])
+  data.frame(or=or, ci.l=ci.l, ci.r=ci.r, beta=coef[,4], P.Value=p)
+}, simplify=FALSE)
+
+```
+
+
+
+
+
